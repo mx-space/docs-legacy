@@ -11,4 +11,6 @@ export default defineConfig({
       { title: 'GitHub', path: 'https://github.com/mx-space/docs' },
     ],
   },
+  favicon: 'favicon.svg',
+  logo: 'favicon.svg'
 });
