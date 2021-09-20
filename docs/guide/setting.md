@@ -14,6 +14,8 @@ toc: menu
 
 网站设置和 SEO 优化按自己需求改一下就好。
 
+![imw5ro](https://raw.githubusercontent.com/mx-space/docs-images/master/images/imw5ro.png)
+
 ## 后台附加设置
 
 - 开启后台管理反代：可以用通过 &lt;api 地址>/qaqdmin 访问到后台管理，如 <https://api.innei.dev/qaqdmin>，关闭则无法进入，但是可以单独部署一个自己的后台管理。
@@ -22,7 +24,6 @@ toc: menu
 - 高德查询 API Key（可选）：需要先去[高德开放平台](https://console.amap.com/dev/key/app)完成注册，然后申请一个 Key。你可以不填，如果你不需要用日记中的定位功能的话。
 
 ![G7De6D](https://raw.githubusercontent.com/mx-space/docs-images/master/images/G7De6D.png)
-
 
 ## 评论设置
 
@@ -58,6 +59,10 @@ toc: menu
 该功能提供自动上传站点信息到百度，众所周知百度的收录能力过于糟糕。
 
 你需要先去[百度站长](https://ziyuan.baidu.com/linksubmit/index)完成注册，认证你的域名，然后填写 Token。
+
+<Alert type="info">
+注意⚠️：请先确保 系统 - 网站设置 - 前端地址 填写正确
+</Alert>
 
 ![zEgXj5](https://raw.githubusercontent.com/mx-space/docs-images/master/images/zEgXj5.png)
 
