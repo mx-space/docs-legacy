@@ -1,5 +1,6 @@
 ---
 toc: menu
+order: 4
 ---
 # 部署
 
@@ -84,6 +85,9 @@ $ curl http://localhost:2333/api/v2 -H "user-agent: any"
 ![ZuyQ21](https://raw.githubusercontent.com/mx-space/docs-images/master/images/ZuyQ21.png)
 
 接下来登陆后台面板, 安全起见目前只能通过直接调用接口的形式实现注册, 或者本地端口转发访问面板.
+
+
+在本机打开终端, 注意不是服务器上
 
 ```bash
 ssh -f -N -L 2333:localhost:2333 username@host

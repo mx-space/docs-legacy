@@ -1,5 +1,6 @@
 ---
 toc: menu
+order: 2
 ---
 
 # 功能
