@@ -134,4 +134,10 @@ pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意�
 
 ## 使用 Docker 部署服务
 
-这一 Part 需要等我有时间去学习 Docker 再写了。
+```bash
+cd
+mkdir -p mx/server
+cd mx/server
+wget https://cdn.jsdelivr.net/gh/mx-space/server-next@master/docker-compose.yml
+docker-compose up -d
+```
