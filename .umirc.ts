@@ -13,7 +13,7 @@ export default defineConfig({
   },
   favicon: 'favicon.svg',
   logo: 'favicon.svg',
-
+  hash: true,
   scripts: [
     `https://www.googletagmanager.com/gtag/js?id=G-GR9HXW9G5K`,
     `window.dataLayer = window.dataLayer || [];
