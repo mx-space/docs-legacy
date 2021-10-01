@@ -122,3 +122,5 @@ dev.shizuri.net {
 ```
 
 大功告成，现在可以访问 `https://dev.shizuri.net` 了。
+
+![XpItn2](https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/images/XpItn2.png)
