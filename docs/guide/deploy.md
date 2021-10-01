@@ -2,6 +2,7 @@
 toc: menu
 order: 4
 ---
+
 # 部署
 
 ## 序
@@ -19,7 +20,14 @@ order: 4
 - Redis
 - MongoDB (with mongodb-tools)
 - Node 16.6+
-- Git, curl, zip, unzip
+- Git，curl，zip，unzip，zx
+
+<Alert type="info">
+<p>
+Git，curl，zip，unzip 可以通过每个发行版 Linux 自带的包管理器安装。
+zx 可以通过 `npm i -g zx` 全局安装
+</p>
+</Alert>
 
 ## 快速部署服务
 
@@ -38,10 +46,10 @@ npm i -g zx pm2
 npm init -y
 npm i zx
 wget -O server-deploy.js https://cdn.jsdelivr.net/gh/mx-space/server-next@master/scripts/deploy.js
-node server-deploy.js --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母, 不要用示例值
+node server-deploy.js --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
 ```
 
-如果没有问题的话, 你将会看到如下输出
+如果没有问题的话，你将会看到如下输出
 
 ```bash
 $ cd /root/mx
@@ -86,10 +94,9 @@ $ curl http://localhost:2333/api/v2 -H "user-agent: any"
 
 ![ZuyQ21](https://raw.githubusercontent.com/mx-space/docs-images/master/images/ZuyQ21.png)
 
-接下来登陆后台面板, 安全起见目前只能通过直接调用接口的形式实现注册, 或者本地端口转发访问面板.
+接下来登陆后台面板，安全起见目前只能通过直接调用接口的形式实现注册，或者本地端口转发访问面板.
 
-
-在本机打开终端, 注意不是服务器上
+在本机打开终端，注意不是服务器上
 
 ```bash
 ssh -f -N -L 2333:localhost:2333 username@host
@@ -113,23 +120,24 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 pnpm i
 pnpm build
-node dist/src/main.js --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母, 不要用示例值
+node dist/src/main.js --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
 ```
+
 不出意外的话，出现这样的就 ok 了。
 
 ```bash
-[Nest] 91773  - 09/19/2021, 7:54:40 PM     LOG [CacheService] Redis 已准备好！
-[Nest] 91773  - 09/19/2021, 7:54:40 PM     LOG [NestApplication] Nest application successfully started
-[Nest] 91773  - 09/19/2021, 7:54:40 PM   DEBUG OpenApi: http://localhost:2333/api-docs
-[Nest] 91773  - 09/19/2021, 7:54:40 PM   DEBUG GraphQL playground: http://localhost:2333/graphql
-[Nest] 91773  - 09/19/2021, 7:54:40 PM     LOG Server is up.
-[Nest] 91773  - 09/19/2021, 7:54:40 PM     LOG [ConfigsService] Config 已经加载完毕！
+[Nest] 91773  - 09/19/2021，7:54:40 PM     LOG [CacheService] Redis 已准备好！
+[Nest] 91773  - 09/19/2021，7:54:40 PM     LOG [NestApplication] Nest application successfully started
+[Nest] 91773  - 09/19/2021，7:54:40 PM   DEBUG OpenApi: http://localhost:2333/api-docs
+[Nest] 91773  - 09/19/2021，7:54:40 PM   DEBUG GraphQL playground: http://localhost:2333/graphql
+[Nest] 91773  - 09/19/2021，7:54:40 PM     LOG Server is up.
+[Nest] 91773  - 09/19/2021，7:54:40 PM     LOG [ConfigsService] Config 已经加载完毕！
 ```
 
 当然你也可以用 PM2 去托管应用，在此不做介绍。参考命令：
 
 ```bash
-pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母, 不要用示例值
+pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
 ```
 
 ## 使用 Docker 部署服务
@@ -141,3 +149,5 @@ cd mx/server
 wget https://cdn.jsdelivr.net/gh/mx-space/server-next@master/docker-compose.yml
 docker-compose up -d
 ```
+
+你可以使用 `docker-compose pull && docker-compose up -d` 更新到最新的镜像。

@@ -5,6 +5,8 @@ order: 2
 
 # 功能
 
+图片托管在 [GitHub](https://github.com/mx-space/docs-images), 可能需要网络加速才能浏览。
+
 ## 仪表盘
 
 在首页仪表盘中，可以总览各类数据。一言和今日诗句来自第三方服务。

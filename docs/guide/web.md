@@ -90,3 +90,6 @@ cd mx-actions
 pnpm i
 ```
 
+## 公网部署
+
+参见 [反向代理](./reverse-proxy)
