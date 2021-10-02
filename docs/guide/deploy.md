@@ -1,9 +1,13 @@
 ---
 toc: menu
-order: 4
+order: 3
 ---
 
 # 部署
+
+<Alert type="info">
+<p>如果你是一个爱折腾的人，可以从头开始阅读，并动手尝试，途中你会遇到很多有挑战的事情，也能收获很多。如果你不想折腾，可以直接阅读最后一节 Docker 部署。</p>
+</Alert>
 
 ## 序
 
@@ -155,3 +159,27 @@ docker-compose up -d
 ## 使用 Docker Compose 部署整个系统
 
 详见 <https://github.com/mx-space/docker#readme>
+
+## 从零开始的部署过程
+
+假设现在你有一台 Ubuntu 的服务器。还没有安装任何环境。并且你已经将域名解析到了服务器。复制以下脚本运行。
+
+```bash
+sudo apt update && sudo apt install git curl vim wget -y
+curl -fsSL https://get.docker.com | bash -s docker
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+docker-compose --version
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+nvm install node
+npm i -g yarn zx pnpm
+
+mkdir -p mx
+cd mx
+git clone https://github.com/mx-space/docker --depth=1
+cd docker
+zx ./build.js
+```
