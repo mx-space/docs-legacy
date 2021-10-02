@@ -151,3 +151,7 @@ docker-compose up -d
 ```
 
 你可以使用 `docker-compose pull && docker-compose up -d` 更新到最新的镜像。
+
+## 使用 Docker Compose 部署整个系统
+
+详见 <https://github.com/mx-space/docker#readme>

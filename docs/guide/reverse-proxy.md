@@ -13,6 +13,7 @@ dev.shizuri.net -> 主站
 dev.shizuri.net/api -> API 服务
 dev.shizuri.net/qaqdmin -> 管理面板
 ```
+## 服务部署
 
 开始之前，确保已经启动 Server，并且端口监听在 2333，可以通过 `127.0.0.1:2333` 访问。并且域名已经解析到此服务器.
 

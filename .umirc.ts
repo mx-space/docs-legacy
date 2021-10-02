@@ -11,8 +11,9 @@ export default defineConfig({
       { title: 'GitHub', path: 'https://github.com/mx-space/docs' },
     ],
   },
-  favicon: 'favicon.svg',
-  logo: 'favicon.svg',
+  favicon:
+    'https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/favicon.svg',
+  logo: 'https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/favicon.svg',
   hash: true,
   scripts: [
     `https://www.googletagmanager.com/gtag/js?id=G-GR9HXW9G5K`,
