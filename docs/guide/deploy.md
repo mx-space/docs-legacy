@@ -50,7 +50,13 @@ npm i -g zx pm2
 npm init -y
 npm i zx
 wget -O server-deploy.js https://cdn.jsdelivr.net/gh/mx-space/server-next@master/scripts/deploy.js
-node server-deploy.js --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
+node server-deploy.js --jwtSecret=please_change_this_value --allowed_origins=your_site # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值，以及修改 allowed_origins，详细在下面一行
+```
+
+在`node server-deploy.js`步骤中，出现了两个args，一个是 jwtSecret，一个是 allowed_origins，`jwtSecret` 随机值即可，但是 `allowed_origins` 后你需要填上你的前端地址，如果有后台的话也要填上后台的地址，**以下是示例**：（里面加上了baidu.com的原因是我的百度资源平台抓取sitemap会提示无法抓取，给了baidu.com allow就行了，不一定其他人都是这样的）
+
+```bash
+node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origins=iucky.cn,cli.iucky.cn,baidu.com
 ```
 
 如果没有问题的话，你将会看到如下输出
@@ -124,7 +130,13 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 pnpm i
 pnpm build
-node dist/src/main.js --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
+node server-deploy.js --jwtSecret=please_change_this_value --allowed_origins=your_site # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值，以及修改 allowed_origins，详细在下面一行
+```
+
+在`node server-deploy.js`步骤中，出现了两个args，一个是 jwtSecret，一个是 allowed_origins，`jwtSecret` 随机值即可，但是 `allowed_origins` 后你需要填上你的前端地址，如果有后台的话也要填上后台的地址，**以下是示例**：（里面加上了baidu.com的原因是我的百度资源平台抓取sitemap会提示无法抓取，给了baidu.com allow就行了，不一定其他人都是这样的）
+
+```bash
+node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origins=iucky.cn,cli.iucky.cn,baidu.com
 ```
 
 不出意外的话，出现这样的就 ok 了。
