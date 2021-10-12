@@ -138,6 +138,21 @@ node server-deploy.js --jwtSecret=please_change_this_value --allowed_origins=you
 ```bash
 node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origins=iucky.cn,cli.iucky.cn,baidu.com
 ```
+注：如果你不想带上一串参数，请在src目录中修改`app.config.js`文件，第15行下面的域名/地址改成自己的，第55行的`asjhczxiucipoiopiqm2376`改成你喜欢的随机值。
+示例如下：
+```bash
+    ? argv.allowed_origins?.split?.(',') || []
+    : [
+        'www.timochan.cn',
+        'ad.timochan.cn',
+        'baidu.com',
+
+      ],
+  // allowedReferer: 'innei.ren',
+}
+exports.SECURITY = {
+  jwtSecret: argv.jwt_secret || argv.jwtSecret || '随机值',
+```
 
 不出意外的话，出现这样的就 ok 了。
 
@@ -155,7 +170,11 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
 ```bash
 pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
 ```
-注：如果使用该命令，请在ecosystem.config.js文件中第5行  'script: index.js' 的index.js修改为dist/src/main.js
+注：如果使用该命令，请在`ecosystem.config.js`文件中第5行  `script: index.js` 的`index.js`修改为`dist/src/main.js`,如果你修改了`app.config.js`（这个注解在上面） ，命令示例
+```bash
+    pm2 start ecosystem.config.js
+或  yarn prod:pm2
+```
 ## 使用 Docker 部署服务
 
 ```bash
