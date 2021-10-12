@@ -155,7 +155,7 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
 ```bash
 pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
 ```
-
+注：如果使用该命令，请修改ecosystem.config.js文件中第5行  'script: index.js' 的index.js修改为dist/src/main.js
 ## 使用 Docker 部署服务
 
 ```bash
