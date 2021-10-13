@@ -153,7 +153,7 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
 exports.SECURITY = {
   jwtSecret: argv.jwt_secret || argv.jwtSecret || '随机值',
 ```
-
+修改过后记得重新构建一下惹。
 不出意外的话，出现这样的就 ok 了。
 
 ```bash
