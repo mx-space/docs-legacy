@@ -46,13 +46,22 @@ ssh -f -N -L 2333:localhost:2333 username@host
 
 请在.env文件中添加以下内容
 ```text
-NETEASE_PHONE=手机号
-NETEASE_PASSWORD=密码
+NETEASE_PHONE=网易云手机号
+NETEASE_PASSWORD=网易云密码
 ```
 编辑后保存，然后重新构建一下
 
 如果要修改备案号什么的，请修改kami目录下`config.ts`这个文件，然后重新构建一下即可。
-
+一个相对完整的.env文件示例
+```text
+NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     //server端的API地址
+NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     //server端地址
+NEXT_PUBLIC_TRACKING_ID=          //改为自己的Google分析ID
+NEXT_PUBLIC_ALWAYS_HTTPS=1
+NETEASE_PHONE=               //网易云手机号
+NETEASE_PASSWORD=          //网易云密码
+```
+//后面为注释内容，不要写入
 
 ## 云构建
 
