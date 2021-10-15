@@ -41,6 +41,7 @@ ssh -f -N -L 2333:localhost:2333 username@host
 <Alert type="info">
   本地构建要求你的服务器配置至少 2G 内存，2 vCPU，如果你的服务器没有这个配置请看下节，云构建
 </Alert>
+
 注：有的小伙伴发现歌单报错。
 
 请在.env文件中添加以下内容
