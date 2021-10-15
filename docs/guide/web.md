@@ -52,6 +52,7 @@ NETEASE_PASSWORD=网易云密码
 编辑后保存，然后重新构建一下
 
 如果要修改备案号什么的，请修改kami目录下`config.ts`这个文件，然后重新构建一下即可。
+
 一个相对完整的.env文件示例
 ```text
 NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     //server端的API地址
