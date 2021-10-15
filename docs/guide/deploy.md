@@ -220,7 +220,7 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
 ```bash
     ? argv.allowed_origins?.split?.(',') || []
     : [
-        'www.timochan.cn',
+        'www.timochan.cn',                  //改这里
         'ad.timochan.cn',
         'baidu.com',
 
@@ -228,7 +228,7 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
   // allowedReferer: 'innei.ren',
 }
 exports.SECURITY = {
-  jwtSecret: argv.jwt_secret || argv.jwtSecret || '随机值',
+  jwtSecret: argv.jwt_secret || argv.jwtSecret || 'asjhczxiucipoiopiqm2376', //改这里的
 ```
 修改过后记得重新构建一下惹。
 
