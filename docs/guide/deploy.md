@@ -156,7 +156,7 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
 ```bash
 pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意修改一下 这个 jwtSecret. 值可以随机数字字母，不要用示例值
 ```
-注：如果使用该命令，请在`ecosystem.config.js`文件中第5行  `script: index.js` 的`index.js`修改为`dist/src/main.js`,如果你修改了`app.config.js`（这个注解在上面） ，命令示例
+注：如果使用该命令，请在`ecosystem.config.js`文件中第5行  `script: index.js` 的`index.js`修改为`dist/src/main.js`,如果你修改了`app.config.js`（这个注解在下面） ，命令示例
 ```bash
     pm2 start ecosystem.config.js
 或  yarn prod:pm2
