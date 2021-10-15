@@ -154,6 +154,7 @@ exports.SECURITY = {
   jwtSecret: argv.jwt_secret || argv.jwtSecret || '随机值',
 ```
 修改过后记得重新构建一下惹。
+
 不出意外的话，出现这样的就 ok 了。
 
 ```bash
@@ -214,3 +215,11 @@ git clone https://github.com/mx-space/docker --depth=1
 cd docker
 zx ./build.js
 ```
+
+注：当你对服务端每次进行修改过后，要重新进行部署过程，以常规部署举例
+```
+pnpm i
+pnpm build
+yarn prod:pm2
+```
+这样才会让修改生效
