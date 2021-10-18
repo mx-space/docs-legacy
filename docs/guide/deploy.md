@@ -221,7 +221,6 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+ --allowed_origi
     ? argv.allowed_origins?.split?.(',') || []
     : [
         'www.timochan.cn',                  //改这里
-        'ad.timochan.cn',
         'baidu.com',
 
       ],
