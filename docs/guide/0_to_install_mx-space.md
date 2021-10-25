@@ -61,7 +61,7 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 ```bash
 mkdir mx-space
 git clone https://gitee.com/a1435241/kami.git --depth 1
-git clone https://gitee.com/a1435241/admin-next.git --depth 1 admin
+git clone https://gitee.com/a1435241/admin-next.git --depth 1 admin //可选
 git clone https://gitee.com/a1435241/server-next.git --depth 1 server
 ```
 
