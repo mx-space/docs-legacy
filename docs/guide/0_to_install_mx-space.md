@@ -222,7 +222,7 @@ location /socket.io {
 
 可以认为正常。
 
-### 部署前端
+## 部署前端
 
 进入mx-space—kami文件夹
 
@@ -288,7 +288,7 @@ yarn prod:pm2
 
 pm2那个命令也可以用，效果一样，就不赘述了。
 
-### admin端
+## admin端
 
 后端已经集成，地址为https://server.test.cn/qaqdmin ，且除非特殊情况，则没必要单独部署后台。
 
