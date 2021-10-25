@@ -14,7 +14,7 @@ dev.shizuri.net/api -> API 服务
 dev.shizuri.net/qaqdmin -> 管理面板
 ```
 ## 服务部署
-
+### Caddy web端反代
 开始之前，确保已经启动 Server，并且端口监听在 2333，可以通过 `127.0.0.1:2333` 访问。并且域名已经解析到此服务器.
 
 以 Caddy，Ubuntu 为例，首先安装 Caddy。参见 <https://caddyserver.com/docs/install>
@@ -59,9 +59,10 @@ dev.shizuri.net {
 ![utgcQO](https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/images/utgcQO.png)
 
 进入 `dev.shizuri.net/qaqdmin` 完成初始化，然后填写相关用户和系统设置。可以预先发布几篇文章，或者导入 Markdown。接下来部署主站.
-
+### Nginx端反代
+请参阅 [nginx反代过程](/guide/0_to_install_mx-space#%E5%8F%8D%E4%BB%A3%E5%90%8E%E7%AB%AF)
 ## 主站公网访问
-
+###  Caddy 反代
 接下来需要把主站部署到 `dev.shizuri.net`，以 Kami 为例。首先需要构建项目.
 
 ```bash
@@ -121,6 +122,8 @@ dev.shizuri.net {
 }
 
 ```
+### nginx 反代
+请参阅[kami端的nginx反代](/guide/0_to_install_mx-space#%E5%8F%8D%E4%BB%A3%E5%89%8D%E7%AB%AF)
 
 大功告成，现在可以访问 `https://dev.shizuri.net` 了。
 
