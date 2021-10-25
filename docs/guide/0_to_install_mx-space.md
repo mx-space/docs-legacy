@@ -1,7 +1,7 @@
 ## 从零开始的手动部署
 
 ### 准备环境
-
+系统环境：centos7,ubuntu
 首先，我们先去安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，用宝塔面板安装redis、mongodb、pm2管理器（用于管理node.js）,Nginx。（在软件商店—运行环境中）
 
 注意：服务器内存必须大于1G，否则将可能出现内存溢出问题。如果不满足，请自行参考[云构建](https://mx-docs.shizuri.net/guide/web#%E4%BA%91%E6%9E%84%E5%BB%BA)
