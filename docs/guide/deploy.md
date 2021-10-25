@@ -162,7 +162,7 @@ pm2 start ecosystem.config.js -- --jwtSecret=please_change_this_value # 注意�
 或  yarn prod:pm2
 ```
 ### 更详细的过程
-如果你需要详细的部署过程，请看这里[新手从零开始的部署](https://mx-docs.shizuri.net/guide/0_to_install_mx-space)
+如果你需要详细的部署过程，请看这里[新手从零开始的部署](/guide/0_to_install_mx-space)
 ## 使用 Docker 部署服务
 
 ```bash
