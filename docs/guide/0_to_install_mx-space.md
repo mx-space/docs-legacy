@@ -93,7 +93,7 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 
 在宝塔面板依次添加`前端` 、`后端`，域名自己填（即自己准备的前端，后端域名）
 
-### 部署sever（后端）
+### 部署server（后端）
 
 这里就用宝塔简化步骤，只需要很少命令
 
