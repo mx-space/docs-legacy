@@ -1,0 +1,312 @@
+## 从零开始的手动部署
+
+### 准备环境
+
+首先，我们先去安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，用宝塔面板安装redis、mongodb、pm2管理器（用于管理node.js）,Nginx。（在软件商店—运行环境中）
+
+注意：服务器内存必须大于1G，否则将可能出现内存溢出问题。如果不满足，请自行参考[云构建](https://mx-docs.shizuri.net/guide/web#%E4%BA%91%E6%9E%84%E5%BB%BA)
+
+
+
+### 安装必备软件
+
+安装node.js16，宝塔默认安装的为node14版本。
+
+```bash
+nvm install 16.6.1
+
+nvm alias default  v16.6.1
+```
+
+然后我们继续
+
+```bash
+npm install -g yarn pnpm zx nrm
+
+nrm ls //列出可以使用的镜像源
+
+nrm use npm //当你的网络环境不好的时候，可以换成其他源。注意：不要用淘宝源！！！
+
+例如
+nrm use cnpm
+```
+
+验证安装是否完成
+
+```bash
+node -v
+
+yarn -v
+
+pnpm -v
+
+zx -v
+```
+
+正常输出版本号即可。
+
+### 克隆repo
+
+```bash
+mkdir mx-space
+git clone https://github.com/mx-space/kami.git --depth 1
+git clone https://github.com/mx-space/admin-next.git --depth 1 admin //可选
+git clone https://github.com/mx-space/server-next.git --depth 1 server
+```
+
+如果网络问题，拉取仓库太慢
+
+```bash
+mkdir mx-space
+git clone https://gitee.com/a1435241/kami.git --depth 1
+git clone https://gitee.com/a1435241/admin-next.git --depth 1 admin
+git clone https://gitee.com/a1435241/server-next.git --depth 1 server
+```
+
+更换分支到最后一个稳定版本
+
+```bash
+cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd ..
+cd admin && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd .. 			//可选
+cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd ..
+```
+
+## 开始部署
+
+### 准备域名
+
+这边建议直接解析三个域名到服务器
+
+这里假设解析的是：
+
+前端： kami.test.cn
+
+中端： admin.test.cn 	//可选
+
+后端： server.test.cn
+
+建议部署好SSL证书，（就当你有了
+
+### 准备站点
+
+在宝塔面板依次添加`前端` 、`后端`，域名自己填（即自己准备的前端，后端域名）
+
+### 部署sever（后端）
+
+这里就用宝塔简化步骤，只需要很少命令
+
+宝塔面板—文件—根目录—root—mx-space—server
+
+文件这一页面内就有终端，点击终端（自己输入自己的root账户及密码）
+
+### 开始构建
+
+```bash
+pnpm i //安装依赖，因网络环境差异可能速度不一样，可以通过切换源来解决，但！不要用淘宝源
+pnpm build
+```
+
+注意：可能第一步的install不成功，可以多试几次
+
+先手动拉起
+
+```bash
+node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+
+```
+
+`bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+`这串值换成自己喜欢的，并记录下来。
+
+Ctrl+C结束任务，如果没有问题的话我们继续。
+
+编辑目录下`ecosystem.config.js`
+
+将第五行的 `index.js` 更改为 `dist/src/main.js`，保存即可。
+
+进入src目录
+
+编辑`app.config.js`
+
+在13行左右，你会发现如下内容
+
+```typescript
+ allowedOrigins: argv.allowed_origins
+    ? argv.allowed_origins?.split?.(',') || []
+    : [
+        'innei.ren',
+        'shizuri.net',
+        'localhost:9528',
+        'localhost:2323',
+        '127.0.0.1',
+        'mbp.cc',
+        'local.innei.test',
+        '22333322.xyz',
+      ],
+  // allowedReferer: 'innei.ren',
+}
+```
+
+那么想必聪明的你知道要干啥了，把域名/地址换成自己的，多余的删掉（不删也行，删掉最好）
+
+在55左右你会发现如下内容
+
+```typescript
+exports.SECURITY = {
+  jwtSecret: argv.jwt_secret || argv.jwtSecret || 'asjhczxiucipoiopiqm2376',
+  jwtExpire: '7d',
+```
+
+刚刚让你自己记的那串值就用上了，把`asjhczxiucipoiopiqm2376`换成自己的，保存文件即可。
+
+然后重新进行构建
+
+```bash
+pnpm build
+```
+
+使用PM2托管
+
+```bash
+	yarn prod:pm2
+或   pm2 start ecosystem.config.js
+```
+
+观察后端是否正常拉起
+
+```bash
+pm2 logs
+```
+
+如果日志正常，则继续。
+
+### 反代后端
+
+进入宝塔面板—网站，设置后端网站（server.test.cn)
+
+点击`反向代理`—`添加反向代理`
+
+代理名称随便填，目标URL`http://127.0.0.1:2333`，发送域名`$host`其他的不用填，提交保存即可。
+
+点击`配置文件`
+
+在`access_log`字段上面，添加如下配置
+
+```nginx
+location /socket.io {
+    proxy_http_version 1.1;
+    proxy_buffering off;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "Upgrade";
+    proxy_pass http://127.0.0.1:2333/socket.io;
+}
+```
+
+保存即可。
+
+可以通过 curl 测试一下接口访问
+
+```bash
+ curl https://server.test.cn/api/v2 -H "user-agent: any"
+```
+
+输出如下示例内容
+
+```text
+{"name":"server-next","author":"Innei <https://innei.ren>","version":"3.6.5","homepage":"https://github.com/mx-space/server-next#readme","issues":"https://github.com/mx-space/server-next/issues","hash":""}
+```
+
+可以认为正常。
+
+### 部署前端
+
+进入mx-space—kami文件夹
+
+新建一个`.env`文件 或者 `cp .env.example .env`
+
+添加/编辑，如下内容（没有就加上去)
+
+```text
+NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     //server端的API地址
+NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     //server端地址
+NEXT_PUBLIC_TRACKING_ID=G-*******          //改为自己的Google分析ID
+NEXT_PUBLIC_ALWAYS_HTTPS=1
+NETEASE_PHONE=159*******4               //网易云手机号
+NETEASE_PASSWORD=bcc*******          //网易云密码
+```
+
+//为注释，不用加上去。。
+
+#### 开始构建
+
+```bash
+pnpm i
+
+pnpm build
+```
+
+构建完成，尝试拉起kami(前端)
+
+```bash
+	yarn prod:pm2
+或   pm2 start ecosystem.config.js
+```
+
+没有报错的情况下，设置前端反代。
+
+#### 反代前端
+
+点击网站—网站，设置前端网站（kami.test.cn）
+
+点击`反向代理`—`添加反向代理`
+
+代理名称随便填，目标URL`http://127.0.0.1:2323`，发送域名`$host`其他的不用填，提交保存即可。
+
+接下来输入https://kami.test.cn 看看是否正常惹。
+
+如果没问题，继续
+
+在kami目录下找到`configs.ts`文件，大约在105左右的位置，把下面的内容根据作者的示例，换成自己的。（主要替换url） 有备案号的换成自己的，替换完成，保存。
+
+我们继续。
+
+进入kami中public文件夹
+
+编辑**manifest.json**，把内容换成自己的，保存即可。
+
+然后重新构建
+
+```bash
+pnpm build
+
+yarn prod:pm2 
+```
+
+pm2那个命令也可以用，效果一样，就不赘述了。
+
+### admin端
+
+后端已经集成，地址为https://server.test.cn/qaqdmin ，且除非特殊情况，则没必要单独部署后台。
+
+如果你需要单独部署后台（admin）
+
+请参考[mx-space(旧版)部署教程](https://www.timochan.cn/posts/jc/mx-space_install)
+
+## 部署完成后一些操作
+
+### server端
+
+如果你对server端文件做了修改，请重新构建一下使其生效
+
+```bash
+pnpm build
+yarn prod:pm2
+```
+
+### kami端
+
+如果你对kami端进行修改，需要重新构建一下
+
+```bash
+pnpm build
+yarn prod:pm2
+```
+
