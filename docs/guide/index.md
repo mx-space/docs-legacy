@@ -20,4 +20,5 @@ nav:
 | docker快速部署                   | [点击我前往？](/guide/deploy#从零开始的部署过程)             | Docker部署，比较方便                 |
 | 快速部署脚本                     | [点击我前往？](/guide/deploy#快速部署服务)                   | 需要前置条件，请详细参阅             |
 | 使用 Docker Compose 部署整个系统 | [点击我前往？](/guide/deploy#使用-docker-compose-部署整个系统) | docker的方法                         |
+| 开发| [点击我前往？](/dev) | 开发文档？                    |
 
