@@ -33,7 +33,7 @@ nvm alias default  v16.6.1
 然后我们继续
 
 ```bash
-npm install -g yarn pnpm zx nrm
+npm install -g yarn pnpm zx nrm pm2
 
 nrm ls //列出可以使用的镜像源
 
@@ -53,6 +53,8 @@ yarn -v
 pnpm -v
 
 zx -v
+
+pm2 -v
 ```
 
 正常输出版本号即可。
