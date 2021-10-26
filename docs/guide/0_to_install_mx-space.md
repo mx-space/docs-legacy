@@ -230,6 +230,13 @@ location /socket.io {
 
 可以认为正常。
 
+接下来，我们可以去后台看看。
+
+打开浏览器输入https://server.test.cn/qaqdmin 第一次使用会进行注册，注册完成后，重新打开后台，登录即可。
+
+详情请参阅[设置](/guide/setting)
+
+**还有，添加一篇测试博文、日记，友联，方便后期排错。**
 ## 部署前端
 
 进入mx-space—kami文件夹
