@@ -1,6 +1,6 @@
 ---
 toc: menu
-order: 6
+order: 7
 ---
 
 # 搭建前端
