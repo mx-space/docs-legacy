@@ -1,10 +1,10 @@
 ---
 title: 介绍
 toc: menu
-order: 1
+order: 2
 nav:
   title: 指南
-  order: 1
+  order: 2
 ---
 
 # 介绍
