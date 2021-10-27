@@ -102,7 +102,7 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 
 在宝塔面板依次添加`前端` 、`后端`，域名自己填（即自己准备的前端，后端域名）
 
-### 部署server（后端）
+## 部署server（后端）
 
 这里就用宝塔简化步骤，只需要很少命令
 
@@ -158,7 +158,7 @@ Ctrl+C结束任务，如果没有问题的话我们继续。
 
 那么想必聪明的你知道要干啥了，把域名/地址换成自己的，多余的删掉（不删也行，删掉最好）
 
-在55左右你会发现如下内容
+在55行左右你会发现如下内容
 
 ```typescript
 exports.SECURITY = {
@@ -222,7 +222,7 @@ location /socket.io {
 输出如下示例内容
 
 ```json
-{"name":"server-next","author":"Innei <https://innei.ren>","version":"3.6.5","homepage":"https://github.com/mx-space/server-next#readme","issues":"https://github.com/mx-space/server-next/issues","hash":""}
+{"name":"server-next","author":"Innei <https://innei.ren>","version":"3.10.0","homepage":"https://github.com/mx-space/server-next#readme","issues":"https://github.com/mx-space/server-next/issues","hash":""}
 ```
 
 可以认为正常。
@@ -253,7 +253,7 @@ NETEASE_PASSWORD=bcc*******          //网易云密码
 
 //为注释，不用加上去。。
 
-#### 开始构建
+### 开始构建
 
 ```bash
 pnpm i
@@ -270,7 +270,7 @@ pnpm build
 
 没有报错的情况下，设置前端反代。
 
-#### 反代前端
+### 反代前端
 
 点击网站—网站，设置前端网站（kami.test.cn）
 
@@ -280,19 +280,27 @@ pnpm build
 
 接下来输入https://kami.test.cn 看看是否正常惹。
 
-如果没问题，继续
+如果没问题，继续。
+### 修改kami的部分文件
 
-在kami目录下找到`configs.ts`文件，大约在105左右的位置，把下面的内容根据作者的示例，换成自己的。（主要替换url） 有备案号的换成自己的，替换完成，保存。
+​		解释一下文件的大致作用吧
 
-我们继续。
+- `config.ts` 顾名思义就是设置，你可以修改首页的GitHub，QQ等链接，以及备案号，照着作者的修改就行。
+- `manifest.json` 主要是标题问题。
+-  `_document.tsx` 主要是移动端问题。
 
-进入kami中public文件夹
 
-编辑**manifest.json**，把内容换成自己的，保存即可。
+在kami目录下找到`configs.ts`文件，大约在105行左右的位置，把下面的内容根据作者的示例，换成自己的。（主要替换url） 有备案号的换成自己的，替换完成，保存。
 
-进入kami中pages文件夹
+如果没有疑问，我们继续。
 
-找到`_document.tsx`这个文件，大约在48行左右的位置，看见“静かな森” 没？ 想必聪明的你知道该干什么了吧？把作者的换成自己的，保存即可。
+进入kami中`public`文件夹
+
+编辑`manifest.json`，把内容换成自己的，保存即可。
+
+进入kami中`pages`文件夹
+
+找到`_document.tsx`这个文件，大约在48行左右的位置，看见`“静かな森” `没？ 想必聪明的你知道该干什么了吧？把作者的换成自己的，保存即可。
 
 然后重新构建
 
