@@ -111,7 +111,7 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 文件这一页面内就有终端，点击终端（自己输入自己的root账户及密码）
 
 ### 开始构建
-
+在`server`目录下
 ```bash
 pnpm i //安装依赖，因网络环境差异可能速度不一样，可以通过切换源来解决，但！不要用淘宝源
 pnpm build
@@ -254,7 +254,7 @@ NETEASE_PASSWORD=bcc*******          //网易云密码
 //为注释，不用加上去。。
 
 ### 开始构建
-
+在`kami`目录下
 ```bash
 pnpm i
 
