@@ -133,7 +133,7 @@ Ctrl+C结束任务，如果没有问题的话我们继续。
 
 将第五行的 `index.js` 更改为 `dist/src/main.js`，保存即可。
 
-进入src目录
+进入`src`目录
 
 编辑`app.config.js`
 
