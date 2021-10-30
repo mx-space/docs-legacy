@@ -8,6 +8,12 @@
 ## 准备环境
 系统环境：centos7,ubuntu（只要是宝塔支持的比较好的Linux版本都可以）
 
+Linux内核版本：在kami v2.4.0之前的版本中，Linux版本为3.10.0可用，在kami v2.4.0及以后的版本，需要Linux内核为4.18及以上版本
+
+可以使用以下命令查看内核版本
+```bash
+uname -a
+```
 首先，我们先去安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，用宝塔面板安装，
 `redis`、`mongodb`、`pm2管理器`（用于管理node.js）,`Nginx`。（在软件商店—运行环境中）
 
