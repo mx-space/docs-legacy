@@ -49,7 +49,7 @@ nrm ls //列出可以使用的镜像源
 nrm use npm //当你的网络环境不好的时候，可以换成其他源。注意：不要用淘宝源！！！
 
 例如
-nrm use cnpm
+nrm use yarn
 ```
 
 验证安装是否完成
