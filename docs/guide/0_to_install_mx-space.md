@@ -60,7 +60,7 @@ pm2 -v
 ### 克隆repo
 
 ```bash
-mkdir mx-space
+mkdir mx-space&&cd mx-space
 git clone https://github.com/mx-space/kami.git --depth 1
 git clone https://github.com/mx-space/admin-next.git --depth 1 admin //可选
 git clone https://github.com/mx-space/server-next.git --depth 1 server
