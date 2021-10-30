@@ -19,6 +19,16 @@
 ### 安装必备软件
 
 **以下所有步骤，为了避免权限问题，均以root执行**
+安装git
+```bash
+apt install git //centos
+yum install git //debian系，例如Ubuntu等
+```
+验证安装
+```bash
+git --version
+```
+正常输出版本即可
 
 安装node.js16，如果预装有node16，可以忽略该步，理论上node16.6.X以上版本没问题。
 
