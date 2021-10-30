@@ -19,6 +19,7 @@
 ### 安装必备软件
 
 **以下所有步骤，为了避免权限问题，均以root执行**
+
 安装git
 ```bash
 apt install git //centos
