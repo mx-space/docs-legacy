@@ -77,10 +77,10 @@ git clone https://github.com/mx-space/admin-next.git --depth 1 admin //可选
 git clone https://github.com/mx-space/server-next.git --depth 1 server
 ```
 
-如果网络问题，拉取仓库太慢
+**如果网络问题，拉取仓库太慢，试试下面的镜像仓库**
 
 ```bash
-mkdir mx-space
+mkdir mx-space&&cd mx-space
 git clone https://gitee.com/a1435241/kami.git --depth 1
 git clone https://gitee.com/a1435241/admin-next.git --depth 1 admin //可选
 git clone https://gitee.com/a1435241/server-next.git --depth 1 server
