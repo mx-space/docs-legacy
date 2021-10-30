@@ -6,9 +6,9 @@
 
 （）内的内容为补充内容，可以看看
 ## 准备环境
-系统环境：centos7,ubuntu（只要是宝塔支持的比较好的Linux版本都可以）
+系统环境：centos7,Ubuntu,Debian（只要是宝塔支持的比较好的Linux版本都可以）
 
-Linux内核版本：在kami v2.4.0之前的版本中，Linux版本为3.10.0可用，在kami v2.4.0及以后的版本，需要Linux内核为4.18及以上版本
+Linux内核版本：在kami v2.4.0之前的版本中，Linux版本为3.10.0可用，在kami v2.4.0及以后的版本，需要Linux内核为4.18及以上版本,如果Linux内核版本不满足最新版kami的要求，可以升级Linux内核版本，如果你不会，请无脑安装Ubuntu最新版本，或者Centos8，或者Debian最新版本，严格来说不推荐Centos8（因为要停止更新）。
 
 可以使用以下命令查看内核版本
 ```bash
