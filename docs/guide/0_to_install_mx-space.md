@@ -40,9 +40,9 @@ git --version
 安装node.js16，如果预装有node16，可以忽略该步，理论上node16.6.X以上版本没问题。
 
 ```bash
-nvm install 16.6.1
+nvm install 16.13.0
 
-nvm alias default  v16.6.1
+nvm alias default  v16.13.0
 ```
 
 然后我们继续
