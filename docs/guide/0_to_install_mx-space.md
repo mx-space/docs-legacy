@@ -255,7 +255,7 @@ location /socket.io {
 
 进入mx-space—kami文件夹
 
-新建一个`.env`文件 或者 `cp .env.example .env`
+新建一个`.env`文件 或者 执行该命令`cp .env.example .env`
 
 添加/编辑，如下内容（没有就加上去)
 
