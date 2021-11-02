@@ -302,7 +302,7 @@ pnpm build
 
 		解释一下文件的大致作用吧
 
-- `config.ts` 顾名思义就是设置，你可以修改首页的GitHub，QQ等链接，以及备案号，照着作者的修改就行。
+- `configs.ts` 顾名思义就是设置，你可以修改首页的GitHub，QQ等链接，以及备案号，照着作者的修改就行。
 - `manifest.json` 主要是标题问题。
 -  `_document.tsx` 主要是移动端问题。
 
