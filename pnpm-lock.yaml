@@ -1,13 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
-  dumi: 1.1.30
+  dumi: 1.1.31
   lint-staged: 10.5.4
   prettier: 2.4.1
   yorkie: 2.0.0
 
 devDependencies:
-  dumi: 1.1.30
+  dumi: 1.1.31
   lint-staged: 10.5.4
   prettier: 2.4.1
   yorkie: 2.0.0
@@ -582,8 +582,8 @@ packages:
       - react-dom
     dev: true
 
-  /@umijs/preset-dumi/1.1.30_umi@3.5.19:
-    resolution: {integrity: sha512-DzfSuSSDe/jH9w/CbebtjXurKHo14nSMWfQYv08O8IMuvNqp+Hey+h9nkFteiIdyk8LNWd/FdguKaSiAaXqkBQ==}
+  /@umijs/preset-dumi/1.1.31_umi@3.5.19:
+    resolution: {integrity: sha512-RfdLoIRrExU6sMmrVXigNpZyLxsufeozaGPJti7fL8/RdfIOZiALp/kbP8oYyaVqm4kzCOh3pP5i2kkCytx+2w==}
     peerDependencies:
       umi: 3.x
     dependencies:
@@ -601,7 +601,7 @@ packages:
       copy-text-to-clipboard: 2.2.0
       deepmerge: 4.2.2
       dumi-assets-types: 1.0.0
-      dumi-theme-default: 1.1.13_@umijs+preset-dumi@1.1.30
+      dumi-theme-default: 1.1.14_@umijs+preset-dumi@1.1.31
       enhanced-resolve: 4.5.0
       github-slugger: 1.4.0
       hast-util-has-property: 1.0.4
@@ -1564,13 +1564,13 @@ packages:
     resolution: {integrity: sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==}
     dev: true
 
-  /dumi-theme-default/1.1.13_@umijs+preset-dumi@1.1.30:
-    resolution: {integrity: sha512-vTjjzcfVko4EslgiEcEAECi/MLas35/oD/Sfs7Eehn10SbzX4DhtEQwwMZVzoc+nuStPmKXsczYAtiWndX6Aig==}
+  /dumi-theme-default/1.1.14_@umijs+preset-dumi@1.1.31:
+    resolution: {integrity: sha512-v0ZXUo3XZXQ6qWgwHfzK0A2lkKdFH3TEt9fwQr6LUVr7jEwh4TrQRJP0D5uxkW5j5uCEqsc/p1tIju6OHnrDow==}
     peerDependencies:
       '@umijs/preset-dumi': 1.x
       react: ^16.13.1 || ^17.0.0
     dependencies:
-      '@umijs/preset-dumi': 1.1.30_umi@3.5.19
+      '@umijs/preset-dumi': 1.1.31_umi@3.5.19
       prism-react-renderer: 1.2.1
       prismjs: 1.25.0
       rc-tabs: 11.10.1
@@ -1578,11 +1578,11 @@ packages:
       - react-dom
     dev: true
 
-  /dumi/1.1.30:
-    resolution: {integrity: sha512-qJz4S/K/Ghkmwt8fejFeRYOhRy/98vOL555XuxbV1X03KFfWNWYJR9s2/CNt9vWvW2iunAnZOqp2QCRjgpPRQg==}
+  /dumi/1.1.31:
+    resolution: {integrity: sha512-3XkHzbG7q6LTD5MB0t5q5F6BYOyHzBdwBIXraLVbmpNAgsny0J9R/TgWq08Ui9agwG+B0QzWyVsx7b9CC+N+rg==}
     hasBin: true
     dependencies:
-      '@umijs/preset-dumi': 1.1.30_umi@3.5.19
+      '@umijs/preset-dumi': 1.1.31_umi@3.5.19
       umi: 3.5.19
     transitivePeerDependencies:
       - bufferutil
