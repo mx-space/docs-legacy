@@ -87,9 +87,9 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 
 ```bash
 mkdir mx-space&&cd mx-space
-git clone https://gitee.com/a1435241/kami.git --depth 1
-git clone https://gitee.com/a1435241/admin-next.git --depth 1 admin //可选
-git clone https://gitee.com/a1435241/server-next.git --depth 1 server
+git clone https://github.com.cnpmjs.org/mx-space/kami.git --depth 1
+git clone https://github.com.cnpmjs.org/mx-space/admin-next.git --depth 1 admin //可选
+git clone https://github.com.cnpmjs.org/mx-space/server-next.git --depth 1 server
 ```
 
 更换分支到最后一个稳定版本
