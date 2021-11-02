@@ -31,7 +31,7 @@ docker-compose pull && docker-compose up -d
 
 Q：我的备案信息怎么修改？
 
-A：请在`kami`文件夹里找到`config.ts` ，里面有你想要的答案。
+A：请在`kami`文件夹里找到`configs.ts` ，里面有你想要的答案。
 
 
 
