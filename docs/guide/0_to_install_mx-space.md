@@ -338,6 +338,11 @@ pm2那个命令也可以用，效果一样，就不赘述了。
 请参考[mx-space(旧版)部署教程](https://www.timochan.cn/posts/jc/mx-space_install)
 
 ## 部署完成后一些操作
+### 新建留言/关于页
+ - 新建页面，留言页填为message
+ - 新建页面，关于页填为about
+ 
+ OR，自行修改configs.ts的地址
 
 ### server端
 
