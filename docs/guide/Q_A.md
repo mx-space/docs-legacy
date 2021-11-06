@@ -40,6 +40,9 @@ Q：GitHub链接，QQ链接等如何修改？
 A：此答案同上。
 
 
+Q：后台地址是什么？
+
+A：server.test.cn/qaqdmin
 
 ## 构建类
 
