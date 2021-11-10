@@ -42,7 +42,7 @@ A：此答案同上。
 
 Q：后台地址是什么？
 
-A：server.test.cn/qaqdmin
+A：[server.test.cn/qaqdmin](https://server.test.cn/qaqdmin)  //仍为文档中的示例域名
 
 ## 构建类
 
