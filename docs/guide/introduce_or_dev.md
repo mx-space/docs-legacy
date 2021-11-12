@@ -11,6 +11,8 @@ nav:
 
 这是一个与众不同的船行的个人空间，参见「[特征](./feature)」
 
+![Xnip2021-09-21_18-29-08](https://raw.githubusercontent.com/mx-space/docs-images/master/images/Xnip2021-09-21_18-29-08.png)
+
 ## 本地调试与开发
 
 由于是前后端分离，本地开发环境或许有点复杂。但是相信聪明的你一定可以。
