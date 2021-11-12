@@ -28,8 +28,8 @@ uname -a
 
 安装git
 ```bash
-apt install git //centos
-yum install git //debian系，例如Ubuntu等
+apt install git //debian系，例如Ubuntu等,以root权限执行
+yum install git //centos
 ```
 验证安装
 ```bash
