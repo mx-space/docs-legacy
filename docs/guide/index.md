@@ -1,10 +1,10 @@
 ---
 title: 目录索引
 toc: menu
-order: 1
+order: 3
 nav:
   title: 指南
-  order: 1
+  order: 3
 ---
 # 目录索引
 

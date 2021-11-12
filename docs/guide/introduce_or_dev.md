@@ -1,23 +1,26 @@
 ---
 title: 介绍
 toc: menu
-order: 2
+order: 1
 nav:
   title: 指南
-  order: 2
+  order: 1
 ---
 
 # 介绍
 
 这是一个与众不同的船行的个人空间，参见「[特征](./feature)」
 
+![Xnip2021-09-21_18-29-08](https://raw.githubusercontent.com/mx-space/docs-images/master/images/Xnip2021-09-21_18-29-08.png)
+
 ## 本地调试与开发
 
 由于是前后端分离，本地开发环境或许有点复杂。但是相信聪明的你一定可以。
+加油！
 
 ### 环境准备
 
-首先得有 node，并确保 node 版本是 16.6.0 或以上。其他版本未测试，理论比这个高的版本就没有问题。
+> 首先得有 node，并确保 node 版本是 16.6.0 或以上。其他版本未测试，理论比这个高的版本就没有问题。
 
 安装 node 推荐使用 [nvm](https://github.com/nvm-sh/nvm)。
 
@@ -76,7 +79,7 @@ Go version: go1.16.3
 
 ### 起程
 
-准备好了上面的环境之后就可以把代码搞下来了。克隆代码用 Git 就行了，虽然上面没写，但是不会有人没有装这个吧。这个都不会这么装的可以自行谷歌了。
+准备好了上面的环境之后就可以把 mix-space 所需代码克隆下来了。
 
 ```bash
 mkdir mx-space
