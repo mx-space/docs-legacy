@@ -1,6 +1,6 @@
 ---
 toc: menu
-order: 3
+order: 2
 ---
 
 # 功能
