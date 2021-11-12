@@ -32,7 +32,7 @@ $ mongo --version
 $ redis-cli -v
 ```
 
-案例输出
+::: 案例输出
 
 ```
 $ mongo --version
@@ -51,6 +51,8 @@ Build Info: {
 $ redis-cli -v
 redis-cli 6.2.5
 ```
+
+:::
 
 还需要装有 mongodb-tools 用于数据库备份，一般和 mongo 捆绑。可以用这个命令看一下装没装。
 
@@ -78,7 +80,7 @@ Go version: go1.16.3
 
 ### 起程
 
-准备好了上面的环境之后就可以把代码搞下来了。克隆代码用 Git 就行了，虽然上面没写，但是不会有人没有装这个吧。这个都不会这么装的可以自行谷歌了。
+准备好了上面的环境之后就可以把代码克隆下来了。
 
 ```bash
 mkdir mx-space
