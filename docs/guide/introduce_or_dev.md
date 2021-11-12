@@ -32,27 +32,22 @@ $ mongo --version
 $ redis-cli -v
 ```
 
-::: 案例输出
-
-```
-$ mongo --version
-MongoDB shell version v5.0.1
-Build Info: {
-    "version": "5.0.1",
-    "gitVersion": "318fd9cabc59dc9651f3189b622af6e06ab6cd33",
-    "modules": [],
-    "allocator": "system",
-    "environment": {
-        "distarch": "x86_64",
-        "target_arch": "x86_64"
-    }
-}
-
-$ redis-cli -v
-redis-cli 6.2.5
-```
-
-:::
+> 案例输出```
+> $ mongo --version
+> MongoDB shell version v5.0.1
+> Build Info: {
+>     "version": "5.0.1",
+>     "gitVersion": "318fd9cabc59dc9651f3189b622af6e06ab6cd33",
+>     "modules": [],
+>     "allocator": "system",
+>     "environment": {
+>        "distarch": "x86_64",
+>        "target_arch": "x86_64"
+>     }
+> }
+>
+> $ redis-cli -v
+> redis-cli 6.2.5
 
 还需要装有 mongodb-tools 用于数据库备份，一般和 mongo 捆绑。可以用这个命令看一下装没装。
 
