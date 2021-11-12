@@ -16,10 +16,11 @@ nav:
 ## 本地调试与开发
 
 由于是前后端分离，本地开发环境或许有点复杂。但是相信聪明的你一定可以。
+加油！
 
 ### 环境准备
 
-首先得有 node，并确保 node 版本是 16.6.0 或以上。其他版本未测试，理论比这个高的版本就没有问题。
+> 首先得有 node，并确保 node 版本是 16.6.0 或以上。其他版本未测试，理论比这个高的版本就没有问题。
 
 安装 node 推荐使用 [nvm](https://github.com/nvm-sh/nvm)。
 
@@ -32,22 +33,25 @@ $ mongo --version
 $ redis-cli -v
 ```
 
-> 案例输出```
-> $ mongo --version
-> MongoDB shell version v5.0.1
-> Build Info: {
->     "version": "5.0.1",
->     "gitVersion": "318fd9cabc59dc9651f3189b622af6e06ab6cd33",
->     "modules": [],
->     "allocator": "system",
->     "environment": {
->        "distarch": "x86_64",
->        "target_arch": "x86_64"
->     }
-> }
->
-> $ redis-cli -v
-> redis-cli 6.2.5
+案例输出
+
+```
+$ mongo --version
+MongoDB shell version v5.0.1
+Build Info: {
+    "version": "5.0.1",
+    "gitVersion": "318fd9cabc59dc9651f3189b622af6e06ab6cd33",
+    "modules": [],
+    "allocator": "system",
+    "environment": {
+        "distarch": "x86_64",
+        "target_arch": "x86_64"
+    }
+}
+
+$ redis-cli -v
+redis-cli 6.2.5
+```
 
 还需要装有 mongodb-tools 用于数据库备份，一般和 mongo 捆绑。可以用这个命令看一下装没装。
 
@@ -75,7 +79,7 @@ Go version: go1.16.3
 
 ### 起程
 
-准备好了上面的环境之后就可以把代码克隆下来了。
+准备好了上面的环境之后就可以把 mix-space 所需代码克隆下来了。
 
 ```bash
 mkdir mx-space
