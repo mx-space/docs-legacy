@@ -13,6 +13,8 @@ nav:
 
 ![Xnip2021-09-21_18-29-08](https://raw.githubusercontent.com/mx-space/docs-images/master/images/Xnip2021-09-21_18-29-08.png)
 
+> 本使用文档中的图片系直接使用Github仓库，如果你网络环境不支持加载或者加载缓慢请进行~~科学上网~~阅读文档体验更佳。
+
 ## 本地调试与开发
 
 由于是前后端分离，本地开发环境或许有点复杂。但是相信聪明的你一定可以。
