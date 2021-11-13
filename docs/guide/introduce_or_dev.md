@@ -3,7 +3,7 @@ title: 介绍
 toc: menu
 order: 1
 nav:
-  title: 指南
+  title: 目录
   order: 1
 ---
 
