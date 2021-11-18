@@ -129,7 +129,7 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 >
 >后端： server.test.cn
 
-**如果你自己不会排错，那么请自行部署好SSL证书，国内服务器，请备案以后再进行操作。**
+**如果你自己不会排错，那么请自行部署好SSL证书；国内服务器，请备案以后再进行操作。**
 
 ### 准备站点
 
