@@ -11,7 +11,7 @@ nav:
 
 这是一个与众不同的船行的个人空间，参见「[特征](./feature)」
 
-![Xnip2021-09-21_18-29-08](https://raw.githubusercontent.com/mx-space/docs-images/master/images/Xnip2021-09-21_18-29-08.png)
+![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/Xnip2021-09-21_18-29-08.png)
 
 > 本使用文档中的图片系直接使用Github仓库，如果你网络环境不支持加载或者加载缓慢请进行~~科学上网~~阅读文档体验更佳。
 
