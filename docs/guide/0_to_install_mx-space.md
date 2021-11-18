@@ -2,7 +2,7 @@
 # 从零开始的手动部署
 
 ##  前言
-此章《从零开始的手动部署》偏向于新手直接上手使用，如果你足够强可以直接看【 [部署](https://mx-docs.shizuri.net/guide/deploy) > [设置](https://mx-docs.shizuri.net/guide/setting) > [反向代理](https://mx-docs.shizuri.net/guide/reverse-proxy) 】。
+此章《从零开始的手动部署》偏向于新手直接上手使用，如果您觉得啰嗦，可以直接看【 [部署](https://mx-docs.shizuri.net/guide/deploy) > [设置](https://mx-docs.shizuri.net/guide/setting) > [反向代理](https://mx-docs.shizuri.net/guide/reverse-proxy) 】。
 
 ![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/Xnip2021-09-21_18-29-08.png)
 
@@ -230,7 +230,7 @@ pm2 logs
 
 ![](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-daili.png)
 
-代理名称随便填，目标URL`http://127.0.0.1:2333`，发送域名`$host`其他的不用填，提交保存即可。
+代理名称随便填，目标URL`http://127.0.0.1:2333`，发送域名`$host` ，其他的不用填，提交保存即可。
 
 然后我们点击左侧的 `配置文件`（网站设置）
 
@@ -318,7 +318,7 @@ pnpm build
 
 ![](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/kami-daili.png)
 
-代理名称随便填，目标URL `http://127.0.0.1:2323` ，发送域名 `$host` 其他的不用填，提交保存即可。
+代理名称随便填，目标URL `http://127.0.0.1:2323` ，发送域名 `$host` ，其他的不用填，提交保存即可。
 
 接下来输入https://kami.test.cn 看看是否正常惹。
 
