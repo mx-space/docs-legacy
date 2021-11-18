@@ -4,6 +4,8 @@
 ##  前言
 此章《从零开始的手动部署》偏向于新手直接上手使用，如果你足够强可以直接看【 [部署](https://mx-docs.shizuri.net/guide/deploy) > [设置](https://mx-docs.shizuri.net/guide/setting) > [反向代理](https://mx-docs.shizuri.net/guide/reverse-proxy) 】。
 
+![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/Xnip2021-09-21_18-29-08.png)
+
 > Tip:
 > 代码块中 //  后面的内容为注释内容，不用抄上去。
 > （）内的内容为补充内容，可以看看
@@ -226,6 +228,8 @@ pm2 logs
 
 点击 `反向代理`—`添加反向代理`
 
+![](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-daili.png)
+
 代理名称随便填，目标URL`http://127.0.0.1:2333`，发送域名`$host`其他的不用填，提交保存即可。
 
 然后我们点击左侧的 `配置文件`（网站设置）
@@ -263,6 +267,8 @@ location /socket.io {
 打开浏览器输入https://server.test.cn/qaqdmin 第一次使用会进行注册，注册完成后，重新打开后台，登录即可。
 
 详情请参阅[设置](/guide/setting)。
+
+![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/imw5ro.png)
 
 **可以尝试添加一篇测试博文、日记，友链，方便后期排错。**
 
@@ -309,6 +315,8 @@ pnpm build
 点击网站—网站，设置前端网站（kami.test.cn），
 
 点击 `反向代理` — `添加反向代理` ；
+
+![](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/kami-daili.png)
 
 代理名称随便填，目标URL `http://127.0.0.1:2323` ，发送域名 `$host` 其他的不用填，提交保存即可。
 
