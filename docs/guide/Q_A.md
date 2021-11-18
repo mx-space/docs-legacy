@@ -64,5 +64,21 @@ Q：网站名字老是在变化，怎么办？
 
 A：可以尝试点击仪表盘的清空缓存按钮。
 
+## 升级类
 
+Q：如何升级server(后端)/kami(前端)？
+
+A：进入server/kami文件夹，执行如下命令
+```bash
+git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
+pnpm i --unsafe-perm
+pnpm build
+```
+这样我们就完成了，看情况调整自己的设置，然后把server/kami拉起来吧？
+
+进入server/kami文件夹，以下两个命令任选其一。
+```bash
+yarn prod:pm2
+pm2 start
+```
 
