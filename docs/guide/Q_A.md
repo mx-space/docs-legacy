@@ -81,4 +81,4 @@ pnpm build
 yarn prod:pm2
 pm2 start
 ```
-
+**事实证明，这种方法会存在BUG，所以还是推荐把原来的文件备份后，重新拉取仓库。**
