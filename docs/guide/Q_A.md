@@ -68,4 +68,4 @@ A：可以尝试点击仪表盘的清空缓存按钮。
 
 Q：如何升级server(后端)/kami(前端)？
 
-A：重新拉取仓库，然后进行pnpm i/pnpm build，具体可以参考[新手从零部署](/guide/0_to_install_mx-space)
+A：讲原有的文件夹备份一下，例如server重命名为server.d。然后，重新拉取仓库，然后进行pnpm i/pnpm build，具体可以参考[新手从零部署](/guide/0_to_install_mx-space)
