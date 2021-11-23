@@ -1,7 +1,8 @@
 # Mix Space-Docs
 
 **Mix Space**
-## 一个另类的个人空间
+**一个另类的个人空间**
+
 ![Mix Space-Docs](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/docs-home.png)
 
 [使用文档](https://mx-docs.shizuri.net/)
