@@ -5,21 +5,7 @@
 
 ## Hello Mix Space!
 
-## 序
 
-嘿，欢迎来到这里，这是一个我自用的个人空间项目，整个系统从始至终都是开源，你甚至可以在 GitHub 上看到这个项目的所有黑历史，和各种屎山代码。
-
-此项目从去年 3 月开始立项开发以来，已经经过了无数次的迭代。后端完成重构一次，中后台管理面板重写一次。整体项目趋于稳定，代码逐渐健壮起来，大概是时候写个完整的文档了。
-
-在此之前，感谢社区贡献的文档。
-
-路还有很长，想法还有很多，逐步实现。梦想永不止步。
-
-<p style="text-align: right">Innei <br/>2021 年 09 月 19 日 19:08</p>
-
-## 关于文档
-
-没错，这就是新版的文档，还是这么简洁。本版文档由[提莫酱](https://www.timochan.cn)主写，[喵二](https://www.miaoer.xyz)补充。当然，整个项目的开发者是 [innei](https://innei.ren) 。感谢社区提出的问题及解决方案、简化许多步骤，也欢迎更多人能够参与到我们的开源社区中帮助我们优化项目。
 
 ## 前后端分离
 
@@ -72,3 +58,7 @@
   该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://raw.githubusercontent.com/mx-space/docs-images/master/images/unEHOF.png)
 
 ![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/AWpLgf.png)
+
+## 鸣谢
+
+没错，这就是新版的文档，还是这么简洁。本版文档由[提莫酱](https://www.timochan.cn)主写，[喵二](https://www.miaoer.xyz)补充。当然，整个项目的开发者是 [innei](https://innei.ren) 。感谢社区提出的问题及解决方案、帮助笔者简化许多步骤，也欢迎更多人能够参与到我们的开源社区中帮助我们优化项目。
