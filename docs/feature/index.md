@@ -39,7 +39,7 @@
 
 - 说说
 
-  说说可以用来记录一句话，或者直接保存发布一条[一言](https://hitokoto.cn/)![说说编辑](https://raw.githubusercontent.com/mx-space/docs-images/master/images/gMs43j.png)
+  说说可以用来记录一句话，或者直接保存发布一条[一言](https://hitokoto.cn/)。![说说编辑](https://raw.githubusercontent.com/mx-space/docs-images/master/images/gMs43j.png)
 
 - 友链
 
