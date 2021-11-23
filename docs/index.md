@@ -3,8 +3,8 @@ hero:
   title: Mix Space
   desc: 一个另类的个人空间
   actions:
-    - text: 快速上手
-      link: /guide/introduce_or_dev
+    - text: 开始部署项目
+      link: /index/index
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 开箱即用？不存在的
