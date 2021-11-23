@@ -1,6 +1,6 @@
 # Mix Space-Docs
 
-## Mix Space
+**Mix Space**
 ## 一个另类的个人空间
 ![Mix Space-Docs](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/docs-home.png)
 
