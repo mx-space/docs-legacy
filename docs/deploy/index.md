@@ -1,10 +1,10 @@
 ---
-title: 目录
+title: 部署
 toc: menu
-order: 1
+order: 3
 nav:
   title: 部署
-  order: 2
+  order: 3
 ---
 # 部署
 
@@ -12,38 +12,36 @@ nav:
 
 ## 后端部署
 
-| 指南             | 描述                       | 链接                        |
-| ---------------- | -------------------------- | --------------------------- |
-| Docker一键部署   | 使用Docker部署后端         | [起飞](/deploy/server/docker) |
-| 部署脚本部署     | 使用脚本部署后端           | [起飞](/deploy/server/script) |
-| 常规部署（详细） | 比较详细的常规方法部署后端 | [起飞](/deploy/server)  |
-
+- [Docker一键部署](https://docs.timochan.cn/deploy/server/easy/docker) 
+  使用Docker部署后端
+  
+- [部署脚本部署](https://docs.timochan.cn/deploy/server/easy/script)
+  使用脚本部署后端
+  
+- [常规部署（详细）](https://docs.timochan.cn/deploy/server/easy)
+  比较详细的常规方法部署后端
 ## 前端部署
 
-| 指南     | 描述                 | 链接                |
-| -------- | -------------------- | ------------------- |
-| 常规部署 | 常规部署方法         | [起飞](/deploy/kami/index) |
-| 云构建   | 使用云构建的部署方法 | [起飞](/deploy/kami/cloud) |
+- [常规部署](https://docs.timochan.cn/deploy/kami/index)
+  常规部署方法
 
+- [云构建](https://docs.timochan.cn/deploy/kami/cloud)
+  使用云构建的部署方法
+  
 ## 反向代理
 
 ### 后端
 
-| 指南      | 链接                                |
-| --------- | ----------------------------------- |
-| Nginx反代 | [起飞](/deploy/reverse-proxy/server/nginx) |
-| Caddy反代 | [起飞](/deploy/reverse-proxy/server/caddy) |
+- [Nginx反代](https://docs.timochan.cn/deploy/reverse-proxy/server/nginx) 
+
+- [Caddy反代 ](https://docs.timochan.cn/deploy/reverse-proxy/server/caddy) 
 
 ### 前端
 
-| 指南      | 链接                              |
-| --------- | --------------------------------- |
-| Nginx反代 | [起飞](/deploy/reverse-proxy/kami/nginx) |
-| Caddy反代 | [起飞](/deploy/reverse-proxy/kami/caddy) |
+- [Nginx反代](https://docs.timochan.cndeploy/reverse-proxy/kami/nginx) 
+- [Caddy反代](https://docs.timochan.cn/deploy/reverse-proxy/kami/caddy) 
 
 ## 新手快速上手前后端&反代
 
-| 指南               | 描述                 | 链接              |
-| ------------------ | -------------------- | ----------------- |
-| 新手快速上手前后端 | 新手向的详细部署步骤 | [起飞](/deploy/go) |
-
+- [新手快速上手前后端](https://docs.timochan.cn/deploy/go)
+  新手向的详细部署步骤
