@@ -1,3 +1,11 @@
+---
+title: 设置
+toc: menu
+order: 1
+nav:
+  title: 设置
+  order: 3
+---
 # 前端信息内容修改
 
 > 本节内容将带你修改前端的文件
