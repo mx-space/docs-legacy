@@ -26,4 +26,11 @@
     "prettier": "2.4.1",
     "yorkie": "2.0.0"
   }
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mx-space/docs.git",
+    "branch": "master",
+    "platform": "github"
+  }
 }
