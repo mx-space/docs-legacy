@@ -4,7 +4,7 @@ toc: menu
 order: 1
 nav:
   title: 部署
-  order: 3
+  order: 2
 ---
 # 部署
 
