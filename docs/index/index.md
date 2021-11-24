@@ -1,10 +1,10 @@
 ---
 title: 介绍
 toc: menu
-order: 1
+order: 2
 nav:
   title: 介绍
-  order: 2
+  order: 1
 ---
 # 项目介绍
 
@@ -70,7 +70,7 @@ nav:
 - 增加模块索引
 - 文档逻辑优化
 
-## 目录
+# 目录
 
 > 这就是一个目录&前言
 
@@ -84,7 +84,7 @@ nav:
 | 旧版文档 | 旧的文档                       | [走你](https://github.com/mx-space/docs/tree/master/old) |
 
 
-## 鸣谢
+# 鸣谢
 没错，这就是新版的文档，还是这么新手向。
 
 本版文档由
