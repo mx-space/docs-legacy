@@ -2,4 +2,12 @@
   "extends": [
     "config:base"
   ]
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mx-space/docs.git",
+    "branch": "master",
+    "platform": "github"
+  }
+}
 }

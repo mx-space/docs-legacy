@@ -4,7 +4,7 @@ toc: start
 order: 1
 nav:
   title: 介绍
-  order: 3
+  order: 1
 ---
 # 项目介绍
 

@@ -1,7 +1,7 @@
 ---
 title: 部署
 toc: menu
-order: 3
+order: 2
 nav:
   title: 部署
   order: 3
