@@ -1,3 +1,11 @@
+---
+title: 介绍
+toc: menu
+order: 2
+nav:
+  title: 介绍
+  order: 2
+---
 # 项目介绍
 
 > 本篇内容将会为您介绍Mix-space的基础功能展示和开源社区的贡献者，希望你能看完。 :)

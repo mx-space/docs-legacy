@@ -1,3 +1,11 @@
+---
+title: 部署
+toc: menu
+order: 3
+nav:
+  title: 部署
+  order: 3
+---
 # 部署
 
 > 本节内容是部署文档的索引
