@@ -1,4 +1,4 @@
-# Mix Space-Docs
+# Docs
 
 **Mix Space**
 
