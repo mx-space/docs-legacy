@@ -12,17 +12,17 @@ nav:
 
 ## 后端部署
 
-- [Docker一键部署](https://docs.timochan.cn/deploy/server/easy/docker) 
+- [Docker一键部署](https://docs.timochan.cn/deploy/server/docker) 
   使用Docker部署后端
   
-- [部署脚本部署](https://docs.timochan.cn/deploy/server/easy/script)
+- [部署脚本部署](https://docs.timochan.cn/deploy/server/script)
   使用脚本部署后端
   
-- [常规部署（详细）](https://docs.timochan.cn/deploy/server/easy)
+- [常规部署（详细）](https://docs.timochan.cn/deploy/server)
   比较详细的常规方法部署后端
 ## 前端部署
 
-- [常规部署](https://docs.timochan.cn/deploy/kami/index)
+- [常规部署](https://docs.timochan.cn/deploy/kami)
   常规部署方法
 
 - [云构建](https://docs.timochan.cn/deploy/kami/cloud)
@@ -32,14 +32,12 @@ nav:
 
 ### 后端
 
-- [Nginx反代](https://docs.timochan.cn/deploy/reverse-proxy/server/nginx) 
+- [后端反向代理](https://docs.timochan.cn/deploy/reverse-proxy/server)
 
-- [Caddy反代 ](https://docs.timochan.cn/deploy/reverse-proxy/server/caddy) 
 
 ### 前端
 
-- [Nginx反代](https://docs.timochan.cndeploy/reverse-proxy/kami/nginx) 
-- [Caddy反代](https://docs.timochan.cn/deploy/reverse-proxy/kami/caddy) 
+- [前端反向代理](https://docs.timochan.cndeploy/reverse-proxy/kami) 
 
 ## 新手快速上手前后端&反代
 
