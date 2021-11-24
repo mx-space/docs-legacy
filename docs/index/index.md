@@ -1,10 +1,10 @@
 ---
 title: 介绍
 toc: start
-order: 1
+order: 3
 nav:
   title: 介绍
-  order: 3
+  order: 1
 ---
 # 项目介绍
 
