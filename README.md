@@ -7,7 +7,7 @@
 
 [使用文档](https://mx-docs.shizuri.net/)
 
-[开发文档](https://docs.timochan.cn/)
+[开发测试文档](https://docs.timochan.cn/)
 
 别骂了，这份文档正在努力编写中...（；´д｀）ゞ
 
