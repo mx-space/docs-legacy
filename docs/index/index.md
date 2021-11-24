@@ -1,7 +1,7 @@
 ---
 title: 介绍
 toc: start
-order: 3
+order: 1
 nav:
   title: 介绍
   order: 1
