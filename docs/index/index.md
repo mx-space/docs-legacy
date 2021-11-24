@@ -1,4 +1,12 @@
 
+---
+title: 指南
+order: 1
+toc: menu
+nav:
+  title: 指南
+  order: 1
+---
 # 目录索引
 
 > 这就是一个目录&前言
