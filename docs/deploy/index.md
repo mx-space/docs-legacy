@@ -37,7 +37,7 @@ nav:
 
 ### 前端
 
-- [前端反向代理](https://docs.timochan.cndeploy/reverse-proxy/kami) 
+- [前端反向代理](https://docs.timochan.cn/deploy/reverse-proxy/kami) 
 
 ## 新手快速上手前后端&反代
 
