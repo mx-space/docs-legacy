@@ -60,7 +60,7 @@ nav:
 
   该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-md.png)
 
-## 前言
+## 写在目录前
 
 没错，这就是新版的文档。
 
@@ -70,7 +70,7 @@ nav:
 - 增加模块索引
 - 文档逻辑优化
 
-# 目录
+## 目录
 
 > 这就是一个目录&前言
 
