@@ -1,7 +1,7 @@
 ---
 title: 目录
 toc: menu
-order: 3
+order: 1
 nav:
   title: 部署
   order: 3
