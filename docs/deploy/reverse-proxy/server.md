@@ -95,6 +95,43 @@ location /socket.io {
 
 保存即可，重启`nginx` 。
 
+### 修改文件
+
+> 该部分的修改，仅常规部署需要进行
+
+进入`src`目录，编辑`app.config.js`
+
+在13行左右，你会发现如下内容；
+
+```typescript
+allowedOrigins: argv.allowed_origins
+    ? argv.allowed_origins?.split?.(',') || []
+    : [
+        'innei.ren',
+        'shizuri.net',
+        'localhost:9528',
+        'localhost:2323',
+        '127.0.0.1',
+        'mbp.cc',
+        'local.innei.test',
+        '22333322.xyz',
+      ],
+  // allowedReferer: 'innei.ren',
+}
+```
+
+那么想必聪明的你知道要干啥了，把域名/地址换成自己的，多余的删掉（不删也行，删掉最好）
+
+在55行左右你会发现如下内容；
+
+```typescript
+exports.SECURITY = {
+  jwtSecret: argv.jwt_secret || argv.jwtSecret || 'asjhczxiucipoiopiqm2376',
+  jwtExpire: '7d',
+```
+
+之前步骤中让你自己记的那串值(`your_favorite_string`)就用上了，把 `asjhczxiucipoiopiqm2376` 换成自己的，保存文件即可。
+
 ## 完成
 
 后端反向代理完成，打开浏览器访问https://server.test.cn/api/v2 试试，如果没问题
