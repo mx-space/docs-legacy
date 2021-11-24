@@ -39,7 +39,7 @@
 
 - 说说
 
-  说说可以用来记录一句话，或者直接保存发布一条[一言](https://hitokoto.cn/)![说说编辑](https://raw.githubusercontent.com/mx-space/docs-images/master/images/gMs43j.png)
+  说说可以用来记录一句话，或者直接保存发布一条[一言](https://hitokoto.cn/)。![说说编辑](https://raw.githubusercontent.com/mx-space/docs-images/master/images/gMs43j.png)
 
 - 友链
 
@@ -59,6 +59,15 @@
 
 ![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/AWpLgf.png)
 
-## 鸣谢
+# 鸣谢
+没错，这就是新版的文档，还是这么新手向。
 
-没错，这就是新版的文档，还是这么新手向。本版文档由[提莫酱](https://www.timochan.cn)主写，[喵二](https://www.miaoer.xyz)补充。当然，整个项目的开发者是 [innei](https://innei.ren) 。感谢社区提出的问题及解决方案、帮助笔者简化许多步骤，也欢迎更多人能够参与到我们的开源社区中帮助我们优化项目。
+本版文档由
+
+- [提莫酱](https://www.timochan.cn)主写；
+
+- [喵二](https://www.miaoer.xyz)补充；
+
+当然，整个项目的开发者是 [innei](https://innei.ren) 。
+
+感谢社区提出的问题及解决方案、帮助笔者简化许多步骤，也欢迎更多人能够参与到我们的开源社区中[帮助我们优化项目](https://github.com/mx-space)。

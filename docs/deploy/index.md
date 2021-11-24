@@ -8,22 +8,22 @@
 
 | 指南             | 描述                       | 链接                        |
 | ---------------- | -------------------------- | --------------------------- |
-| Docker一键部署   | 使用Docker部署后端         | [起飞](/server/easy/docker) |
-| 部署脚本部署     | 使用脚本部署后端           | [起飞](/server/easy/script) |
-| 常规部署（详细） | 比较详细的常规方法部署后端 | [起飞](/server/easy/index)  |
+| Docker一键部署   | 使用Docker部署后端         | [起飞](/deploy/server/easy/docker) |
+| 部署脚本部署     | 使用脚本部署后端           | [起飞](/deploy/server/easy/script) |
+| 常规部署（详细） | 比较详细的常规方法部署后端 | [起飞](/deploy/server/easy)  |
 
 ### 偏向大佬
 
 | 指南             | 描述               | 链接                         |
 | ---------------- | ------------------ | ---------------------------- |
-| 常规部署（简略） | 常规部署的简略版本 | [起飞](/server/simple/index) |
+| 常规部署（简略） | 常规部署的简略版本 | [起飞](/deploy/server/simple) |
 
 ## 前端部署
 
 | 指南     | 描述                 | 链接                |
 | -------- | -------------------- | ------------------- |
-| 常规部署 | 常规部署方法         | [起飞](/kami/index) |
-| 云构建   | 使用云构建的部署方法 | [起飞](/kami/cloud) |
+| 常规部署 | 常规部署方法         | [起飞](/deploy/kami/index) |
+| 云构建   | 使用云构建的部署方法 | [起飞](/deploy/kami/cloud) |
 
 ## 反向代理
 
@@ -31,19 +31,19 @@
 
 | 指南      | 链接                                |
 | --------- | ----------------------------------- |
-| Nginx反代 | [起飞](/reverse-proxy/server/nginx) |
-| Caddy反代 | [起飞](/reverse-proxy/server/caddy) |
+| Nginx反代 | [起飞](/deploy/reverse-proxy/server/nginx) |
+| Caddy反代 | [起飞](/deploy/reverse-proxy/server/caddy) |
 
 ### 前端
 
 | 指南      | 链接                              |
 | --------- | --------------------------------- |
-| Nginx反代 | [起飞](/reverse-proxy/kami/nginx) |
-| Caddy反代 | [起飞](/reverse-proxy/kami/caddy) |
+| Nginx反代 | [起飞](/deploy/reverse-proxy/kami/nginx) |
+| Caddy反代 | [起飞](/deploy/reverse-proxy/kami/caddy) |
 
 ## 新手快速上手前后端&反代
 
 | 指南               | 描述                 | 链接              |
 | ------------------ | -------------------- | ----------------- |
-| 新手快速上手前后端 | 新手向的详细部署步骤 | [起飞](/go/index) |
+| 新手快速上手前后端 | 新手向的详细部署步骤 | [起飞](/deploy/go) |
 
