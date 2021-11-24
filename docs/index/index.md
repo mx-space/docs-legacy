@@ -84,7 +84,7 @@ nav:
 | 旧版文档 | 旧的文档                       | [走你](https://github.com/mx-space/docs/tree/master/old) |
 
 
-# 鸣谢
+## 鸣谢
 没错，这就是新版的文档，还是这么新手向。
 
 本版文档由
