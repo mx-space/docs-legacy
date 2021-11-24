@@ -71,7 +71,7 @@ A：可以尝试点击仪表盘的清空缓存按钮。
 
 Q：如何升级server(后端)/kami(前端)？
 
-A：讲原有的文件夹备份一下，例如server重命名为server.d，然后，重新拉取仓库，然后进行pnpm i → pnpm build，具体可以参阅之前的部署文档。
+A：将原有的文件夹备份一下，例如server重命名为server.d，然后，重新拉取仓库，然后进行pnpm i → pnpm build，具体可以参阅之前的部署文档。
 
 ## 等待添加
 
