@@ -1,6 +1,10 @@
 ---
+title: 常规部署
 toc: menu
 order: 2
+nav:
+  title: 部署
+  order: 3
 ---
 # 常规部署
 
