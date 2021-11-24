@@ -5,7 +5,7 @@
 
 ## 前言
 
-没错，这就是新版的文档，还是这么简洁。本版文档由[提莫酱](https://www.timochan.cn)主写，[喵二](https://www.miaoer.xyz)补充。当然，开发者是 [innei](https://innei.ren) 。感谢社区提出的问题及解决方案，简化许多步骤，希望[Mix-space](https://github.com/mx-space)及其开发团队继续前行。
+没错，这就是新版的文档。
 
 本次主要改变：
 
