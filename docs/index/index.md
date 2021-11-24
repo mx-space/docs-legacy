@@ -22,7 +22,7 @@ nav:
 
 - 仪表盘
 
-  可以总览各类数据。一言和今日诗句来自第三方服务。![仪表盘](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/V0BRMI.png)
+  可以总览各类数据，一言和今日诗句来自第三方服务。![仪表盘](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/V0BRMI.png)
 
 - 文章
 
