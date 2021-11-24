@@ -122,7 +122,7 @@ pnpm build
 node dist/src/main.js --jwtSecret=your_favorite_string
 ```
 
-`your_favorite_string`这串值换成自己喜欢的，并记录下来。
+`your_favorite_string` 这串值换成自己喜欢的，并记录下来。
 
 ```shell
 [Nest] 8394  - 11/24/2021, 12:49:33 PM     LOG [RouterExplorer] Mapped {/api/v2/snippets/:id, PUT} route +1ms
@@ -139,7 +139,7 @@ ERROR  [MixSpaceServer]  邮件件客户端未认证                            
 
 Ctrl+C结束任务，如果没有问题的话我们继续。
 
-编辑目录下`ecosystem.config.js`
+编辑目录下 `ecosystem.config.js`
 
 将其中的内容替换为如下内容
 
@@ -224,7 +224,7 @@ pm2 logs
 
 点击 `反向代理`—`添加反向代理`
 
-![img](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-daili.png)
+![server-daili](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-daili.png)
 
 代理名称随便填，目标URL`http://127.0.0.1:2333`，发送域名`$host` ，其他的不用填，提交保存即可。
 
@@ -260,7 +260,7 @@ curl https://server.test.cn/api/v2 -H "user-agent: any"
 
 接下来，我们可以去后台看看。
 
-打开浏览器输入https://server.test.cn/qaqdmin 第一次使用会进行注册，注册完成后，重新打开后台，登录即可。
+打开浏览器输入 https://server.test.cn/qaqdmin 第一次使用会进行注册，注册完成后，重新打开后台，登录即可。
 
 稍稍设置一下，继续下一步。
 
@@ -309,11 +309,11 @@ pm2 start
 
 点击 `反向代理` — `添加反向代理` 
 
-![img](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/kami-daili.png)
+![kami-daili](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/kami-daili.png)
 
 代理名称随便填，目标URL `http://127.0.0.1:2323` ，发送域名 `$host` ，其他的不用填，提交保存即可。
 
-接下来输入[https://kami.test.cn](https://kami.test.cn/) 看看是否正常惹。
+接下来输入 https://kami.test.cn/ 看看是否正常惹。
 
 如果没问题，继续。
 
@@ -354,3 +354,5 @@ pm2那个命令也可以用，效果一样，就不赘述了。
 - 新建页面，关于页填为about
 
 或者自行修改 `configs.ts` 的地址
+
+配置完成，请尽情享受吧！
