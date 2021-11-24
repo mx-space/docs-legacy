@@ -1,13 +1,18 @@
 # Mix Space-Docs
 
 **Mix Space**
+
 **一个另类的个人空间**
 
 ![Mix Space-Docs](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/docs-home.png)
 
 [使用文档](https://mx-docs.shizuri.net/)
 
-[开发测试文档](https://docs.timochan.cn/)
+# *测试分支
+
+*测试分支文档未多人进行协商同意请勿提交主项目，不慎上传请取消。
+
+*[开发测试文档](https://docs.timochan.cn/)
 
 别骂了，这份文档正在努力编写中...（；´д｀）ゞ
 
