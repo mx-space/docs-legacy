@@ -1,5 +1,7 @@
 ---
 title: 快速部署
+toc: go
+order: 1
 nav:
   title: 萌新快速部署
   order: 3
