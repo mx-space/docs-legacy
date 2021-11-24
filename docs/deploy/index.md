@@ -14,9 +14,9 @@ nav:
 
 | 指南             | 描述                       | 链接                        |
 | ---------------- | -------------------------- | --------------------------- |
-| Docker一键部署   | 使用Docker部署后端         | [起飞](/deploy/server/easy/docker) |
-| 部署脚本部署     | 使用脚本部署后端           | [起飞](/deploy/server/easy/script) |
-| 常规部署（详细） | 比较详细的常规方法部署后端 | [起飞](/deploy/server/easy)  |
+| Docker一键部署   | 使用Docker部署后端         | [起飞](/deploy/server/docker) |
+| 部署脚本部署     | 使用脚本部署后端           | [起飞](/deploy/server/script) |
+| 常规部署（详细） | 比较详细的常规方法部署后端 | [起飞](/deploy/server)  |
 
 ## 前端部署
 
