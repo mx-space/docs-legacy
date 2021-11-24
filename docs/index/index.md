@@ -1,6 +1,6 @@
 ---
 title: 介绍
-toc: start
+toc: menu
 order: 1
 nav:
   title: 介绍
