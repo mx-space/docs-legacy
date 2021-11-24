@@ -5,7 +5,9 @@ order: 1
 nav:
   title: 介绍
   order: 1
+
 ---
+
 # 项目介绍
 
 > 本篇内容将会为您介绍Mix-space的基础功能展示和开源社区的贡献者，希望你能看完。 :)
@@ -58,9 +60,9 @@ nav:
 
 - Markdown 导入导出
 
-  该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://raw.githubusercontent.com/mx-space/docs-images/master/images/unEHOF.png)
+  该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）<img src="https://raw.githubusercontent.com/mx-space/docs-images/master/images/unEHOF.png" alt="导出页" style="zoom: 50%;" />
 
-![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/AWpLgf.png)
+<img src="https://raw.githubusercontent.com/mx-space/docs-images/master/images/AWpLgf.png" style="zoom: 50%;" />
 
 ## 前言
 
@@ -76,17 +78,18 @@ nav:
 
 > 这就是一个目录&前言
 
-| 模块     | 描述                           | 地址                                          |
-| -------- | ------------------------------ | --------------------------------------------- |
-| 介绍     | 对项目的介绍及功能展示         | [起飞](/feature)                        |
-| 部署     | 整个项目的部署方法             | [起飞](/deploy)                          |
-| 设置     | 项目的各种设置的介绍           | [起飞](/setting)                        |
-| 常见问题 | 部署中未提到的问题，收录于此   | [起飞](/help)                            |
-| 开发     | 介绍后端的接口，请求处理流程等 | [起飞](/dev)                            |
+| 模块     | 描述                           | 地址                                                     |
+| -------- | ------------------------------ | -------------------------------------------------------- |
+| 介绍     | 对项目的介绍及功能展示         | [起飞](/feature)                                         |
+| 部署     | 整个项目的部署方法             | [起飞](/deploy)                                          |
+| 设置     | 项目的各种设置的介绍           | [起飞](/setting)                                         |
+| 常见问题 | 部署中未提到的问题，收录于此   | [起飞](/help)                                            |
+| 开发     | 介绍后端的接口，请求处理流程等 | [起飞](/dev)                                             |
 | 旧版文档 | 旧的文档                       | [走你](https://github.com/mx-space/docs/tree/master/old) |
 
 
 # 鸣谢
+
 没错，这就是新版的文档，还是这么新手向。
 
 本版文档由
