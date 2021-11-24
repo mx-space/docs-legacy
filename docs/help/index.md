@@ -4,7 +4,7 @@ toc: menu
 order: 1
 nav:
   title: 帮助
-  order: 1
+  order: 4
 ---
 # 常见问题
 
