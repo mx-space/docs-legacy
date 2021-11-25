@@ -35,7 +35,7 @@ nav:
 
 - 编辑器
 
-  现支持`monaco` ， `codemirror` ，`vditor` ， `plain` 这四种编辑器，其中 `vditor` 这个编辑器获得的体验不亚于 `Typora` 。![编辑页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/ROaydk.png)![编辑器](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/manco.png)
+  现支持`monaco` ， `codemirror` ，`vditor` ， `plain` 这四种编辑器，其中 `vditor` 这个编辑器获得的体验不亚于 `Typora` 。![编辑页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/ROaydk.png)<img src="https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/manco.png" alt="编辑器" style="zoom: 80%;" />
 
 - 评论
 
@@ -47,7 +47,7 @@ nav:
 
 - 友链
 
-  在这里可以直接管理友链，新增的未审核的友链会通知到主人，主人通过之后也会邮件通知到对方。![友情链接](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-links.png)
+  在这里可以直接管理友链，新增的未审核的友链会通知到主人，主人通过之后也会邮件通知到对方。![友情链接](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-links.png)
 
 - 数据大盘
 
@@ -59,7 +59,7 @@ nav:
 
 - Markdown 导入导出
 
-  该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-md.png)
+  该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-md.png)
 
 ## 写在目录前
 
@@ -94,7 +94,6 @@ nav:
 - [喵二](https://www.miaoer.xyz)补充；
 - [623337308](https://blog.cqsjyz.com)补充；
 - [Wibus](https://github.com/wibus-wee)补充；
-
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
