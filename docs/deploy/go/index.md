@@ -1,7 +1,7 @@
 ---
 title: 快速部署
 toc: menu
-order: 5
+order: 4
 
 ---
 # 前后端&反代合集
