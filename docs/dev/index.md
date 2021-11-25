@@ -3,7 +3,7 @@ title: 开发
 toc: menu
 order: 1
 nav:
-  title: Dev
+  title: 开发
   order: 5
 ---
 
