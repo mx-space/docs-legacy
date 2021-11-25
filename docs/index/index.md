@@ -46,7 +46,7 @@ nav:
 
 - 友链
 
-  在这里可以管理友链，新增的未审核的友链会通知到主人，主人通过之后也会邮件通知到对方。![友情链接](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/2rNFVS.png)
+  在这里可以直接管理友链，新增的未审核的友链会通知到主人，主人通过之后也会邮件通知到对方。![友情链接](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/server-links.png)
 
 - 数据大盘
 
