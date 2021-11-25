@@ -8,7 +8,7 @@
 
 
 
-[使用文档](https://mx-docs.shizuri.net/)
+📖 [使用文档](https://mx-docs.shizuri.net/)
 
 **测试分支**
 
@@ -20,8 +20,7 @@
 
 别骂了，这份文档正在努力编写中...（；´д｀）ゞ
 
-# 鸣谢
-
+## 鸣谢
 没错，这就是新版的文档，还是这么新手向。
 
 本版文档由
@@ -30,6 +29,14 @@
 
 - [喵二](https://www.miaoer.xyz)补充；
 
+- [623337308](https://blog.cqsjyz.com)补充；
+
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
 感谢社区提出的问题及解决方案、帮助笔者简化许多步骤，也欢迎更多人能够参与到我们的开源社区中[帮助我们优化项目](https://github.com/mx-space)。
+
+
+## 支持
+- 使用[jsdelivr](https://www.jsdelivr.com)公益CDN进行图床加速
+
+- 使用[dumi](https://github.com/umijs/dumi)文档工具
