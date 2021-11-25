@@ -1,6 +1,6 @@
 ---
 title: 快速部署
-toc: go
+toc: menu
 order: 5
 
 ---
