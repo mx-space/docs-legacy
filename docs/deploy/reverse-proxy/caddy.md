@@ -1,5 +1,7 @@
 # Caddy2
 
+> 本节介绍使用caddy2进行反向代理
+
 ## 介绍
 
 Caddy2 自动 HTTPS 配置简单 阅读 caddy 文档请注意版本
