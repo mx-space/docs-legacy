@@ -33,7 +33,7 @@ nav:
 
 示例如下
 
-![kami-daili.png (699×519) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/kami-daili.png)
+![kami-daili.png (699×519) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/kami-daili.png)
 
 ## 完成
 
