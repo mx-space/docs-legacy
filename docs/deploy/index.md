@@ -12,7 +12,7 @@ nav:
 
 ## 后端部署
 
-- [Docker一键部署](https://mx-docs.shizuri.net//deploy/server/docker) 
+- [Docker一键部署](https://mx-docs.shizuri.net/deploy/server/docker) 
   使用Docker部署后端
   
 - [部署脚本部署](https://mx-docs.shizuri.net/deploy/server/script)
