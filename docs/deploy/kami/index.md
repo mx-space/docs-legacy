@@ -1,5 +1,5 @@
 ---
-title: 反向代理
+title: 前端部署
 toc: menu
 order: 4
 nav:
