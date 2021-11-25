@@ -94,6 +94,7 @@ nav:
 - [喵二](https://www.miaoer.xyz)补充；
 
 - [623337308](https://blog.cqsjyz.com)补充；
+- [Wibus](https://github.com/wibus-wee)补充；
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
