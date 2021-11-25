@@ -58,7 +58,7 @@ nav:
 
 示例如下
 
-![server-daili.png (699×519) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-daili.png)
+![server-daili.png (699×519) (jsdelivr.net)](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-daili.png)
 
 ### 修改站点配置文件
 
