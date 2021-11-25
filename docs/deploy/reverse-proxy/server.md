@@ -132,6 +132,11 @@ exports.SECURITY = {
 
 之前步骤中让你自己记的那串值(`your_favorite_string`)就用上了，把 `asjhczxiucipoiopiqm2376` 换成自己的，保存文件即可。
 
+修改完成，我们重现构建一下
+```bash
+pnpm build
+```
+
 ## 完成
 
 后端反向代理完成，打开浏览器访问https://server.test.cn/api/v2 试试，如果没问题
