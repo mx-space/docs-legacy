@@ -14,7 +14,7 @@ unmae -a
 
 返回如下信息
 
-```bash
+```shell
 ubuntu@VM-16-16-ubuntu:~$ uname -a
 Linux VM-16-16-ubuntu 5.4.0-77-generic #86-Ubuntu SMP Thu Jun 17 02:35:03 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
 ```
@@ -81,7 +81,7 @@ docker-compose up -d
 
 安装完成后运行`docker ps`若显示以下内容则成功
 
-```
+```shell
 CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS          PORTS                     NAMES
 4e427bce837a   innei/mx-server:latest   "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes    0.0.0.0:2333->2333/tcp    mx-server
 2e10603fb71d   mongo                    "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes    0.0.0.0:3344->27017/tcp   mongo
