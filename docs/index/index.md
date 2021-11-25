@@ -35,7 +35,7 @@ nav:
 
 - 编辑器
 
-  现支持`manco` ， `codemirror` ，`vditor` ， `plain` 这四种编辑器，其中 `vditor` 这个编辑器获得的体验不亚于 `Typora` 。![编辑页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/ROaydk.png)![编辑器](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/manco.png)
+  现支持`monaco` ， `codemirror` ，`vditor` ， `plain` 这四种编辑器，其中 `vditor` 这个编辑器获得的体验不亚于 `Typora` 。![编辑页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/ROaydk.png)![编辑器](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/manco.png)
 
 - 评论
 
