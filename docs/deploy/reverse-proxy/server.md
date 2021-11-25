@@ -135,6 +135,7 @@ exports.SECURITY = {
 修改完成，我们重现构建一下
 ```bash
 pnpm build
+yarn prod:pm2
 ```
 
 ## 完成
