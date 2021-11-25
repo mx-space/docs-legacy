@@ -228,7 +228,7 @@ pm2 logs
 
 点击 `反向代理`—`添加反向代理`
 
-![server-daili](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-daili.png)
+![server-daili](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-daili.png)
 
 代理名称随便填，目标URL`http://127.0.0.1:2333`，发送域名`$host` ，其他的不用填，提交保存即可。
 
@@ -312,7 +312,7 @@ pm2 start
 
 点击 `反向代理` — `添加反向代理` 
 
-![kami-daili](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/kami-daili.png)
+![kami-daili](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/kami-daili.png)
 
 代理名称随便填，目标URL `http://127.0.0.1:2323` ，发送域名 `$host` ，其他的不用填，提交保存即可。
 
