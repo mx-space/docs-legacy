@@ -6,17 +6,18 @@ nav:
   title: 介绍
   order: 1
 ---
+
 # 项目介绍
 
-> 本篇内容将会为您介绍Mix-space的基础功能展示和开源社区的贡献者，希望你能看完。 :)
+> 本篇内容将会为您介绍 Mix-space 的基础功能展示和开源社区的贡献者，希望你能看完。 :)
 
 ## 前后端分离
 
-没错， Mix-space采用的是前后端分离的形式，那什么是前后端分离呢？
+没错， Mix-space 采用的是前后端分离的形式，那什么是前后端分离呢？
 
 前后端分离，顾名思义，前后端将会遵循某种规范，后端的接口不变，请求方式不变，即前后端数据交换遵循的某种规范。
 
-这对前端开发将会带来极大的方便，不需要与后端在接口问题上扯皮，同时也方便了为Mix-space开发前端的人，这点我稍后再讲。
+这对前端开发将会带来极大的方便，不需要与后端在接口问题上扯皮，同时也方便了为 Mix-space 开发前端的人，这点我稍后再讲。
 
 ## 现有功能
 
@@ -30,7 +31,7 @@ nav:
 
 - 日记
 
-  可以发布，修改，删除，标记日记，同时为了方便回忆，兼备定位功能（需要配合高德地图API）。![日记](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/mAwG4T.png)
+  可以发布，修改，删除，标记日记，同时为了方便回忆，兼备定位功能（需要配合高德地图 API）。![日记](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/mAwG4T.png)
 
 - 编辑器
 
@@ -54,7 +55,7 @@ nav:
 
 - 备份
 
-  在这里可以管理备份，包括下载和直接回滚，或者上传数据文件进行恢复。（需要mongodb-tools）![备份](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/cTOSl.png)
+  在这里可以管理备份，包括下载和直接回滚，或者上传数据文件进行恢复。（需要 mongodb-tools）![备份](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/cTOSl.png)
 
 - Markdown 导入导出
 
@@ -83,20 +84,17 @@ nav:
 | 开发     | 介绍后端的接口，请求处理流程等 | [起飞](/dev)                                             |
 | 旧版文档 | 旧的文档                       | [走你](https://github.com/mx-space/docs/tree/master/old) |
 
-
 ## 鸣谢
+
 没错，这就是新版的文档，还是这么新手向。
 
 本版文档由
 
 - [提莫酱](https://www.timochan.cn)主写；
-
 - [喵二](https://www.miaoer.xyz)补充；
-
 - [623337308](https://blog.cqsjyz.com)补充；
 - [Wibus](https://github.com/wibus-wee)补充；
 
-- [Wibus](https://github.com/wibus-wee)补充；
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 

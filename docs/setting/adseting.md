@@ -17,11 +17,11 @@ order: 2
 ### 网站设置
 
 - 前端地址：即你之前前端反向代理的站点，例如 `https://www.timochan.cn`
-- API地址：即你之前后端反向代理的站点加上`api/v2`，例如 `https://server.test.cn/api/v2  `
+- API 地址：即你之前后端反向代理的站点加上`api/v2`，例如 `https://server.test.cn/api/v2 `
 - 后台地址：即你现在后台的地址，例如 `https://server.test.cn/qaqdmin`
 - Gateway 地址：即后端地址，例如 `https://server.test.cn`
 
-### SEO优化
+### SEO 优化
 
 这部分依照能走到这一步的读者的水平，应该没有问题。
 
@@ -29,19 +29,19 @@ order: 2
 
 这部分依照能走到这一步的读者的水平，应该问题不大。
 
-着重讲一下高德查询API key。
+着重讲一下高德查询 API key。
 
-这个需要在高德API上申请，大致是这样
+这个需要在高德 API 上申请，大致是这样
 
-![G7De6D](https://raw.githubusercontent.com/mx-space/docs-images/master/images/G7De6D.png)
+![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/G7De6D.png)
 
-###  评论设置
+### 评论设置
 
 这部分依照能走到这一步的读者的水平，应该没有问题。
 
 ### 邮件通知设置
 
-发件邮箱 host : 发送邮件的smtp域名，例如：`smtp.mxhichina.com`
+发件邮箱 host : 发送邮件的 smtp 域名，例如：`smtp.mxhichina.com`
 
 发件邮箱端口：一般为 `465`
 
@@ -57,9 +57,9 @@ order: 2
 
 备份是一个 Cron 任务，将会在每天凌晨自动进行。你可以在 其他 - 任务 中看到这个任务。
 
-![AfN20h](https://raw.githubusercontent.com/mx-space/docs-images/master/images/AfN20h.png)
+![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/AfN20h.png)
 
-###  百度推送
+### 百度推送
 
 该功能提供自动上传站点信息到百度，众所周知百度的收录能力过于糟糕。
 
@@ -69,7 +69,7 @@ order: 2
 注意⚠️：请先确保 系统 - 网站设置 - 前端地址 填写正确
 </Alert>
 
-![zEgXj5](https://raw.githubusercontent.com/mx-space/docs-images/master/images/zEgXj5.png)
+![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/zEgXj5.png)
 
 该功能也是一个 计划任务，一次配置每天推送，无需关心。同样可以在 其他 - 任务 中看到这个任务。
 

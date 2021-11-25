@@ -8,9 +8,9 @@
 
 Fork 这个项目 <https://github.com/Innei/mx-actions>, 然后在 Setting - Secret 中填入这些字段
 
-![XlIdQi](https://raw.githubusercontent.com/mx-space/docs-images/master/images/XlIdQi.png)
+![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/XlIdQi.png)
 
-![Jag8jc](https://raw.githubusercontent.com/mx-space/docs-images/master/images/Jag8jc.png)
+![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/Jag8jc.png)
 
 首先 SSH 到远程服务器, 新建一个 deploy 用户, 如果你有非 root 权限的用户可以忽略此步骤, 如果你坚持想用 root 账户, 请跳过此步骤.
 

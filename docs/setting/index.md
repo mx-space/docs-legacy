@@ -14,9 +14,9 @@ nav:
 
 ### 备案号 & 链接
 
-备案号、QQ跳转链接，GitHub链接等等。
+备案号、QQ 跳转链接，GitHub 链接等等。
 
-找到 ` kami` 目录下的 ` configs.ts `
+找到 `kami` 目录下的 `configs.ts`
 
 在这个文件里，作者以自己给出了示例，照着作者的修改即可。
 
@@ -28,7 +28,7 @@ nav:
 
 ## 修改背景图
 
-在`kami`  下依次找到`assets`  文件夹，在这里面找到`styles` 文件夹，编辑 `theme.scss` 文件，里面有你想要的答案。
+在 `kami` 下依次找到 `assets` 文件夹，在这里面找到 `styles` 文件夹，编辑 `theme.scss` 文件，里面有你想要的答案。
 
 ## 后续
 

@@ -17,14 +17,14 @@ Linux内核版本：>=4.18
 输入以下命令查看内核版本
 
 ```bash
-unmae -a
+uname -a
 ```
 
 ### 准备环境
 
 安装宝塔面板，安装完成后进入软件商店—运行环境中
 
-安装`redis`、`mongoDB`、`pm2管理器` 。
+安装 `redis`、`mongoDB`、`pm2管理器` 。
 
 ## 开始部署
 
@@ -32,7 +32,7 @@ unmae -a
 
 首先我们安装必备的软件包
 
-安装`pnpm` , `yarn` ,`nrm `，`pm2`
+安装 `pnpm` , `yarn` ,`nrm `，`pm2`
 
 ```bash
 npm install -g pm2 nrm pnpm yarn
@@ -119,7 +119,7 @@ node dist/src/main.js --jwtSecret=bU2-sD4_fT2-qK3-dO2hN5+iY2mV7+
 
 大概返回如下内容
 
-```json
+```bash
 [Nest] 8394  - 11/24/2021, 12:49:33 PM     LOG [RouterExplorer] Mapped {/api/v2/snippets/:id, PUT} route +1ms
 [Nest] 8394  - 11/24/2021, 12:49:33 PM     LOG [RouterExplorer] Mapped {/api/v2/snippets/:id, DELETE} route +1ms
 [Nest] 8394  - 11/24/2021, 12:49:33 PM     LOG [NestApplication] Nest application successfully started +143ms

@@ -9,7 +9,7 @@
 首先检查 Linux 内核版本
 
 ```bash
-unmae -a
+uname -a
 ```
 
 返回如下信息

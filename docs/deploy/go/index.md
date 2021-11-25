@@ -14,19 +14,19 @@ order: 4
 
 Linux内核版本 >= 4.18，内存 > 1G
 
-例如Tencent Server OS、Ubuntu20.04、Debian最新版等等，不建议使用Centos（终究是要停更的）。
+例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 Centos（终究是要停更的）。
 
 ### 安装必备软件
 
 首先，我们先去安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，用宝塔面板安装，`redis`、`mongodb`、`pm2管理器`（用于管理node.js）,`Nginx`。（在软件商店—运行环境中）
 
-**以下所有步骤，为了避免权限问题，均以root执行**
+**以下所有步骤，为了避免权限问题，均以 root 执行**
 
 安装git；
 
 ```bash
-apt install git //debian系，例如Ubuntu等,以root权限执行
-yum install git //centos
+apt install git # debian系，例如Ubuntu等,以root权限执行
+yum install git # centos
 ```
 
 验证安装；
@@ -41,9 +41,9 @@ git --version
 
 ```bash
 npm install -g yarn pnpm zx nrm pm2
-nrm ls //列出可以使用的镜像源
-nrm use npm //当你的网络环境不好的时候，可以换成其他源。注意：不要用淘宝源！！！
-例如nrm use yarn
+nrm ls # 列出可以使用的镜像源
+nrm use npm # 当你的网络环境不好的时候，可以换成其他源。注意：不要用淘宝源！！！
+# nrm use yarn
 ```
 
 验证安装是否完成
@@ -63,7 +63,7 @@ pm2 -v
 ### 克隆repo
 
 ```bash
-mkdir mx-space&&cd mx-space
+mkdir mx-space && cd mx-space
 git clone https://github.com/mx-space/kami.git --depth 1
 git clone https://github.com/mx-space/server-next.git --depth 1 server
 ```
@@ -71,7 +71,7 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 **如果网络问题，拉取仓库太慢，试试下面的镜像仓库，或者选择给服务器~~科学上网~~**
 
 ```bash
-mkdir mx-space&&cd mx-space
+mkdir mx-space && cd mx-space
 git clone https://github.com.cnpmjs.org/mx-space/kami.git --depth 1
 git clone https://github.com.cnpmjs.org/mx-space/server-next.git --depth 1 server
 ```
@@ -79,7 +79,7 @@ git clone https://github.com.cnpmjs.org/mx-space/server-next.git --depth 1 serve
 更换分支到最后一个稳定版本
 
 ```bash
-cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd ..		
+cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd ..
 cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd ..
 ```
 
@@ -89,19 +89,19 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 
 这边建议直接解析两或三个域名到服务器
 
->本文中大量使用以下假设域名，请按此替换成你配置的域名。
+> 本文中大量使用以下假设域名，请按此替换成你配置的域名。
 
->假设解析的是：
+> 假设解析的是：
 >
->前端： kami.test.cn
+> 前端： kami.test.cn
 >
->后端： server.test.cn
+> 后端： server.test.cn
 
 ### 准备站点
 
-在宝塔面板依次添加`前端` 、`后端`，填入自己的域名（即自己准备的前端，后端域名）
+在宝塔面板依次添加 `前端` 、`后端`，填入自己的域名（即自己准备的前端，后端域名）
 
-**请自行部署好SSL证书，该部分内容在前面提到过。**
+**请自行部署好 SSL 证书，该部分内容在前面提到过。**
 
 ## 部署server（后端）
 
@@ -116,7 +116,7 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 在 `server` 目录下；
 
 ```bash
-pnpm i //安装依赖，因网络环境差异可能速度不一样，可以通过切换源来解决，但！不要用淘宝源
+pnpm i # 安装依赖，因网络环境差异可能速度不一样，可以通过切换源来解决，但！不要用淘宝源
 pnpm build
 ```
 
@@ -140,8 +140,6 @@ node dist/src/main.js --jwtSecret=your_favorite_string
 ℹ [ConfigsService]  Config 已经加载完毕！                                                           11/24/21, 12:49:33
 ERROR  [MixSpaceServer]  邮件件客户端未认证                                                        11/24/21, 12:49:33
 ```
-
-
 
 Ctrl+C结束任务，如果没有问题的话我们继续。
 
@@ -193,7 +191,7 @@ allowedOrigins: argv.allowed_origins
 
 那么想必聪明的你知道要干啥了，把域名/地址换成自己的，多余的删掉（不删也行，删掉最好）
 
-在55行左右你会发现如下内容；
+在 55 行左右你会发现如下内容；
 
 ```typescript
 exports.SECURITY = {
@@ -213,7 +211,7 @@ pnpm build
 
 ```bash
 yarn prod:pm2
-或   pm2 start ecosystem.config.js
+# pm2 start ecosystem.config.js
 ```
 
 观察后端是否正常拉起；
@@ -280,16 +278,15 @@ curl https://server.test.cn/api/v2 -H "user-agent: any"
 
 添加/编辑，如下内容（没有就加上去)；
 
-```text
-NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     //server端的API地址
-NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     //server端地址
-NEXT_PUBLIC_TRACKING_ID=G-*******          //改为自己的Google分析ID
+```bash
+NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     # server端的API地址
+NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     # server端地址
+NEXT_PUBLIC_TRACKING_ID=G-*******          # 改为自己的Google分析ID
 NEXT_PUBLIC_ALWAYS_HTTPS=1
-NETEASE_PHONE=159*******4               //网易云手机号
-NETEASE_PASSWORD=bcc*******          //网易云密码
+NETEASE_PHONE=159*******4               # 网易云手机号
+NETEASE_PASSWORD=bcc*******          # 网易云密码
 ```
 
-> Tip:  //为注释，不用加上去。。
 
 ### 开始构建
 
