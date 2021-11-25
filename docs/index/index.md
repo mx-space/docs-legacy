@@ -96,6 +96,8 @@ nav:
 - [623337308](https://blog.cqsjyz.com)补充；
 - [Wibus](https://github.com/wibus-wee)补充；
 
+- [Wibus](https://github.com/wibus-wee)补充；
+
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
 感谢社区提出的问题及解决方案、帮助笔者简化许多步骤，也欢迎更多人能够参与到我们的开源社区中[帮助我们优化项目](https://github.com/mx-space)。
