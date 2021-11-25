@@ -4,7 +4,7 @@ hero:
   desc: 一个另类的个人空间
   actions:
     - text: 快速上手
-      link: /guide/introduce_or_dev
+      link: /index
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 开箱即用？不存在的
@@ -15,7 +15,7 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
     title: 指标
     desc: Kami 100% SEO && 80% Performance
-footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](https://d.umijs.org)
+footer: Open-source GPL-3.0 Licensed | Copyright © 2021<br />Powered by [dumi](https://d.umijs.org)
 ---
 
 ## Hello Mix Space!

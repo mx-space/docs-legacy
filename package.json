@@ -1,29 +1,36 @@
 {
-  "private": true,
-  "name": "dumi-app",
-  "scripts": {
-    "start": "dumi dev",
-    "build": "dumi build",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
-  },
-  "devDependencies": {
-    "dumi": "1.1.32",
-    "lint-staged": "10.5.4",
-    "prettier": "2.4.1",
-    "yorkie": "2.0.0"
+    "private": true,
+    "name": "dumi-app",
+    "scripts": {
+      "start": "dumi dev",
+      "build": "dumi build",
+      "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "typings": "dist/index.d.ts",
+    "gitHooks": {
+      "pre-commit": "lint-staged"
+    },
+    "lint-staged": {
+      "*.{js,jsx,less,md,json}": [
+        "prettier --write"
+      ],
+      "*.ts?(x)": [
+        "prettier --parser=typescript --write"
+      ]
+    },
+    "devDependencies": {
+      "dumi": "1.1.32",
+      "lint-staged": "10.5.4",
+      "prettier": "2.4.1",
+      "yorkie": "2.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mx-space/docs.git",
+      "branch": "master",
+      "platform": "github"
+    }
   }
-}
+  

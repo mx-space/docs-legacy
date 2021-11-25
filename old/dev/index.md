@@ -1,11 +1,3 @@
----
-title: 开发
-toc: menu
-order: 1
-nav:
-  title: 开发
-  order: 5
----
 
 # 开发指南
 
@@ -172,43 +164,12 @@ ResponseInterceptor -> JSONSerializeInterceptor -> CountingInterceptor -> HttpCa
 
 ### 开发
 
-安装好  `redis` 、`mongodb`
-
-克隆仓库
-
-```bash
-git clone https://github.com/mx-space/server-next.git --depth 1 server
-```
-
-更换到稳定分支
-
-```bash
-cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) && cd ..
-```
-
-构建，启动server
-
 ```
 pnpm i
 pnpm start
 ```
 
-#### API接口
-
-浏览器访问http://127.0.0.1/api-docs 可以看到server提供的API接口
-
-你还可以对每一个接口进行测试
-
-支持多种方法，POST/GET/PUT等等。
-
-#### 图形化查询
-
-http://127.0.0.1/graphql
-
 ### Reference
 
 项目参考了 [nodepress](https://github.com/surmon-china/nodepress)
 
-### 写在后面
-
-由于笔者并未Mix-space的开发者，开发文档中不详之处，建议寻求作者的帮助 [Mix-space的作者-innei](https://innei.ren)
