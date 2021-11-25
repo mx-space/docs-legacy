@@ -1,19 +1,12 @@
----
-toc: menu
-order: 3
----
+# Docker 快速部署
 
-
-
-# Docker快速部署
-
-> 本节内容将带你快速使用Dokcer部署后端
+> 本节内容将带你快速使用 Dokcer 部署后端 （将同时部署 mangoDB + redis + server）
 
 ## 准备工作
 
-本节内容以Ubuntu20.04为例子，（为什么不用Centos？因为快要停更了）
+本节内容以 Ubuntu20.04 为例子，（为什么不用 Centos？因为快要停更了）
 
-首先检查Linux内核版本
+首先检查 Linux 内核版本
 
 ```bash
 unmae -a
@@ -26,9 +19,9 @@ ubuntu@VM-16-16-ubuntu:~$ uname -a
 Linux VM-16-16-ubuntu 5.4.0-77-generic #86-Ubuntu SMP Thu Jun 17 02:35:03 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-可以看到，该系统的Linux内核版本为5.4.0 ，从测试来看，Linux内核大于4.18.0即可。
+可以看到，该系统的 Linux 内核版本为 5.4.0 ，从测试来看，Linux 内核大于 4.18.0 即可。
 
-## 开始部署
+## 开始部署 Docker
 
 > 经过测试，此方案在国内受到网络环境的影响，如果你能自行解决，将极大的减少后期的维护成本。
 
@@ -38,15 +31,15 @@ Linux VM-16-16-ubuntu 5.4.0-77-generic #86-Ubuntu SMP Thu Jun 17 02:35:03 UTC 20
 sudo apt update && sudo apt install git curl vim wget -y
 ```
 
-### 安装Dokcer&docker-compose
+### 安装 Dokcer&docker-compose
 
-然后我们安装Docker
+然后我们安装 Docker
 
 ```bash
 curl -fsSL https://get.docker.com | bash -s docker
 ```
 
-安装docker-compose
+安装 docker-compose
 
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -72,56 +65,37 @@ docker-compose --version
 
 正常输出版本号即可。
 
-### 安装node
+## 使用 Docker 部署 Server
 
-安装nvm
+为了方便管理建议将 `docker-compose.yml` 放到 `mx-space/server` 下
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+mkdir -p mx-space/server
+
+cd mx-space/server
+
+wget https://cdn.jsdelivr.net/gh/mx-space/server-next@master/docker-compose.yml
+
+docker-compose up -d
 ```
 
-配置变量环境
+安装完成后运行`docker ps`若显示以下内容则成功
 
-```bash
-source ~/.bashrc
+```
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS          PORTS                     NAMES
+4e427bce837a   innei/mx-server:latest   "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes    0.0.0.0:2333->2333/tcp    mx-server
+2e10603fb71d   mongo                    "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes    0.0.0.0:3344->27017/tcp   mongo
+1c5ab4af887b   redis                    "docker-entrypoint.s…"   9 minutes ago    Up 9 minutes    0.0.0.0:3333->6379/tcp    redis
 ```
 
-安装node16
+### 其他
+
+若第一次使用 docker 的话建议阅读
+
+服务器重启后 `docker ps` 无容器运行，可以使用 `docker ps -a`查看所有容器 再使用 `docker restart` 恢复运行
 
 ```bash
-nvm install v16.13.0
-```
-
-安装必备软件包
-
-```bash
-npm i -g yarn zx pnpm
-```
-
-### 部署后端
-
-新建文件夹
-
-```bash
-mkdir -p mx && cd mx
-```
-
-克隆仓库
-
-```bash
-git clone https://github.com/mx-space/docker 
-```
-
-进入目录
-
-```bash
-cd docker
-```
-
-构建
-
-```bash
-zx ./build.js
+docker restart <CONTAINER ID>
 ```
 
 ## 完成
