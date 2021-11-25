@@ -1,3 +1,11 @@
+---
+title: 反向代理
+toc: menu
+order: 4
+nav:
+  title: 部署
+  order: 3
+---
 # 前端部署
 
 > 本节内容将带你以常规方法部署前端
