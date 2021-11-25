@@ -9,21 +9,8 @@ order: 2
 
 ## 用户设定
 
-这个应该比较简单，稍稍注意的是，头像那里尽量不要带上参数
+这个应该比较简单，就不再赘述了。
 
-例如一个正常的头像链接为
-
-```json
-https://cdn.timochan.cn/img/avatar.jpg
-```
-
-如果加上&out参数
-
-```json
-https://cdn.timochan.cn/img/avatar.jpg&out
-```
-
-则可能导致订阅页输出异常
 
 ## 系统设定
 
