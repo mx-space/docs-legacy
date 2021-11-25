@@ -10,15 +10,7 @@
 
 📖 [使用文档](https://mx-docs.shizuri.net/)
 
-**测试分支**
-
-*<u>测试分支文档未多人进行协商同意请勿提交主项目，不慎上传请取消，改内容应该通过所有项目后进行删除。</u>*
-
-*[开发测试文档](https://docs.timochan.cn/)*
-
-![testdoge](https://bkimg.cdn.bcebos.com/pic/241f95cad1c8a7867fc887856b09c93d71cf505f?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto)
-
-别骂了，这份文档正在努力编写中...（；´д｀）ゞ
+别骂了，这份文档可能需要更努力编写（；´д｀）ゞ
 
 ## 鸣谢
 没错，这就是新版的文档，还是这么新手向。
@@ -30,6 +22,8 @@
 - [喵二](https://www.miaoer.xyz)补充；
 
 - [623337308](https://blog.cqsjyz.com)补充；
+
+- [Wibus](https://github.com/wibus-wee)补充；
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
