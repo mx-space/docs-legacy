@@ -46,7 +46,7 @@ nav:
 
 - 友链
 
-  在这里可以直接管理友链，新增的未审核的友链会通知到主人，主人通过之后也会邮件通知到对方。![友情链接](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/server-links.png)
+  在这里可以直接管理友链，新增的未审核的友链会通知到主人，主人通过之后也会邮件通知到对方。![友情链接](https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/server-links.png)
 
 - 数据大盘
 
@@ -54,7 +54,7 @@ nav:
 
 - 备份
 
-  在这里可以管理备份，包括下载和直接回滚，或者上传数据文件进行恢复。（需要mongodb-tools）![备份](https://raw.githubusercontent.com/mx-space/docs-images/master/images/0cTOSl.png)
+  在这里可以管理备份，包括下载和直接回滚，或者上传数据文件进行恢复。（需要mongodb-tools）![备份](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/cTOSl.png)
 
 - Markdown 导入导出
 
