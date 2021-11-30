@@ -20,6 +20,8 @@ nav:
 
 在这个文件里，作者以自己给出了示例，照着作者的修改即可。
 
+> 如果你想使用 QQ 跳转链接，你可能还需要到 [QQ 推广](https://shang.qq.com/)；在推广工具-个人QQ通讯组件中 2 代码里复制 如“<http://wpa.qq.com/msgrd?v=3&uin=QQ号&site=qq&menu=yes>” 到 `configs.ts`
+
 ### 标题类
 
 进入`kami` 的 `public` 文件夹，找到 `manifest.json` 照着作者的示例，修改保存即可。
