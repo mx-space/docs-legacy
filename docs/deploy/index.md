@@ -12,34 +12,34 @@ nav:
 
 ## 后端部署
 
-- [Docker一键部署](/server/docker) 
+- [Docker一键部署](/deploy/server/docker) 
   使用Docker部署后端
   
-- [部署脚本部署](/server/script)
+- [部署脚本部署](/deploy/server/script)
   使用脚本部署后端
   
-- [常规部署（详细）](/server)
+- [常规部署（详细）](/deploy/server)
   比较详细的常规方法部署后端
 ## 前端部署
 
-- [常规部署](/kami)
+- [常规部署](/deploy/kami)
   常规部署方法
 
-- [云构建](/kami/cloud)
+- [云构建](/deploy/kami/cloud)
   使用云构建的部署方法
   
 ## 反向代理
 
 ### 后端
 
-- [后端反向代理](/reverse-proxy/server)
+- [后端反向代理](/deploy/reverse-proxy/server)
 
 
 ### 前端
 
-- [前端反向代理](/reverse-proxy/kami) 
+- [前端反向代理](/deploy/reverse-proxy/kami) 
 
 ## 新手快速上手前后端&反代
 
-- [新手快速上手前后端](/go)
+- [新手快速上手前后端](/deploy/go)
   新手向的详细部署步骤
