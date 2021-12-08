@@ -27,7 +27,6 @@ nav:
 
 - [云构建](/deploy/kami/cloud)
   使用云构建的部署方法
-  
 ## 反向代理
 
 ### 后端
@@ -43,3 +42,7 @@ nav:
 
 - [新手快速上手前后端](/deploy/go)
   新手向的详细部署步骤
+
+## 后台单独部署
+
+- [后台单独部署](/deploy/reverse-proxy/admin)
