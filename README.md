@@ -1,16 +1,24 @@
-# Docs
+<div align="center">
+  
+# ![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/favicon.svg)
+Mix-Space
 
-**Mix Space**
+一个另类的个人空间
 
-**一个另类的个人空间**
+Docs
 
 ![Mix Space-Docs](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/docs-home.png)
 
 
 
-📖 [使用文档](https://mx-docs.shizuri.net/)
+📖 [使用文档](https://mx-docs.shizuri.net)
 
-别骂了，这份文档可能需要更努力编写（；´д｀）ゞ
+</div>
+
+
+
+> 这份文档可能需要更努力编写（；´д｀）ゞ
+> 如果在文中发现不妥，在文中页底右下角点击在 `GitHub 上编辑此页` 帮助我们
 
 ## 鸣谢
 没错，这就是新版的文档，还是这么新手向。
@@ -31,6 +39,6 @@
 
 
 ## 支持
-- 使用[jsdelivr](https://www.jsdelivr.com)公益CDN进行图床加速
+- 使用 [jsdelivr](https://www.jsdelivr.com) 公益CDN进行图床加速
 
-- 使用[dumi](https://github.com/umijs/dumi)文档工具
+- 使用 [dumi](https://github.com/umijs/dumi) 文档工具
