@@ -36,13 +36,14 @@ API 地址、Gateway 地址、Google分析ID、网易云手机号号、网易云
 
 找到 `kami` 目录下的 `.env`
 
-> NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     # server端的API地址
-> NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     # server端地址
-> NEXT_PUBLIC_TRACKING_ID=G-*******          # 改为自己的Google分析ID
-> NEXT_PUBLIC_ALWAYS_HTTPS=1
-> NETEASE_PHONE=159*******4               # 网易云手机号
-> NETEASE_PASSWORD=bcc*******          # 网易云密码
-
+```text
+NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     # server端的API地址
+NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     # server端地址
+NEXT_PUBLIC_TRACKING_ID=G-*******          # 改为自己的Google分析ID
+NEXT_PUBLIC_ALWAYS_HTTPS=1
+NETEASE_PHONE=159*******4               # 网易云手机号
+NETEASE_PASSWORD=bcc*******          # 网易云密码
+```
 ### 标题类
 
 进入`kami` 的 `public` 文件夹，找到 `manifest.json` 照着作者的示例，修改保存即可。
@@ -85,7 +86,7 @@ API 地址、Gateway 地址、Google分析ID、网易云手机号号、网易云
 
 在 `root/mx-space` 目录下执行以下命令
 
-```
+```bash
 git clone https://github.com/mx-space/kami.git --depth 1
 cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 ```
@@ -103,7 +104,7 @@ kami.d/config.ts
 
 然后执行编译命令，并且完成后开启
 
-```
+```bash
 pnpm i && pnpm build && pm2 start
 ```
 
@@ -113,7 +114,7 @@ pnpm i && pnpm build && pm2 start
 
 在 `root/mx-space` 目录下执行以下命令
 
-```
+```bash
 git clone https://github.com/mx-space/server-next.git --depth 1 server
 cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 ```
@@ -127,7 +128,7 @@ server.d/ecosystem.config.js
 
 然后执行编译命令，并且完成后开启
 
-```
+```bash
 pnpm i && pnpm build && pm2 start
 ```
 
@@ -196,13 +197,16 @@ export default {
   donate: 'https://afdian.net/@Innei',
 }
 ```
+
 将 `https://innei.ren` 修改为自己新域名
 
 > 如：
+> ```typescript
 > export default {
 >  url: 'https://www.miaoer.xyz',
 >  alwaysHTTPS:
 >  ...... //此处省略
+>  ```
 
 > 如果你修改了后端地址也记得修改 `kami` 目录下的 `.env` 中的 Server & Gateway 地址
 
