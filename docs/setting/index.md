@@ -64,7 +64,7 @@ NETEASE_PASSWORD=bcc*******          # 网易云密码
 
 ![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/telegram-icon-fapaperplane.png)
 
-> 如RSS订阅
+> 如RSS订阅:
 > ```typescript
 > {
 >    url: 'https://innei.ren/atom.xml',
@@ -91,7 +91,7 @@ git clone https://github.com/mx-space/kami.git --depth 1
 cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 ```
 
-然后将以下文件进行文件替换,将刚刚备份的 `kami.d` 目录下的文件复制回去更新后的 `kami` 目录
+然后将以下文件进行文件替换,将刚刚备份的 `kami.d` 目录下的文件复制回去更新后的 `kami` 目录；
 
 ```
 kami.d/public/manifest.json
@@ -99,10 +99,10 @@ kami.d/.env
 kami.d/config.ts
 ```
 
-> 假如你在 `kami.d/public` 塞了别的东西同理，可以将整个 `public` 复制到更新后的 `kami` 目录
+> 假如你在 `kami.d/public` 塞了别的东西同理，可以将整个 `public` 复制到更新后的 `kami` 目录，
 > 开发者并不建议在 `public` 下进行别的操作仅供参考咯。
 
-然后执行编译命令，并且完成后开启
+然后执行编译命令，并且完成后开启。
 
 ```bash
 pnpm i && pnpm build && pm2 start
@@ -119,14 +119,14 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 ```
 
-然后将以下文件进行文件替换,将刚刚备份的 `server.d` 目录下的文件复制回去更新后的 `server` 目录
+然后将以下文件进行文件替换,将刚刚备份的 `server.d` 目录下的文件复制回去更新后的 `server` 目录；
 
 ```
 server.d/src/app.config.js
 server.d/ecosystem.config.js
 ```
 
-然后执行编译命令，并且完成后开启
+然后执行编译命令，并且完成后开启。
 
 ```bash
 pnpm i && pnpm build && pm2 start
