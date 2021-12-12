@@ -279,12 +279,12 @@ curl https://server.test.cn/api/v2 -H "user-agent: any"
 添加/编辑，如下内容（没有就加上去)；
 
 ```bash
-NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     # server端的API地址
-NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     # server端地址
-NEXT_PUBLIC_TRACKING_ID=G-*******          # 改为自己的Google分析ID
+NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     #后端的API地址，可以为IP（调试），域名（正式使用）
+NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     #后端地址，可以为IP（调试），域名（正式使用）
+NEXT_PUBLIC_TRACKING_ID=G-*******          #改为自己的Google分析ID
 NEXT_PUBLIC_ALWAYS_HTTPS=1
-NETEASE_PHONE=159*******4               # 网易云手机号
-NETEASE_PASSWORD=bcc*******          # 网易云密码
+NETEASE_PHONE=159*******4               #网易云手机号
+NETEASE_PASSWORD=bcc*******          #网易云密码
 ```
 
 

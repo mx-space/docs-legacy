@@ -42,24 +42,26 @@ cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 
 ### 准备构建
 
-复制示例文件，或者新建一个名为 `.env`的文本文件
+复制示例文件
 
 ```bash
 cp .env.example .env
 ```
 
+或者新建一个名为 `.env`的文本文件
+
 编辑该文件，这是相对完整的示例，请按需修改为自己的
 
-```text
-NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     //后端的API地址，可以为IP（调试），域名（正式使用）
-NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     //后端地址，可以为IP（调试），域名（正式使用）
-NEXT_PUBLIC_TRACKING_ID=G-*******          //改为自己的Google分析ID
+```bash
+NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2     #后端的API地址，可以为IP（调试），域名（正式使用）
+NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn     #后端地址，可以为IP（调试），域名（正式使用）
+NEXT_PUBLIC_TRACKING_ID=G-*******          #改为自己的Google分析ID
 NEXT_PUBLIC_ALWAYS_HTTPS=1
-NETEASE_PHONE=159*******4               //网易云手机号
-NETEASE_PASSWORD=bcc*******          //网易云密码
+NETEASE_PHONE=159*******4               #网易云手机号
+NETEASE_PASSWORD=bcc*******          #网易云密码
 ```
 
-> //后面的是注释，请不要抄上去
+> #后面的是注释，请不要抄上去
 
 ### 开始构建
 
