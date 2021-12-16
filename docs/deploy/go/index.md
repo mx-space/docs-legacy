@@ -2,6 +2,9 @@
 title: 快速部署
 toc: menu
 order: 4
+nav:
+  title: 快速部署
+  order: 3
 ---
 
 # 快速部署
