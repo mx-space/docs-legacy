@@ -2,9 +2,6 @@
 title: 快速部署
 toc: menu
 order: 4
-nav:
-  title: 快速部署
-  order: 3
 ---
 
 # 快速部署
@@ -18,9 +15,11 @@ nav:
 
 ### 系统
 
-Linux内核版本 >= 4.18，内存 > 1G
+Linux内核版本 > 4.18，内存 > 1G
 
 例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 Centos（终究是要停更的）。
+
+**推荐使用更新版本的Linux内核，目前只有 Tencent Server OS 能用4.18 Linux 内核进行部署**
 
 ### 安装必备软件
 
