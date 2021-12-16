@@ -2,9 +2,14 @@
 
 > 本节内容将带你快速使用 Dokcer 部署后端 （将同时部署 mangoDB + redis + server）
 
-## 准备工作
+## 准备部署
 
-本节内容以 Ubuntu20.04 为例子，（为什么不用 Centos？因为快要停更了）
+Linux内核版本 > 4.18，内存 > 1G
+
+例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 Centos（终究是要停更的）。
+
+**推荐使用更新版本的Linux内核，目前只有 Tencent Server OS 能用4.18 Linux 内核进行部署**
+
 
 首先检查 Linux 内核版本
 
