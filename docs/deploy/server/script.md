@@ -58,7 +58,7 @@ jwtSecret：随机值，你喜欢就行。
 
 allowed_origins：这里填写你的前端地址。
 
-以innei.ren举例
+以 innei.ren 举例
 
 ```bash
 node server-deploy.js --jwtSecret=c0f1b6a831c399e2 --allowed_origins=innei.ren
@@ -66,7 +66,7 @@ node server-deploy.js --jwtSecret=c0f1b6a831c399e2 --allowed_origins=innei.ren
 
 ## 后端部署完成
 
-使用curl测试是否正常
+使用 curl 测试是否正常
 
 ```bash
 curl http://localhost:2333/api/v2 -H "user-agent: any"
