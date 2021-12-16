@@ -4,7 +4,11 @@
 
 ## 准备部署
 
-系统准备：Linux内核版本大于 4.18，内存大于 1G，且宝塔支持的比较好的 Linux 发行版本。推荐安装 Tencent Server OS 3.1，Ubuntu20.04，以及 Debian 等 Linux 发行版的最新版本。 
+Linux内核版本 > 4.18，内存 > 1G
+
+例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 Centos（终究是要停更的）。
+
+**推荐使用更新版本的Linux内核，目前只有 Tencent Server OS 能用4.18 Linux 内核进行部署**
 
 ### 安装宝塔面板
 
