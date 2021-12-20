@@ -81,8 +81,10 @@ cd mx-space/server
 
 wget https://cdn.jsdelivr.net/gh/mx-space/server-next@master/docker-compose.yml
 
-docker-compose up -d
+wget https://cdn.jsdelivr.net/gh/mx-space/server-next@master/.env.example -O .env
 ```
+
+并修改.env文件，将自己的域名添加至ALLOWED_ORIGINS中,之后使用`docker-compose up -d`安装
 
 安装完成后运行`docker ps`若显示以下内容则成功
 
@@ -102,6 +104,8 @@ CONTAINER ID   IMAGE                    COMMAND                  CREATED        
 ```bash
 docker restart <CONTAINER ID>
 ```
+
+修改`.env`文件后，可使用`docker-compose up -d`更新容器
 
 ## 完成
 
