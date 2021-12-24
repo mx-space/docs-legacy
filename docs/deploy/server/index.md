@@ -12,7 +12,11 @@ nav:
 
 ### 系统要求
 
-Linux内核版本：> 4.18
+<Alert type="info">
+
+Linux内核版本 > 4.18，建议使用5.X版本的内核；内存 > 1GiB
+
+</Alert>
 
 例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 Centos（终究是要停更的）。
 
