@@ -49,7 +49,7 @@ git --version
 然后我们继续
 
 ```bash
-npm install -g yarn pnpm zx nrm pm2
+npm install -g yarn pnpm nrm pm2
 nrm ls # 列出可以使用的镜像源
 nrm use npm # 当你的网络环境不好的时候，可以换成其他源。注意：不要用淘宝源！！！
 # nrm use yarn
