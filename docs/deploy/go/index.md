@@ -110,7 +110,11 @@ cd server && git fetch --tags && git checkout $(git rev-list --tags --max-count=
 
 在宝塔面板依次添加 `前端` 、`后端`，填入自己的域名（即自己准备的前端，后端域名）
 
-**请自行部署好 SSL 证书，该部分内容在前面提到过。**
+<Alert type="info">
+
+**请自行部署SSL证书 ，[前文中提到过 ](/deploy/reverse-proxy/server#ssl证书) 。**
+
+</Alert>
 
 ## 部署server（后端）
 
