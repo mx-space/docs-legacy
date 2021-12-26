@@ -45,7 +45,19 @@ pnpm build
 
 ### 复制
 
-`dist` 目录中存放着构建出的文件，将该目录下的所有文件复制到 `admin.test.cn` 的网站根目录下，访问 https://admin.test.cn 大功告成。
+`dist`  目录中存放着构建出的文件，将该目录下的所有文件复制到 `admin.test.cn` 的网站根目录下成。
+
+或者使用
+
+```
+cp -rf dist/* /www/wwwroot/admin.test.cn/
+```
+
+访问 https://admin.test.cn 
+
+大功告成！
+
+
 
 ## 完成
 
