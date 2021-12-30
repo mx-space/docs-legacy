@@ -97,6 +97,7 @@ cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 kami.d/public/manifest.json
 kami.d/.env
 kami.d/config.ts
+kami.d/utils/images.ts
 ```
 
 > 假如你在 `kami.d/public` 塞了别的东西同理，可以将整个 `public` 复制到更新后的 `kami` 目录，
