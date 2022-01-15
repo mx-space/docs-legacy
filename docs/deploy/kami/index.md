@@ -40,7 +40,7 @@ cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 
 复制 `.env.example`  为 `.env` ，按照自己的情况配置前后端，一个配置示例如下：
 
-```jsx
+```text
 NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2
 NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn
 NEXT_PUBLIC_SNIPPET_NAME=kami
