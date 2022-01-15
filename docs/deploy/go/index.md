@@ -290,7 +290,7 @@ curl https://server.test.cn/api/v2 -H "user-agent: any"
 
 以下 `前端部署方法` 仅适用于 2.x 版本及以下。
 
-[v2 版本部署](/deploy/kami)
+[v3 版本部署](/deploy/kami)
 
 </Alert>
 
