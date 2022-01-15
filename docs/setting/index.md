@@ -20,6 +20,10 @@ nav:
 
 ## 信息类
 
+<Alert type="info">
+⚠️ 以下设置可能在 Kami v3 被整合到别的地方了，如果你是 v3 用户请参考 https://mx-docs.shizuri.net/deploy/kami 。
+</Alert>
+
 ### 备案号 & 链接
 
 备案号、QQ 跳转链接，GitHub 链接等等。
