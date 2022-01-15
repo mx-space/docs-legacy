@@ -286,7 +286,9 @@ curl https://server.test.cn/api/v2 -H "user-agent: any"
 ## 部署前端
 
 <Alert type="info">
-注意⚠️：kami已经发布 v2 版本，具体版本号为 3.X，以下 `前端部署方法` 仅适用于 2.x 版本及以下。
+注意⚠️：kami已经发布 v3 版本，具体版本号为 3.X。
+
+以下 `前端部署方法` 仅适用于 2.x 版本及以下。
 
 [v2 版本部署](/deploy/kami)
 
