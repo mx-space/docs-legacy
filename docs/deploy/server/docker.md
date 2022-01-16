@@ -50,9 +50,9 @@ curl -fsSL https://get.docker.com | bash -s docker
 
 安装 docker-compose
 
-```bash
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-```
+在GitHub上找 [Release v2.2.3 · docker/compose (github.com)](https://github.com/docker/compose/releases/tag/v2.2.3) ，找到最新的 `tag`
+
+然后下载 `docker-compose-linux-x86_64` ，上传到 `/usr/local/bin/` 这个目录
 
 给予执行权限
 
