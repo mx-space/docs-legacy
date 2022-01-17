@@ -23,4 +23,16 @@ export default defineConfig({
 
   gtag('config', 'G-GR9HXW9G5K');`,
   ],
+  exportStatic: {},
+  styles: [
+    `kbd {
+      margin: 0 0.2em;
+      padding: 0.15em 0.4em 0.1em;
+      font-size: 90%;
+      background: rgba(150,150,150,.06);
+      border: 1px solid rgba(100,100,100,.2);
+      border-bottom-width: 2px;
+      border-radius: 3px;
+  }`,
+  ],
 });

@@ -14,14 +14,14 @@ nav:
 
 ### 排版
 
-在 Mix-space 中我们使用了 [Kico Style](https://works.paugram.com/style) 是一个简洁轻盈的前端框架，由 [奇趣保罗](https://paul.ren) 开发，你可以在这里找到各种样式并且应用上博客中。
+文章排版参考了 [Typora-theme-shizuku](https://github.com/rikumi/shizuku-typora-theme)，在原有基础上做了修改，感谢 Rikumi 的开源。
 
-> 📖 [阅读样式](https://works.paugram.com/style/wrap.html)
-
-## 信息类
+## 信息类 <Badge>过时的</Badge>
 
 <Alert type="info">
 ⚠️ 以下设置可能在 Kami v3 被整合到别的地方了，如果你是 v3 用户请参考 https://mx-docs.shizuri.net/deploy/kami 。
+
+以下修改不建议，因为在 v3 可以动态配置。
 </Alert>
 
 ### 备案号 & 链接
@@ -138,7 +138,7 @@ server.d/ecosystem.config.js
 pnpm i && pnpm build && pm2 start
 ```
 
-## 域名更换
+## 域名更换 <Badge>过时的</Badge>
 
 在遇到域名过期或者购置新域名时，需要修改前后端设置才能生效
 
