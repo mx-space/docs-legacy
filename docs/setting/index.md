@@ -19,9 +19,11 @@ nav:
 ## 信息类 <Badge>过时的</Badge>
 
 <Alert type="info">
+<p>
 ⚠️ 以下设置可能在 Kami v3 被整合到别的地方了，如果你是 v3 用户请参考 https://mx-docs.shizuri.net/deploy/kami 。
 
 以下修改不建议，因为在 v3 可以动态配置。
+</p>
 </Alert>
 
 ### 备案号 & 链接
