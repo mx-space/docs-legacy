@@ -8,9 +8,15 @@ nav:
 ---
 # 前端后端设置
 
-> 本节内容将带你修改前端后端的文件，修改前做好相关备份，做到心中有数！
+> 本节有许多内容已经过时，等待重新整理ing
 
 ## 文章类
+
+### 样式
+
+ Mix-space 的 Kami 借鉴并使用了 [Kico Style](https://works.paugram.com/style) 前端框架，由 [奇趣保罗](https://paul.ren) 开发。
+
+使用方法参考：[开始 - Kico Style ](https://works.paugram.com/style/)
 
 ### 排版
 
@@ -19,8 +25,11 @@ nav:
 ## 信息类 <Badge>过时的</Badge>
 
 <Alert type="info">
+
 <p>
-⚠️ 以下设置可能在 Kami v3 被整合到别的地方了，如果你是 v3 用户请参考 https://mx-docs.shizuri.net/deploy/kami 。
+⚠️ 以下设置可能在 Kami v3 被整合到别的地方了
+
+如果你是 v3 用户请参考 [https://mx-docs.shizuri.net/deploy/kami](https://mx-docs.shizuri.net/deploy/kami) 。
 
 以下修改不建议，因为在 v3 可以动态配置。
 </p>

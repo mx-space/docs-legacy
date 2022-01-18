@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 # ![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/favicon.svg)
 Mix-Space
 
@@ -26,12 +26,10 @@ Docs
 本版文档由
 
 - [提莫酱](https://www.timochan.cn)主写；
-
 - [喵二](https://www.miaoer.xyz)补充；
-
 - [623337308](https://blog.cqsjyz.com)补充；
-
 - [Wibus](https://github.com/wibus-wee)补充；
+- [zsbai](https://github.com/zsbai) 补充；
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
