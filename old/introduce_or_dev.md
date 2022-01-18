@@ -86,7 +86,7 @@ Go version: go1.16.3
 ```bash
 mkdir mx-space
 git clone https://github.com/mx-space/kami.git --depth 1
-git clone https://github.com/mx-space/admin.git --depth 1 admin
+git clone https://github.com/mx-space/admin-next.git --depth 1 admin
 git clone https://github.com/mx-space/server-next.git --depth 1 server
 
 # 以下可选，但是建议，更换分支到最后一个稳定版本

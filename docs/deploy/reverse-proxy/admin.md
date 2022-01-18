@@ -9,7 +9,7 @@
 ### 拉取仓库
 
 ```bash
-git clone https://github.com/mx-space/admin.git --depth 1 admin
+git clone https://github.com/mx-space/admin-next.git --depth 1 admin
 ```
 
 ### 安装依赖
@@ -28,7 +28,7 @@ VITE_APP_BASE_API=https://server.test.cn/api/v2            #API地址
 VITE_APP_WEB_URL=https://kami.test.cn						   #前端地址
 VITE_APP_GATEWAY=https://server.test.cn					#API网关地址
 VITE_APP_LOGIN_BG=https://gitee.com/xun7788/my-imagination/raw/master/images/88426823_p0.jpg #后台登陆背景图地址
-# VITE_APP_PUBLIC_URL=https://cdn.jsdelivr.net/gh/mx-space/admin@gh-pages/
+# VITE_APP_PUBLIC_URL=https://cdn.jsdelivr.net/gh/mx-space/admin-next@gh-pages/
 ```
 
 找到目录下的 `index.html` 修改你想修改的内容，例如 `title` 。

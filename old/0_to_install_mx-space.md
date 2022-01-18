@@ -88,7 +88,7 @@ pm2 -v
 ```bash
 mkdir mx-space&&cd mx-space
 git clone https://github.com/mx-space/kami.git --depth 1
-git clone https://github.com/mx-space/admin.git --depth 1 admin //可选
+git clone https://github.com/mx-space/admin-next.git --depth 1 admin //可选
 git clone https://github.com/mx-space/server-next.git --depth 1 server
 ```
 
@@ -97,7 +97,7 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 ```bash
 mkdir mx-space&&cd mx-space
 git clone https://github.com.cnpmjs.org/mx-space/kami.git --depth 1
-git clone https://github.com.cnpmjs.org/mx-space/admin.git --depth 1 admin //可选
+git clone https://github.com.cnpmjs.org/mx-space/admin-next.git --depth 1 admin //可选
 git clone https://github.com.cnpmjs.org/mx-space/server-next.git --depth 1 server
 ```
 

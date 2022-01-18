@@ -12,7 +12,7 @@
 - **SSR Blog**:
   - [Kami](https://github.com/mx-space/kami) powered by NextJS (一个走可爱风路线的个人空间)
   - 未来会变多吗
-- **Admin**: [Admin](https://github.com/mx-space/admin)
+- **Admin**: [Admin](https://github.com/mx-space/admin-next)
 - 未来可期
 
 接口文档通过开发环境 Swagger 查阅，接口大概有 120+ 个
