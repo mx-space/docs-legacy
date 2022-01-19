@@ -83,11 +83,11 @@ nav:
 
 本版文档由以下贡献者编写
 
-- [提莫酱](https://www.timochan.cn)；
-- [喵二](https://www.miaoer.xyz)；
-- [623337308](https://blog.cqsjyz.com)；
-- [Wibus](https://github.com/wibus-wee)；
-- [zsbai](https://github.com/zsbai) ；
+- [提莫酱](https://www.timochan.cn)
+- [喵二](https://www.miaoer.xyz)
+- [623337308](https://blog.cqsjyz.com)
+- [Wibus](https://github.com/wibus-wee)
+- [zsbai](https://github.com/zsbai) 
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 

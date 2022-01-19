@@ -23,13 +23,13 @@ Docs
 ## 鸣谢
 没错，这就是新版的文档，还是这么新手向。
 
-本版文档由
+本版文档由以下贡献者编写
 
-- [提莫酱](https://www.timochan.cn)主写；
-- [喵二](https://www.miaoer.xyz)补充；
-- [623337308](https://blog.cqsjyz.com)补充；
-- [Wibus](https://github.com/wibus-wee)补充；
-- [zsbai](https://github.com/zsbai) 补充；
+- [提莫酱](https://www.timochan.cn)
+- [喵二](https://www.miaoer.xyz)
+- [623337308](https://blog.cqsjyz.com)
+- [Wibus](https://github.com/wibus-wee)
+- [zsbai](https://github.com/zsbai) 
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
