@@ -542,3 +542,10 @@ Google Analyze ID。
 - Default: `false`
 
 跳转地址。
+
+#### function.ban_devtool.enable
+
+- Type: `string`
+- Default: `false`
+
+开启 [devtools-detector](https://github.com/AEPKILL/devtools-detector)
