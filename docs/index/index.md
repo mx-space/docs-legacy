@@ -71,8 +71,6 @@ nav:
 
 ## 目录
 
-> 这就是一个目录&前言
-
 | 模块     | 描述                           | 地址                                                     |
 | -------- | ------------------------------ | -------------------------------------------------------- |
 | 部署     | 整个项目的部署方法             | [起飞](/deploy)                                          |
@@ -83,14 +81,13 @@ nav:
 
 ## 鸣谢
 
-没错，这就是新版的文档，还是这么新手向。
+本版文档由以下贡献者编写
 
-本版文档由
-
-- [提莫酱](https://www.timochan.cn)主写；
-- [喵二](https://www.miaoer.xyz)补充；
-- [623337308](https://blog.cqsjyz.com)补充；
-- [Wibus](https://github.com/wibus-wee)补充；
+- [提莫酱](https://www.timochan.cn)；
+- [喵二](https://www.miaoer.xyz)；
+- [623337308](https://blog.cqsjyz.com)；
+- [Wibus](https://github.com/wibus-wee)；
+- [zsbai](https://github.com/zsbai) ；
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
