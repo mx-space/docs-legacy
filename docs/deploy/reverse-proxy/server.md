@@ -68,7 +68,7 @@ nav:
 
 在这个字段上面添加如下内容
 
-```nginx
+```conf
 location /socket.io {
     proxy_http_version 1.1;
     proxy_buffering off;
@@ -80,7 +80,7 @@ location /socket.io {
 
 那么局部配置文件示例应该如下，这个不用抄。
 
-```nginx
+```conf
 location /socket.io {
     proxy_http_version 1.1;
     proxy_buffering off;
