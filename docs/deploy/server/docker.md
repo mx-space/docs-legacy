@@ -12,9 +12,7 @@ Linux内核版本 > 4.18，建议使用5.X版本的内核；内存 > 1GiB
 
 例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 Centos（终究是要停更的）。
 
-**推荐使用更新版本的Linux内核，目前只有 Tencent Server OS 能用4.18 Linux 内核进行部署**。
-
-**如果你使用的是轻量应用服务器，直接选择 `docker` 容器版本，系统为 `Ubuntu` 即可。 **
+**推荐使用更新版本的Linux内核，目前只有 Tencent Server OS 能用4.18 Linux 内核进行部署，如果你使用的是轻量应用服务器，直接选择 `docker` 容器版本，系统为 `Ubuntu` 即可。**
 
 
 首先检查 Linux 内核版本
