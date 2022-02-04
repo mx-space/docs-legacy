@@ -12,11 +12,9 @@ nav:
 
 ## 文章类
 
-### 样式
+### 样式 <Badge>已弃用</Badge>
 
- Mix-space 的 Kami 借鉴并使用了 [Kico Style](https://works.paugram.com/style) 前端框架，由 [奇趣保罗](https://paul.ren) 开发。
-
-使用方法参考：[开始 - Kico Style ](https://works.paugram.com/style/)
+Mix-space 的 Kami 借鉴并使用了 [Kico Style](https://works.paugram.com/style) 前端框架，由 [奇趣保罗](https://paul.ren) 开发。
 
 ### 排版
 
