@@ -9,7 +9,7 @@
 ### 拉取仓库
 
 ```bash
-git clone https://github.com/mx-space/admin-next.git --depth 1 admin
+git clone https://github.com/mx-space/mx-admin.git --depth 1 admin
 ```
 
 ### 安装依赖

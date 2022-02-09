@@ -43,7 +43,7 @@ cd mx
 ```bash
 npm i -g zx pm2
 npm init -y
-wget -O server-deploy.js https://cdn.jsdelivr.net/gh/mx-space/server-next@master/scripts/deploy.js
+wget -O server-deploy.js https://cdn.jsdelivr.net/gh/mx-space/mx-server@master/scripts/deploy.js
 ```
 
 ## 开始部署

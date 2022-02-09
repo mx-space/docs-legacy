@@ -69,14 +69,14 @@ nrm use npm
 
 ```bash
 mkdir mx-space&&cd mx-space
-git clone https://github.com/mx-space/server-next.git --depth 1 server
+git clone https://github.com/mx-space/mx-server.git --depth 1 server
 ```
 
 **镜像仓库**
 
 ```bash
 mkdir mx-space&&cd mx-space
-git clone https://github.com.cnpmjs.org/mx-space/server-next.git --depth 1 server
+git clone https://github.com.cnpmjs.org/mx-space/mx-server.git --depth 1 server
 ```
 
 更换分支到最后一个稳定版本

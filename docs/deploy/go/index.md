@@ -75,7 +75,7 @@ pm2 -v
 ```bash
 mkdir mx-space && cd mx-space
 git clone https://github.com/mx-space/kami.git --depth 1
-git clone https://github.com/mx-space/server-next.git --depth 1 server
+git clone https://github.com/mx-space/mx-server.git --depth 1 server
 ```
 
 **如果网络问题，拉取仓库太慢，试试下面的镜像仓库，或者选择给服务器~~科学上网~~**
@@ -83,7 +83,7 @@ git clone https://github.com/mx-space/server-next.git --depth 1 server
 ```bash
 mkdir mx-space && cd mx-space
 git clone https://github.com.cnpmjs.org/mx-space/kami.git --depth 1
-git clone https://github.com.cnpmjs.org/mx-space/server-next.git --depth 1 server
+git clone https://github.com.cnpmjs.org/mx-space/mx-server.git --depth 1 server
 ```
 
 更换分支到最后一个稳定版本
@@ -437,7 +437,7 @@ pm2 那个命令也可以用，效果一样，就不赘述了。
 ### 拉取仓库
 
 ```bash
-git clone https://github.com/mx-space/admin-next.git --depth 1 admin
+git clone https://github.com/mx-space/mx-admin.git --depth 1 admin
 ```
 
 ### 安装依赖
