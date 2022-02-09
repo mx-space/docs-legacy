@@ -40,9 +40,7 @@ Linux VM-16-16-ubuntu 5.4.0-77-generic #86-Ubuntu SMP Thu Jun 17 02:35:03 UTC 20
 sudo apt update && sudo apt install git curl vim wget -y
 ```
 
-### 安装 Dokcer&docker-compose
-
-然后我们安装 Docker
+### 安装 Dokcer
 
 > 如果你使用的是轻量应用服务器的 docker 镜像，该步骤可以跳过。
 
@@ -50,7 +48,7 @@ sudo apt update && sudo apt install git curl vim wget -y
 curl -fsSL https://get.docker.com | bash -s docker
 ```
 
-安装 docker-compose
+### 安装 docker-compose
 
 在GitHub上找 [Release v2.2.3 · docker/compose (github.com)](https://github.com/docker/compose/releases/tag/v2.2.3) ，找到最新的 `tag`
 
