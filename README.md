@@ -7,7 +7,7 @@ Mix-Space
 
 Docs
 
-![Mix Space-Docs](https://cdn.jsdelivr.net/gh/timochan-blog/docs@latest/docs/images/docs-home.png)
+![Mix Space-Docs](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/docs-home.png)
 
 
 
