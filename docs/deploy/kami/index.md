@@ -77,6 +77,10 @@ npm run build
 pm2 start ecosystem.config.js
 ```
 
+### 搜索
+
+kami V3 已经搜索功能已经完成，具体配置方法请参考，[后台设置-algolia](/setting/adseting)。
+
 ## （可选）配置项
 
 配置项用于自定义部分文案和 UI 视觉。

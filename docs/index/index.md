@@ -35,7 +35,7 @@ nav:
 
 - 编辑器
 
-  现支持`monaco` ， `codemirror` ，`vditor` ， `plain` 这四种编辑器，其中 `vditor` 这个编辑器获得的体验不亚于 `Typora` 。![编辑页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/ROaydk.png)<img src="https://cdn.jsdelivr.net/gh/mx-space/docs@latest/docs/images/manco.png" alt="编辑器" style="zoom: 80%;" />
+  现支持`monaco` ， `codemirror` ，`vditor` ， `plain` 这四种编辑器，其中 `vditor` 这个编辑器获得的体验不亚于 `Typora` 。![编辑页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/ROaydk.png)
 
 - 评论
 
@@ -60,6 +60,10 @@ nav:
 - Markdown 导入导出
 
   该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-md.png)
+
+
+
+- ​	搜索功能，基于 aligo search，在前端唤出搜索框 `Command` +`K` 或者 `/` 。注意：Windows下为 `Ctrl` + ` K` 或者 `/` 
 
 ## 写在目录前
 
