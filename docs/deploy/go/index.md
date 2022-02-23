@@ -26,7 +26,10 @@ Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 
 ### 安装必备软件
 
-> 如果你不熟悉Linux OR 懒人，推荐开发者写好的 docker-compose ，后期维护极为方便。[Docker部署后端](/deploy/server/docker)
+<Alert type="info">
+如果你不熟悉Linux OR 懒人，推荐开发者写好的 docker-compose ，后期维护极为方便。[Docker部署后端](/deploy/server/docker)
+
+</Alert>
 
 首先，我们先去安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，用宝塔面板安装，`redis`、`mongodb`、`pm2管理器`（用于管理 node.js）,`Nginx`。（在软件商店—运行环境中），如果你自行安装，请安装 `node16`
 
