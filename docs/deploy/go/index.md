@@ -27,7 +27,9 @@ Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 ### 安装必备软件
 
 <Alert type="info">
-如果你不熟悉Linux OR 懒人，推荐开发者写好的 docker-compose ，后期维护极为方便。[Docker部署后端](/deploy/server/docker)
+如果你不熟悉Linux OR 懒人，推荐开发者写好的 docker-compose ，后期维护极为方便。
+
+[Docker部署后端](/deploy/server/docker)
 
 </Alert>
 
