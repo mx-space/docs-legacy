@@ -254,7 +254,7 @@ location /socket.io {
 
 ## 搜索
 
-kami V3 已经搜索功能已经完成，具体配置方法请参考[后台设置-algolia](/setting/adseting#algolia-search)。
+kami V3 已经搜索功能已经完成，具体配置方法请参考[后台设置-algolia](/setting/adsetting#algolia-search)。
 
 ## Kami设置
 
