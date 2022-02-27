@@ -1,9 +1,9 @@
 ---
-title: 部署
+title: 宝塔环境快速部署
 toc: menu
 order: 1
 nav:
-  title: 宝塔环境快速部署
+  title: 部署
   order: 1
 --- 
 
