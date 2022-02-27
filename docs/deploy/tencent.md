@@ -28,10 +28,6 @@ Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 
 </Alert>
 
-例如 Tencent Server OS、Ubuntu20.04、Debian 最新版等等，不建议使用 CentOS（终究是要停更的）。
-
-**推荐使用更新版本的 Linux 内核，目前只有 Tencent Server OS 能用 4.18 版本的内核进行部署**
-
 ### 安装面板
 
 安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，在宝塔面板—软件商店，安装  `pm2管理器` ，`Nginx`。
