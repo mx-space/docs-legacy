@@ -1,8 +1,13 @@
+
 ---
-title: 宝塔环境快速部署
+title: 部署
 toc: menu
 order: 1
+nav:
+  title: 宝塔环境快速部署
+ order: 1
 ---
+
 
 # 基于宝塔环境的部署
 
