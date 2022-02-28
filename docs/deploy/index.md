@@ -132,8 +132,8 @@ sudo docker-compose up -d
 cd
 cd mx-space
 git clone https://github.com/mx-space/kami.git
-#网络不好的情况，请使用下面的
-git clone https://github.com.cnpmjs.org/mx-space/kami.git
+#网络不好的情况，请使用下面的。注：该镜像点同步较慢
+git clone https://gitee.com/a1435241/kami.git
 ```
 
 更换分支到最后一个稳定版本
