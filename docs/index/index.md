@@ -92,6 +92,7 @@ nav:
 - [623337308](https://blog.cqsjyz.com)
 - [Wibus](https://github.com/wibus-wee)
 - [zsbai](https://github.com/zsbai) 
+- [wuhang2003 ](https://github.com/wuhang2003)
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
