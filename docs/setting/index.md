@@ -1,3 +1,11 @@
+---
+title: Kami V3设置
+toc: menu
+order: 1
+nav:
+  title: 设置
+  order: 3
+--- 
 # Kami V3设置
 
 配置项用于自定义部分文案和 UI 视觉。

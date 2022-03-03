@@ -103,7 +103,7 @@ sudo docker-compose up -d
 
 ### 拉取源文件
 
-```bahs
+```bash
 cd
 cd mx-space
 git clone https://github.com/mx-space/kami.git

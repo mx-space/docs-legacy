@@ -1,4 +1,5 @@
 ---
+title: 后台设置详解
 toc: menu
 order: 2
 ---
@@ -75,7 +76,7 @@ order: 2
 
 ### Algolia Search
 
-Algolia Search 是一个第三方搜索服务。让前端具有搜索功能，该项服务需要在后台填入 Algolia API 才能正常使用。到https://www.algolia.com/ 注册，然后查看用户[自己的 API](https://www.algolia.com/account/api-keys/)  ，因为后端具备自动推送功能，所以建议在后台填入 Admin API Key ，保存即可。
+Algolia Search 是一个第三方搜索服务。让前端具有搜索功能，该项服务需要在后台填入 Algolia API 才能正常使用。到https://www.algolia.com/ 注册并新建应用，然后查看用户[自己的 API Key](https://www.algolia.com/account/api-keys/)  ，因为后端具备自动推送功能，所以建议在后台填入 Admin API Key ，保存即可。
 ![](https://raw.githubusercontent.com/mx-space/docs-images/master/images/algolia.png)
 
 

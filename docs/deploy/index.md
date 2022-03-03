@@ -4,7 +4,7 @@ toc: menu
 order: 1
 nav:
   title: 部署
-  order: 1
+  order: 2
 --- 
 
 
@@ -128,7 +128,7 @@ sudo docker-compose up -d
 
 ### 拉取源文件
 
-```bahs
+```bash
 cd
 cd mx-space
 git clone https://github.com/mx-space/kami.git

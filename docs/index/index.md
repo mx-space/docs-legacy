@@ -63,7 +63,7 @@ nav:
 
 
 
-- ​	搜索功能，基于 aligo search，在前端唤出搜索框 `Command` +`K` 或者 `/` 。注意：Windows下为 `Ctrl` + ` K` 或者 `/` 
+- ​	搜索功能，基于 Algolia Search，在前端唤出搜索框 `Command` +`K` 或者 `/` 。注意：Windows下为 `Ctrl` + ` K` 或者 `/` 
 
 ## 写在目录前
 
