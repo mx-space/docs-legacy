@@ -6,8 +6,6 @@ order: 2
 
 # 基于腾讯轻量应用服务器
 
-## 准备环境
-
 ## 域名解析
 
 国内服务器请完成备案后再进行。
@@ -17,6 +15,8 @@ order: 2
 `Mx-Server : server.test.cn`
 
 `kami : www.test.cn`
+
+## 准备环境
 
 ### 系统
 
@@ -46,19 +46,17 @@ sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 
 ```bash
 #下载 docker-compose
-wget https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64
+wget https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/docker/compose/releases/download/v2.3.0/docker-compose-linux-x86_64
 # 复制到指定位置
-sudo cp ./docker-compose-linux-x86_64  /usr/local/bin/docker-compose
+sudo cp ./docker-compose-linux-x86_64  /usr/local/lib/docker/cli-plugins/docker-compose
 # 赋予执行权限
-sudo chmod +x /usr/local/bin/docker-compose
-# 设置软链接
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 ```
 
 检查是否安装完成
 
 ```bash
-docker-compose --version
+docker compose version
 ```
 
 正常输出版本号即可。
@@ -94,9 +92,9 @@ ALLOWED_ORIGINS=test.cn,www.test.cn  #此处填写被允许的域名，通常是
 
 ```bash
 #拉取最新镜像
-sudo docker-compose pull
+sudo docker compose pull
 #生成容器
-sudo docker-compose up -d
+sudo docker compose up -d
 ```
 
 ## 安装 kami
@@ -208,7 +206,9 @@ location /socket.io {
 
 ### 访问后台
 
-后台地址： https://域名/qaqdmin
+后台地址： `https://你的后端域名/qaqdmin`
+
+例如文中为 `https://server.test.cn/qaqdmin`
 
 访问后台进行初始化。
 

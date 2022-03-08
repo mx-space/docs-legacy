@@ -30,7 +30,7 @@ Q：后台地址是什么？
 
 A：`https://server.test.cn/qaqdmin`  //注意此处仍为文档示例
 
-##  构建类
+## 构建类
 
 Q：安装依赖的时候，返回404错误，怎么办？
 
@@ -64,7 +64,7 @@ pm2 start
 如果是 Docker 部署的，走一遍
 
 ```bash
-docker-compose pull && docker-compose up -d
+docker compose pull && docker compose up -d
 ```
 
 
@@ -77,7 +77,7 @@ A：当然如果是传统常规部署请把 kami.d 替换文件到 kami 中，�
 如果是 Docker 部署的，走一遍
 
 ```bash
-docker-compose pull && docker-compose up -d
+docker compose pull && docker compose up -d
 ```
 
 ## 等待添加
