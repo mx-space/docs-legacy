@@ -33,7 +33,7 @@ nav:
 
 <Alert type="info">
 
-Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
+注意❗：Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 
 </Alert>
 
@@ -52,15 +52,13 @@ sudo apt update && sudo apt install git curl vim wget -y
 
 
 
-安装依赖
-
-
+安装相关软件
 
 ```bash
-npm install -g pnpm yarn pm2
-
-#如果安装比较慢，可以试试下面的命令
-npm config set registry http://mirrors.cloud.tencent.com/npm/
+#安装相关软件
+sudo npm install -g pnpm yarn pm2
+#如果安装比较慢，可以使用以下命令切换镜像源
+sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
 
 
