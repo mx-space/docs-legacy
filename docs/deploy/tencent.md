@@ -5,6 +5,12 @@ order: 2
 ---
 
 # 基于腾讯轻量应用服务器
+## 前言
+尽管文档比较新手向，但仍需要读者具有一定的 
+
+- Linux 操作系统的知识
+- docker 容器的常识
+- 简单排查错误的能力
 
 ## 域名解析
 
@@ -48,6 +54,8 @@ sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```bash
 #下载 docker-compose
 wget https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/docker/compose/releases/download/v2.3.0/docker-compose-linux-x86_64
+#新建文件夹（非必须），可能需要
+sudo mkdir -p /usr/local/lib/docker/cli-plugins/
 # 复制到指定位置
 sudo cp ./docker-compose-linux-x86_64  /usr/local/lib/docker/cli-plugins/docker-compose
 # 赋予执行权限
