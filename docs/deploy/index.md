@@ -38,12 +38,14 @@ Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 
 安装[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)，在宝塔面板—软件商店，安装  `pm2管理器` ，`Nginx`。
 
-Debian / Ubuntu
+Debian / Ubuntu ，Redhat 系同理（自行参考）。
 ```bash
 sudo apt update && sudo apt install git curl vim wget -y
 ```
 
-Redhat 系同理。
+
+
+安装依赖
 
 
 

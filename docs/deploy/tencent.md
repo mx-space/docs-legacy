@@ -34,6 +34,7 @@ Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 
 ```bash
 sudo apt update && sudo apt install git curl vim wget -y
+
 sudo npm install -g pnpm yarn pm2
 
 #如果安装比较慢，可以试试下面的命令
