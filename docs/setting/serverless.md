@@ -14,7 +14,7 @@ Mix-space 的云函数实现依赖于动态的路由处理模块，通过云函�
 
 具体信息可以参阅 [Severless.Readme。](https://github.com/mx-space/mx-server/blob/master/src/modules/serverless/serverless.readme.md)
 
-## 安装模块
+## 安装库
 
 进入后台，移动到 `其他 · 终端`
 
