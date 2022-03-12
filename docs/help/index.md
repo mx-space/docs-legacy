@@ -14,13 +14,13 @@ nav:
 
 Q：我输入文档中示例的域名为啥不能用？
 
-A：文档中示例域名为 `server.test.cn`， `kami.test.cn`，请换成你自己的域名，如果不知道怎么设置三级域名，请问百度。
+A：文档中示例域名为 `server.test.cn`， `www.test.cn`，请换成你自己的域名，如果不知道怎么设置三级域名，请问百度。
 
 ## 信息类
 
 Q：我的备案信息怎么修改？
 
-A：请详细参阅文档，设置部分。
+A：请详细参阅文档，Kami v3 设置部分。
 
 Q：GitHub 链接，QQ 链接等如何修改？
 
@@ -34,19 +34,23 @@ A：`https://server.test.cn/qaqdmin`  //注意此处仍为文档示例
 
 Q：安装依赖的时候，返回404错误，怎么办？
 
-A：请使用nrm换一个镜像源。例如
+A：请使用 nrm 换一个镜像源。例如
 
 ```bash
 nrm use yarn
 ```
 
-Q：server（后端）`pnpm i` 报错怎么办？
+nrm 可以通过 npm 安装，例如
 
-A：可以多尝试几次，若无效，请带着截图提问。
+```bash
+npm install -g nrm 
+```
+
+
 
 ## 设置类
 
-Q：网站名字老是在变化，怎么办？
+Q：网站名字老是在变化，怎么办？（此处 BUG 已经修复）
 
 A：可以尝试点击仪表盘的清空缓存按钮。
 
@@ -58,7 +62,7 @@ A：请到 server / kami 的文件夹重新拉起后端/前端（常规部署）
 
 ```bash
 yarn prod:pm2  
-pm2 start
+#pm2 start
 ```
 
 如果是 Docker 部署的，走一遍
@@ -72,9 +76,18 @@ docker compose pull && docker compose up -d
 
 Q：如何升级 server(后端) / kami(前端)？
 
-A：当然如果是传统常规部署请把 kami.d 替换文件到 kami 中，如在首次部署时修改了 ``.env`` 文件将 kami.d 拷贝至 kami 并在 kami 目录下执行 ``pnpm i && pnpm build``，具体可以参阅之前的[部署文档](/deploy#安装-kami)。
+A：如果你对 kami 的内容没有进行魔改，我们可以强制同步（不适用于大版本更新）
 
-如果是 Docker 部署的，走一遍
+```bash
+git pull origin master
+pnpm i 
+pnpm build
+yarn prod:pm2
+```
+
+如果 Kami 有大版本更新，请重新拉取仓库，不然可能会出现奇奇挂怪的错误。
+
+如果 server 是 Docker 部署的，走一遍
 
 ```bash
 docker compose pull && docker compose up -d
