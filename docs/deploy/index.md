@@ -56,7 +56,7 @@ sudo apt update && sudo apt install git curl vim wget -y
 
 ```bash
 #安装相关软件
-sudo npm install -g pnpm yarn pm2
+sudo npm install -g pnpm pm2
 #如果安装比较慢，可以使用以下命令切换镜像源
 sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
@@ -190,7 +190,7 @@ npm run build
 ### pm2托管（启动）
 
 ```bash
-yarn prod:pm2
+npm run prod:pm2
 #pm2 start
 ```
 
