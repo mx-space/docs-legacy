@@ -23,7 +23,7 @@ Mix-space 的云函数实现依赖于动态的路由处理模块，通过云函�
 进入终端，执行命令
 
 ```bash
-npm install @mx-space/extra
+npm install -g @mx-space/extra
 ```
 
 退出后台的终端（webshell），并关闭该功能开关（建议）。
