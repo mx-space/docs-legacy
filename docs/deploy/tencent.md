@@ -32,7 +32,7 @@ order: 2
 
 <Alert type="info">
 
-注意❗：Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
+❗注意：Linux 内核版本 > 4.18，建议使用 5.X 版本的内核；内存 > 1GiB
 
 </Alert>
 

@@ -10,7 +10,7 @@ nav:
 
 配置项用于自定义部分文案和 UI 视觉。
 
-进入后台，移动到 其他 · 配置与云函数。
+进入后台，移动到 `其他 · 配置与云函数`
 
 新建一个项:
 
@@ -52,13 +52,13 @@ site:
     - https://cdn.jsdelivr.net/gh/Innei/fancy@master/2021/7TOEIPwGrZB1qFb.jpg
     - https://cdn.jsdelivr.net/gh/Innei/fancy@master/2021/Ihj5QAZgVMqr9fJ.jpg
     - https://cdn.jsdelivr.net/gh/Innei/fancy@master/2021/KZ6jv8C92Vpwcih.jpg
-
+# 背景图
   background:
     src:
       light: https://gitee.com/xun7788/my-imagination/raw/master/cdn/background.png
       dark: https://gitee.com/xun7788/my-imagination/raw/master/cdn/background-night.png
     position: top center fixed
-
+# 定义网站顶栏
   header:
     menu:
       - title: 源
@@ -108,6 +108,7 @@ site:
       - title: ''
         icon: faSubway
         path: 'https://travellings.link'
+ # 定义头像下的社交ID
   social:
     - url: 'https://github.com/Innei'
       title: GitHub
@@ -121,7 +122,7 @@ site:
       title: twitter
       icon: faTwitter
       color: '#02A4ED'
-
+# 定义网站底部
   footer:
     background:
       src:
@@ -136,7 +137,7 @@ site:
       enable: true
       label: '浙ICP备 20028356 号'
       link: http://beian.miit.gov.cn/
-
+# 自定义底部文字以及链接
     navigation:
       - name: 关于
         path: '/about'
@@ -153,7 +154,7 @@ site:
       - name: 开往
         path: https://travellings.link/
         newtab: true
-
+# 自定义脚本、样式和JS（支持外链引入，不需要script标签）
   custom:
     script: |-
       console.log('Hello')
@@ -165,7 +166,7 @@ site:
       - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js
     css:
       - https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css
-
+# 定义功能，例如歌单，追番
 function:
   player:
     # 默认播放列表
@@ -174,21 +175,22 @@ function:
       - 563534789
       - 1447327083
       - 1450252250
-  analyze:
+ # 分析，Google OR Baidu
+ analyze:
     enable: true
     ga: ''
     baidu: ''
-  netease:
-    username: example
-    # password 敏感字段不应该暴露, 后续看看怎么操作
-    password:
+  # 打赏  
   donate:
     enable: true
     link: https://afdian.net/@Innei
+  # 是否禁用调试工具（访客）
+  ban_devtool:
+    enable: true
 
 ```
 
-详细配置项
+
 ### 更为详细的配置项（JSON）
 
 声明：以下为 JSON 格式的示例，YAML格式可以根据上下示例进行修改。
