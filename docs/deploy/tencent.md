@@ -43,7 +43,7 @@ order: 2
 ```bash
 sudo apt update && sudo apt install git curl vim wget -y
 #安装相关软件
-sudo npm install -g pnpm yarn pm2
+sudo npm install -g pnpm  pm2
 #如果安装比较慢，可以使用以下命令切换镜像源
 sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
@@ -237,6 +237,10 @@ location /socket.io {
 ## 后台设置
 
 该节内容在  [后台设置](/setting/adsetting)
+
+## 歌单 / 追番设置
+
+该节内容在 [云函数配置示例](/setting/serverless)
 
 ## 搜索
 
