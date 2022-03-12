@@ -93,6 +93,12 @@ npm run prod:pm2
 docker compose pull && docker compose up -d
 ```
 
+## 后台问题
+
+Q：通过 /qaqdmin  进不去后台
+
+A：可能是jsd（CDN）抽风了，可以 /proxy/qaqdmin 可以使用纯本地资源。
+
 ## 等待添加
 
 帮助手册仍然不完善 ing.....
