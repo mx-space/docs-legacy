@@ -179,7 +179,7 @@ const len = 10
 
 ### bangumi 函数
 
-访问  https://server.test.cn/api/v2/serverless/bangumi/
+访问  https://server.test.cn/api/v2/serverless/kami/bangumi
 
 状态码 返回 200，且返回你自己的追番数据
 
