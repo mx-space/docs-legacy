@@ -160,7 +160,7 @@ cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
 
 ```env
 # API 地址
-NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2
+NEXT_PUBLIC_API_URL=https://server.test.cn/api/v2
 # GATEWAY 地址
 NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn
 #前端使用的配置项名字
