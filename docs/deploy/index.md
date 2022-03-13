@@ -156,7 +156,7 @@ cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
  cp .env.example .env
 ```
 
-编辑，示例如下：
+编辑 `.env` ，示例如下：
 
 ```env
 # API 地址
@@ -165,9 +165,9 @@ NEXT_PUBLIC_APIURL=https://server.test.cn/api/v2
 NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn
 #前端使用的配置项名字
 NEXT_PUBLIC_SNIPPET_NAME=kami
-# 网易云手机号
+# 网易云手机号(kami v3.5.0 已舍弃)
 NETEASE_PHONE=155*********
-# 网易云密码
+# 网易云密码(kami v3.5.0 已舍弃)
 NETEASE_PASSWORD=awdwadawdawd*****
 # 如果使用 CDN, 修改产物前缀
 ASSETPREFIX=
@@ -189,7 +189,7 @@ pnpm build
 npm run build
 ```
 
-### pm2托管（启动）
+### pm2 托管（启动）
 
 ```bash
 npm run prod:pm2
@@ -265,7 +265,7 @@ location /socket.io {
 
 ## 歌单 / 追番设置
 
-该节内容在 [云函数配置示例](/setting/serverless)
+该节内容在 [云函数配置示例](/setting/serverless) ，且是 Kami v 3.5.0 及以上必须的过程。
 
 ## 搜索
 
