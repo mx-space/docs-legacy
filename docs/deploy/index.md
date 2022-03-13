@@ -71,7 +71,7 @@ sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 
 
 ```bash
-curl -fsSL https://get.docker.com | bash -s docker
+sudo curl -fsSL https://get.docker.com | bash -s docker
 ```
 
 
