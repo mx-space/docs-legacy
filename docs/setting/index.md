@@ -176,7 +176,7 @@ function:
       - 1447327083
       - 1450252250
  # 分析，Google OR Baidu
- analyze:
+  analyze:
     enable: true
     ga: ''
     baidu: ''
