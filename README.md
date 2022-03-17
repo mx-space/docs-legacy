@@ -26,7 +26,7 @@ Docs
 - [提莫酱](https://www.timochan.cn)
 - [喵二](https://www.miaoer.xyz)
 - [623337308](https://blog.cqsjyz.com)
-- [Wibus](https://github.com/wibus-wee)
+- [Wibus](https://iucky.cn)
 - [zsbai](https://github.com/zsbai) 
 - [wuhang2003 ](https://github.com/wuhang2003)
 
