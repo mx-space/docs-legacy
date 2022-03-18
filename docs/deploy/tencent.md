@@ -11,6 +11,7 @@ order: 2
 - Linux 操作系统的知识
 - docker 容器的常识
 - 简单排查错误的能力
+- 使用搜索引擎的能力
 
 尽管笔者尽可能考虑一些常见的错误情况（体现在部署顺序中），如果有一些奇奇挂怪的问题，[请提issues。](https://github.com/mx-space/docs/issues)
 
