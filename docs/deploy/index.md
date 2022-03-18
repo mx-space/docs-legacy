@@ -28,9 +28,14 @@ nav:
 
 `kami : www.test.cn`
 
-## 配置SSL
-<Alert type="info">
-请新建以上网站。并配置好SSL（生产环境强制）
+## 新建网站并配置SSL
+
+在宝塔面板上新建以上网站，部署好 SSL 证书并开启强制 HTTPS
+
+<Alert type="warning">
+  
+❗注意：前端要求强制 HTTPS,未配置 SSL 将无法正常访问。
+  
 </Alert>
 
 ## 准备环境
@@ -206,7 +211,7 @@ npm run prod:pm2
 
 ### Mx-Server
 
-进入宝塔面板—网站，新建并设置后端网站（server.test.cn)
+进入宝塔面板—网站，设置后端网站（server.test.cn)
 
 我们点击左侧的 `配置文件`（网站设置）
 
