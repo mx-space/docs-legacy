@@ -25,12 +25,13 @@ order: 2
 
 `kami : www.test.cn`
 
-## 配置SSL
+## 新建站点并配置SSL
 
+在宝塔面板上新建以上网站，部署好 SSL 证书并开启强制 HTTPS
 
-<Alert type="info">
+<Alert type="warning">
 
-请新建以上网站，并配置好SSL（生产环境强制）
+❗注意：前端要求强制 HTTPS,未配置 SSL 将无法正常访问。
 
 </Alert>
 
@@ -189,7 +190,7 @@ yarn prod:pm2
 
 ### Mx-Server
 
-进入宝塔面板—网站，新建并设置后端网站（server.test.cn)
+进入宝塔面板—网站，设置后端网站（server.test.cn)
 
 
 
@@ -252,7 +253,7 @@ location /socket.io {
 
 ## 后台设置
 
-该节内容在  [后台设置](/setting/adsetting)
+该节内容在 [后台设置](/setting/adsetting)
 
 ## 歌单 / 追番设置
 
