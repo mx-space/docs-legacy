@@ -30,7 +30,7 @@ nav:
 
 ## 配置SSL
 <Alert type="info">
-请新建以上网站，并配置好SSL
+请新建以上网站。并配置好SSL（生产环境强制）
 </Alert>
 
 ## 准备环境

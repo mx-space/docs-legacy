@@ -30,7 +30,7 @@ order: 2
 
 <Alert type="info">
 
-请新建以上网站，并配置好SSL
+请新建以上网站，并配置好SSL（生产环境强制）
 
 </Alert>
 
