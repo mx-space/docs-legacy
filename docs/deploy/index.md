@@ -17,7 +17,7 @@ nav:
 - 简单排查错误的能力
 - 使用搜索引擎的能力
 
-尽管笔者尽可能考虑一些常见的错误情况（体现在部署顺序中），如果有一些奇奇怪怪的问题，[请提issues。](https://github.com/mx-space/docs/issues)
+尽管笔者尽可能考虑一些常见的错误情况（体现在部署顺序中），如果有一些奇奇怪怪的问题，[请提issues](https://github.com/mx-space/docs/issues)
 ## 域名解析
 
 国内服务器请完成备案后再进行。
@@ -33,9 +33,9 @@ nav:
 在宝塔面板上新建以上网站，部署好 SSL 证书并开启强制 HTTPS
 
 <Alert type="warning">
-  
-❗注意：前端要求强制 HTTPS,未配置 SSL 将无法正常访问。
-  
+
+🧨警告：前端要求强制 HTTPS，未配置 SSL 将无法正常访问。
+
 </Alert>
 
 ## 准备环境
