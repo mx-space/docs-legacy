@@ -23,9 +23,14 @@ nav:
 
 本文档示例域名：
 
-`Mx-Server : server.test.cn`
+`Mx-Server :  server.test.cn`
 
 `kami : www.test.cn`
+
+## 配置SSL
+<Alert type="info">
+请新建以上网站，并配置好SSL
+</Alert>
 
 ## 准备环境
 
@@ -202,13 +207,7 @@ npm run prod:pm2
 
 进入宝塔面板—网站，新建并设置后端网站（server.test.cn)
 
-点击 `反向代理`—`添加反向代理`
-
-代理名称随便填，目标 URL `http://127.0.0.1:2333`，发送域名 `$host` ，其他的不用填，提交保存即可。
-
-![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-daili.png)
-
-然后我们点击左侧的 `配置文件`（网站设置）
+我们点击左侧的 `配置文件`（网站设置）
 
 在 `access_log` 字段上面，添加如下配置:
 
@@ -224,7 +223,7 @@ location /socket.io {
 
 保存即可。
 
-那么局部配置文件示例如下：
+然后那么局部配置文件示例如下：
 
 ```nginx
 location /socket.io {
@@ -238,6 +237,11 @@ location /socket.io {
     error_log  /www/wwwlogs/server.test.cn.log;
 }
 ```
+点击 `反向代理`—`添加反向代理`
+
+代理名称随便填，目标 URL `http://127.0.0.1:2333`，发送域名 `$host` ，其他的不用填，提交保存即可。
+
+![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-daili.png)
 
 ### 访问后台
 
