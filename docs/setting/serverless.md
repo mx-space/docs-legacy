@@ -27,7 +27,7 @@ Mix-space 的云函数实现依赖于动态的路由处理模块，通过云函�
 npm -v
 # 如果缺失npm 请先使用容器内已存在的管理器安装 npm，例如 apk，yarn。
 apk add npm 
-#yarn global add npm
+# （可选） yarn global add npm
 # 安装必须库
 npm install -g @mx-space/extra
 ```
@@ -188,4 +188,4 @@ const len = 10
 
 ## 结束
 
-如果测试都没问题，可以愉快的升级 Kami 3.5.0版本及以上了，而且据作者介绍，可以通过这个自己 DIY 一些功能，期待各位大佬的PR。
+如果测试都没问题，可以愉快的升级 Kami 3.5.0版本及以上了，而且据作者介绍，可以通过这个自己 DIY 一些功能，期待各位大佬的 PR。
