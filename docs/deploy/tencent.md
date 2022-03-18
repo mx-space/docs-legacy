@@ -13,7 +13,7 @@ order: 2
 - 简单排查错误的能力
 - 使用搜索引擎的能力
 
-尽管笔者尽可能考虑一些常见的错误情况（体现在部署顺序中），如果有一些奇奇挂怪的问题，[请提issues](https://github.com/mx-space/docs/issues)
+尽管笔者尽可能考虑一些常见的错误情况（体现在部署顺序中），如果有一些奇奇怪怪的问题，[请提issues](https://github.com/mx-space/docs/issues)
 
 ## 域名解析
 
@@ -69,7 +69,7 @@ sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 
 ```bash
 #下载 docker-compose
-wget https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/docker/compose/releases/download/v2.3.0/docker-compose-linux-x86_64
+wget https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64
 #新建文件夹（非必须），可能需要
 sudo mkdir -p /usr/local/lib/docker/cli-plugins/
 # 复制到指定位置
