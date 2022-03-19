@@ -35,24 +35,7 @@ apk add npm
 
 退出后台的终端（webshell），并关闭该功能开关（建议）。
 
-进入服务器，打开终端，执行如下命令，获取 Mx-server 的 容器ID
 
-```bash
-sudo docker ps
-```
-
-![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/docker-Mx-server-ID.png)
-
-可以看到示例的 容器ID 为 `27bd13ff10a0 `
-
-我们需要重启这个容器
-
-```bash
-# 该命令中的 容器ID 为示例值，需要修改为自己
-sudo docker restart 27bd13ff10a0 
-```
-
-稍等片刻，容器重启完成。
 
 ## 功能
 
