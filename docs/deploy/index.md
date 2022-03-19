@@ -180,7 +180,7 @@ NEXT_PUBLIC_SNIPPET_NAME=kami
 ASSETPREFIX=
 ```
 
-保存即可。
+去掉注释，保存即可。
 
 ### 安装依赖
 
