@@ -29,7 +29,8 @@ npm -v
 apk add npm 
 # （可选） yarn global add npm
 # 安装必须库
-npm install -g @mx-space/extra
+ cd /app 
+ npm install @mx-space/extra
 ```
 
 退出后台的终端（webshell），并关闭该功能开关（建议）。
