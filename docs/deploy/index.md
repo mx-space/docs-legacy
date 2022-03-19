@@ -24,9 +24,9 @@ nav:
 
 本文档示例域名：
 
-`Mx-Server :  server.test.cn`
+`Mx-Server` : `server.test.cn`
 
-`kami : www.test.cn`
+`kami` : `www.test.cn`
 
 ## 新建网站并配置SSL
 
@@ -126,7 +126,7 @@ wget https://cdn.jsdelivr.net/gh/mx-space/mx-server@master/docker-compose.yml
 wget https://cdn.jsdelivr.net/gh/mx-space/mx-server@master/.env.example -O .env
 ```
 
-用宝塔或者 `vim` 编辑这个  `.env ` 文件，文件示例如下
+用宝塔或者 `vim` 编辑这个 `.env ` 文件，文件示例如下
 
 ```env
 # THIS ENV FILE EXAMPLE ONLY FOR DOCKER COMPOSE
@@ -167,7 +167,7 @@ cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1)
  cp .env.example .env
 ```
 
-编辑 `.env` ，示例如下：
+编辑 `.env`，示例如下：
 
 ```env
 # API 地址
@@ -263,11 +263,11 @@ location /socket.io {
 
 点击 `反向代理` — `添加反向代理`
 
-代理名称随便填，目标 URL `http://127.0.0.1:2323` ，发送域名 `$host` ，其他的不用填，提交保存即可。
+代理名称随便填，目标 URL `http://127.0.0.1:2323`，发送域名 `$host` ，其他的不用填，提交保存即可。
 
 ![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/kami-daili.png)
 
-接下来访问 https://www.test.cn/  ，看看是否正常惹。
+接下来访问 https://www.test.cn/ ，看看运行是否正常。
 
 ## 后台设置
 
@@ -279,7 +279,7 @@ location /socket.io {
 
 ## 搜索
 
-kami V3 已经搜索功能已经完成，具体配置方法请参考[后台设置-algolia](/setting/adsetting#algolia-search)。
+kami V3 已经搜索功能已经完成，具体配置方法请参考 [后台设置-algolia](/setting/adsetting#algolia-search)。
 
 ## Kami设置
 
