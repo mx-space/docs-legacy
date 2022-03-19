@@ -155,10 +155,6 @@ NEXT_PUBLIC_API_URL=https://server.test.cn/api/v2
 NEXT_PUBLIC_GATEWAY_URL=https://server.test.cn
 #前端使用的配置项名字
 NEXT_PUBLIC_SNIPPET_NAME=kami
-# 网易云手机号(kami v3.5.0 已舍弃)
-NETEASE_PHONE=155*********
-# 网易云密码(kami v3.5.0 已舍弃)
-NETEASE_PASSWORD=awdwadawdawd*****
 # 如果使用 CDN, 修改产物前缀
 ASSETPREFIX=
 ```
