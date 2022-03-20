@@ -68,9 +68,9 @@ sudo apt update && sudo apt install git curl vim wget -y
 安装相关软件
 
 ```bash
-#安装相关软件
+# 安装相关软件
 sudo npm install -g pnpm pm2
-#如果安装比较慢，可以使用以下命令切换镜像源
+# 如果安装比较慢，可以使用以下命令切换镜像源
 sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
 
@@ -90,9 +90,9 @@ sudo curl -fsSL https://get.docker.com | bash -s docker
 ### 安装 docker-compose
 
 ```bash
-#下载 docker-compose
+# 下载 docker-compose
 wget https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64
-#新建文件夹（非必须），可能需要
+# 新建文件夹（非必须），可能需要
 sudo mkdir -p /usr/local/lib/docker/cli-plugins/
 # 复制到指定位置
 sudo cp ./docker-compose-linux-x86_64  /usr/local/lib/docker/cli-plugins/docker-compose
@@ -138,9 +138,9 @@ ALLOWED_ORIGINS=test.cn,www.test.cn  #此处填写被允许的域名，通常是
 ### 生成容器
 
 ```bash
-#拉取最新镜像
+# 拉取最新镜像
 sudo docker compose pull
-#生成容器
+# 生成容器
 sudo docker compose up -d
 ```
 
@@ -152,7 +152,7 @@ sudo docker compose up -d
 cd
 cd mx-space
 git clone https://github.com/mx-space/kami.git
-#网络不好的情况，请使用下面的。注：该镜像点同步较慢
+# 网络不好的情况，请使用下面的。注：该镜像点同步较慢
 git clone https://gitee.com/a1435241/kami.git
 ```
 
@@ -200,7 +200,7 @@ npm run build
 
 ```bash
 npm run prod:pm2
-#pm2 start
+# pm2 start
 ```
 
 ## 反向代理
