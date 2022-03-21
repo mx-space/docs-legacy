@@ -28,16 +28,6 @@ nav:
 
 `kami` : `www.test.cn`
 
-## 新建网站并配置SSL
-
-在宝塔面板上新建以上网站，部署好 SSL 证书并开启强制 HTTPS
-
-<Alert type="warning">
-
-🧨警告：前端要求强制 HTTPS，未配置 SSL 将无法正常访问。
-
-</Alert>
-
 ## 准备环境
 
 ### 系统
@@ -74,7 +64,15 @@ sudo npm install -g pnpm pm2
 sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
 
+### 新建网站并配置SSL
 
+在宝塔面板上新建以上网站，部署好 SSL 证书并开启强制 HTTPS
+
+<Alert type="warning">
+
+🧨警告：前端要求强制 HTTPS，未配置 SSL 将无法正常访问。
+
+</Alert>
 
 
 ### 安装 docker 
