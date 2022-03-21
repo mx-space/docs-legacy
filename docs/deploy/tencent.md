@@ -5,6 +5,7 @@ order: 2
 ---
 
 # 基于腾讯轻量应用服务器
+
 ## 前言
 尽管文档比较新手向，但仍需要读者具有一定的 
 
@@ -21,11 +22,9 @@ order: 2
 
 本文档示例域名：
 
-`Mx-Server : server.test.cn`
+`Mx-Server` : `server.test.cn`
 
-`kami : www.test.cn`
-
-
+`kami` : `www.test.cn`
 
 ## 准备环境
 
