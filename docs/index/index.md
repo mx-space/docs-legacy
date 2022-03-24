@@ -9,15 +9,15 @@ nav:
 
 # 项目介绍
 
-> 本篇内容将会为您介绍 Mix-space 的基础功能展示和开源社区的贡献者，希望你能看完。 :)
+> 本章将会为您展示 Mix-Space 的功能与特性，并介绍来自开源社区的贡献者，希望你能看完。 :)
 
 ## 前后端分离
 
-没错， Mix-space 采用的是前后端分离的形式，那什么是前后端分离呢？
+没错， Mix-Space 采用的是前后端分离的形式，那什么是前后端分离呢？
 
 前后端分离，顾名思义，前后端将会遵循某种规范，后端的接口不变，请求方式不变，即前后端数据交换遵循的某种规范。
 
-这对前端开发将会带来极大的方便，不需要与后端在接口问题上扯皮，同时也方便了为 Mix-space 开发前端的人，这点我稍后再讲。
+这对前端开发将会带来极大的方便，不需要与后端在接口问题上扯皮，同时也方便了为 Mix-Space 开发前端的人，这点我稍后再讲。
 
 ## 现有功能
 
@@ -59,7 +59,7 @@ nav:
 
 - Markdown 导入导出
 
-  该功能提供将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-md.png)
+  该功能可以将所有文章导出为 Markdown YAML 兼容的格式，或者导入 Markdown YAML 兼容的文件。（Hexo 兼容的 Markdown）![导出页](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-md.png)
 
 
 
@@ -78,8 +78,8 @@ nav:
 | 模块     | 描述                           | 地址                                                     |
 | -------- | ------------------------------ | -------------------------------------------------------- |
 | 部署     | 整个项目的部署方法             | [起飞](/deploy)                                          |
-| 设置     | 项目的各种设置的介绍           | [起飞](/setting)                                         |
-| 常见问题 | 部署中未提到的问题，收录于此   | [起飞](/help)                                            |
+| 设置     | 项目各部分设置的介绍           | [起飞](/setting)                                         |
+| 常见问题 | 部署及使用中未提到的问题，收录于此   | [起飞](/help)                                            |
 | 开发     | 介绍项目的开发，请求处理流程等 | [起飞](/dev)                                             |
 | 旧版文档 | 旧的文档                       | [走你](https://github.com/mx-space/docs/tree/master/old) |
 
@@ -92,7 +92,7 @@ nav:
 - [623337308](https://blog.cqsjyz.com)
 - [Wibus](https://github.com/wibus-wee)
 - [zsbai](https://github.com/zsbai) 
-- [wuhang2003 ](https://github.com/wuhang2003)
+- [wuhang2003](https://github.com/wuhang2003)
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
