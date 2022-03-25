@@ -48,9 +48,9 @@ Node版本选择 Node 16.X ，稳定版本是 Node 16.13.x
 sudo apt update && sudo apt install git curl vim wget -y
 # 安装相关软件
 sudo su
-sudo npm install -g pnpm  pm2
+npm install -g pnpm  pm2
 # 如果安装比较慢，可以使用以下命令切换镜像源
-sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
+npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
 
 ### 新建站点并配置SSL

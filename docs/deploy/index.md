@@ -62,9 +62,9 @@ sudo apt update && sudo apt install git curl vim wget -y
 ```bash
 # 安装相关软件
 sudo su
-sudo npm install -g pnpm pm2
+npm install -g pnpm pm2
 # 如果安装比较慢，可以使用以下命令切换镜像源
-sudo npm config set registry http://mirrors.cloud.tencent.com/npm/
+npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
 
 ### 新建网站并配置SSL
