@@ -315,11 +315,84 @@ location /
 
 点击网站—网站，设置前端网站（www.test.cn），
 
-点击 `反向代理` — `添加反向代理`
+我们点击左侧的 `配置文件`（网站设置）
 
-代理名称随便填，目标 URL `http://127.0.0.1:2323`，发送域名 `$host` ，其他的不用填，提交保存即可。
+在 `access_log` 字段上面，添加如下配置:
 
-![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/kami-daili.png)
+```nginx
+#PROXY-START/
+
+location ^~ /
+{
+    proxy_pass http://127.0.0.1:2323;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    
+    
+    set $static_fileSw1Jy3nG 0;
+    if ( $uri ~* "\.(gif|png|jpg|css|js|woff|woff2)$" )
+    {
+    	set $static_fileSw1Jy3nG 1;
+    	expires 12h;
+        }
+    if ( $static_fileSw1Jy3nG = 0 )
+    {
+    add_header Cache-Control no-cache;
+    }
+}
+
+
+
+#PROXY-END/
+```
+
+保存即可。
+
+然后那么局部配置文件示例如下：
+
+```nginx
+#PROXY-START/
+
+location ^~ /
+{
+    proxy_pass http://127.0.0.1:2323;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    
+    
+    set $static_fileSw1Jy3nG 0;
+    if ( $uri ~* "\.(gif|png|jpg|css|js|woff|woff2)$" )
+    {
+    	set $static_fileSw1Jy3nG 1;
+    	expires 12h;
+        }
+    if ( $static_fileSw1Jy3nG = 0 )
+    {
+    add_header Cache-Control no-cache;
+    }
+}
+
+
+
+#PROXY-END/
+    access_log  /www/wwwlogs/www.test.cn.log;
+    error_log  /www/wwwlogs/www.test.cn.log;
+}
+```
+
+
 
 接下来访问 https://www.test.cn/ ，看看运行是否正常。
 
