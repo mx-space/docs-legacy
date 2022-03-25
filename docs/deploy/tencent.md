@@ -194,6 +194,7 @@ yarn prod:pm2
 在 `access_log` 字段上面，添加如下配置:
 
 ```nginx
+#PROXY-START/
 location /socket.io {
     proxy_http_version 1.1;
     proxy_buffering off;
@@ -201,6 +202,34 @@ location /socket.io {
     proxy_set_header Connection "Upgrade";
     proxy_pass http://127.0.0.1:2333/socket.io;
 }
+
+
+location /
+{
+    proxy_pass http://127.0.0.1:2333/;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    
+    
+    set $static_fileJsNv8TWb 0;
+    if ( $uri ~* "\.(gif|png|jpg|css|js|woff|woff2)$" )
+    {
+    	set $static_fileJsNv8TWb 1;
+    	expires 12h;
+        }
+    if ( $static_fileJsNv8TWb = 0 )
+    {
+    add_header Cache-Control no-cache;
+    }
+}
+
+#PROXY-END/
 ```
 
 保存即可。
@@ -208,6 +237,7 @@ location /socket.io {
 那么局部配置文件示例如下：
 
 ```nginx
+#PROXY-START/
 location /socket.io {
     proxy_http_version 1.1;
     proxy_buffering off;
@@ -215,16 +245,40 @@ location /socket.io {
     proxy_set_header Connection "Upgrade";
     proxy_pass http://127.0.0.1:2333/socket.io;
 }
+
+
+location /
+{
+    proxy_pass http://127.0.0.1:2333/;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    
+    
+    set $static_fileJsNv8TWb 0;
+    if ( $uri ~* "\.(gif|png|jpg|css|js|woff|woff2)$" )
+    {
+    	set $static_fileJsNv8TWb 1;
+    	expires 12h;
+        }
+    if ( $static_fileJsNv8TWb = 0 )
+    {
+    add_header Cache-Control no-cache;
+    }
+}
+
+#PROXY-END/}
     access_log  /www/wwwlogs/server.test.cn.log;
     error_log  /www/wwwlogs/server.test.cn.log;
 }
 ```
 
-然后点击 `反向代理`—`添加反向代理`
 
-代理名称随便填，目标 URL `http://127.0.0.1:2333`，发送域名 `$host` ，其他的不用填，提交保存即可。
-
-![](https://cdn.jsdelivr.net/gh/mx-space/docs-images@latest/images/server-daili.png)
 
 ### 访问后台
 
