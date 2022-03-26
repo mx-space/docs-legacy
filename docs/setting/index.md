@@ -55,8 +55,8 @@ site:
 # 背景图
   background:
     src:
-      light: https://gitee.com/xun7788/my-imagination/raw/master/cdn/background.png
-      dark: https://gitee.com/xun7788/my-imagination/raw/master/cdn/background-night.png
+      light: /assets/background.png
+      dark: /assets/background-night.png
     position: top center fixed
 # 定义网站顶栏
   header:
@@ -127,7 +127,7 @@ site:
     background:
       src:
         dark: |-
-        light: https://gitee.com/xun7788/my-imagination/raw/master/cdn/footer.png
+        light: /assets/footer.png
       position: top/cover
     home_page: https://innei.ren
     motto:
@@ -232,7 +232,7 @@ Favorite 的路径。
 #### site.background.src
 
 - Type: `Record<'light' | 'dark', string>`
-- Default: {light: https://gitee.com/xun7788/my-imagination/raw/master/cdn/background.png, dark: https://gitee.com/xun7788/my-imagination/raw/master/cdn/background-night.png}
+- Default: `light: /assets/background.png`, `dark: /assets/background-night.png`
 
 背景图片，分为暗色模式下的背景图和亮色模式，暗色模式背景图暂缺时，取亮色模式的背景，反之亦然。
 
