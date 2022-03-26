@@ -13,13 +13,6 @@ nav:
 
 
 
-## 打赏本项目
-
-- 微信二维码
-![](https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png)
-
-
-
 ## 前后端分离
 
 没错， Mix-Space 采用的是前后端分离的形式，那什么是前后端分离呢？
@@ -106,3 +99,10 @@ nav:
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
 感谢社区提出的问题及解决方案、帮助笔者简化许多步骤，也欢迎更多人能够参与到我们的开源社区中[帮助我们优化项目](https://github.com/mx-space)。
+
+
+## 打赏本项目
+
+- 微信二维码
+![](https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png)
+
