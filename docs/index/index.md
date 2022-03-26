@@ -104,5 +104,7 @@ nav:
 ## 打赏本项目
 
 - 微信二维码
-![](https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png)
 
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png" style="zoom:50%;" />
+</div>
