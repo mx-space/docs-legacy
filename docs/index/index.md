@@ -106,5 +106,5 @@ nav:
 - 微信二维码
 
 <div align="center">
-<img src="https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png" style="width:40%;" />
 </div>
