@@ -29,6 +29,7 @@ Docs
 - [Wibus](https://iucky.cn)
 - [zsbai](https://github.com/zsbai) 
 - [wuhang2003 ](https://github.com/wuhang2003)
+- [Elmge](https://github.com/Elmge)
 
 当然，整个项目的开发者是 [innei](https://innei.ren) 。
 
