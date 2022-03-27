@@ -55,8 +55,8 @@ site:
 # 背景图
   background:
     src:
-      light: /assets/background.png
-      dark: /assets/background-night.png
+      light: https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/assets/background.png
+      dark: https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/assets/background-night.png
     position: top center fixed
 # 定义网站顶栏
   header:
@@ -127,7 +127,7 @@ site:
     background:
       src:
         dark: |-
-        light: /assets/footer.png
+        light: https://cdn.jsdelivr.net/gh/mx-space/docs-images@master/assets/footer.png
       position: top/cover
     home_page: https://innei.ren
     motto:
