@@ -45,7 +45,7 @@ order: 2
 Node版本选择 Node 16.X ，稳定版本是 Node 16.13.x 
 
 ```bash
-sudo apt update && sudo apt install git curl vim wget -y
+sudo apt update && sudo apt install git curl vim wget git-lfs -y
 # 安装相关软件
 sudo su
 npm install -g pnpm  pm2
@@ -140,6 +140,14 @@ git clone https://gitee.com/a1435241/kami.git
 ```bash
 cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) 
 ```
+拉取图片文件
+
+```bash
+git lfs fetch --all
+git lfs pull
+```
+
+注意：如果无法正常拉取，可以到 GitHub 上手动下载。
 
 执行该命令
 

@@ -52,7 +52,7 @@ Node版本选择 Node 16.X ，稳定版本是 Node 16.13.x
 
 Debian / Ubuntu ，Redhat 系同理（自行参考）。
 ```bash
-sudo apt update && sudo apt install git curl vim wget -y
+sudo apt update && sudo apt install git curl vim wget git-lfs -y
 ```
 
 
@@ -168,7 +168,17 @@ git clone https://gitee.com/a1435241/kami.git
 cd kami && git fetch --tags && git checkout $(git rev-list --tags --max-count=1) 
 ```
 
+拉取图片文件
+
+```bash
+git lfs fetch --all
+git lfs pull
+```
+
+注意：如果无法正常拉取，可以到 GitHub 上手动下载。
+
 执行该命令
+
 ```bash
  cp .env.example .env
 ```
