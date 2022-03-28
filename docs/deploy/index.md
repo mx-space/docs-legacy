@@ -84,7 +84,7 @@ npm config set registry http://mirrors.cloud.tencent.com/npm/
 
 ```bash
 sudo curl -fsSL https://get.docker.com | bash -s docker
-# 如果安装比较慢，推荐使用一下命令
+# 如果安装比较慢，推荐使用以下命令
 sudo curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 # 或者使用国内 daocloud 一键安装命令
 sudo curl -sSL https://get.daocloud.io/docker | sh
