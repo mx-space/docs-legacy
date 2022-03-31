@@ -146,7 +146,7 @@ ALLOWED_ORIGINS=test.cn,www.test.cn  #此处填写被允许的域名，通常是
 ```bash
 # 拉取最新镜像
 sudo docker compose pull
-# 生成容器
+# 启动容器
 sudo docker compose up -d
 ```
 
