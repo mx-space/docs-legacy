@@ -24,7 +24,7 @@
   "devDependencies": {
     "dumi": "1.1.39",
     "lint-staged": "12.3.5",
-    "prettier": "2.6.0",
+    "prettier": "2.7.1",
     "yorkie": "2.0.0"
   },
   "repository": {
