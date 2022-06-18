@@ -3,13 +3,13 @@ lockfileVersion: 5.3
 specifiers:
   dumi: 1.1.39
   lint-staged: 12.3.5
-  prettier: 2.6.0
+  prettier: 2.7.1
   yorkie: 2.0.0
 
 devDependencies:
   dumi: 1.1.39
   lint-staged: 12.3.5
-  prettier: 2.6.0
+  prettier: 2.7.1
   yorkie: 2.0.0
 
 packages:
@@ -177,6 +177,8 @@ packages:
     resolution: {integrity: sha512-i7jDUfrVBWc+7OKcBzEe5n7fbv3i2fWtxKzzCvOjnzSxMfWMigAhtfJ7qzZNGFNMsCCd67+uz553dYKWXPvCKw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.16.8
     dev: true
 
   /@babel/plugin-transform-modules-commonjs/7.16.8_@babel+core@7.16.7:
@@ -611,7 +613,6 @@ packages:
       unist-util-visit: 2.0.3
       unist-util-visit-parents: 3.1.1
     transitivePeerDependencies:
-      - acorn
       - bufferutil
       - canvas
       - react
@@ -1560,7 +1561,6 @@ packages:
       '@umijs/preset-dumi': 1.1.39_umi@3.5.20
       umi: 3.5.20
     transitivePeerDependencies:
-      - acorn
       - bufferutil
       - canvas
       - react
@@ -3430,8 +3430,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.6.0:
-    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -4348,12 +4348,11 @@ packages:
     resolution: {integrity: sha512-AMmF99DMfEDiRJfxfY5jj5wNH/bYO09cniSqhfoyxc8sFoYIgkJy86G04UoZU5VjlpnplVu0K6Tx6E9b5+DlHA==}
     engines: {node: '>=10'}
     hasBin: true
-    peerDependencies:
-      acorn: ^8.5.0
     peerDependenciesMeta:
       acorn:
         optional: true
     dependencies:
+      acorn: 8.7.0
       commander: 2.20.3
       source-map: 0.7.3
       source-map-support: 0.5.21
@@ -4364,6 +4363,7 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
+      acorn: 8.7.0
       commander: 2.20.3
       source-map: 0.7.3
       source-map-support: 0.5.21
